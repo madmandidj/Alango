@@ -1,0 +1,122 @@
+    Home 
+    Now Playing 
+    Music & Books 
+    Lists 
+    Reminders & Alarms 
+    Skills 
+    Smart Home 
+    Things to Try 
+    Settings 
+    Help & Feedback 
+    Not Eyal? Sign out 
+
+
+Settings
+
+History
+History shows your voice interactions with Alexa. Tap a line to see
+details, hear recordings, provide feedback, or delete recordings. Learn
+more <#help/node/201602230>.
+Filter by Date
+None
+
+    alexa three to stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen2_1
+    alexa three one stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen2_1
+    alexa three zero stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen2_1
+    alexa two nine stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen2_1
+    alexa two eight stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two seven stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two six stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two five stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two four stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two three stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen2_1
+    alexa two to stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen2_1
+    alexa two one stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen2_1
+    alexa two zero stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen2_1
+    alexa one nine stock
+
+    Today at 4:17 PM on ALANGO_Echo_Gen2_1
+    alexa one eight stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen2_1
+    alexa one seven stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen2_1
+    alexa one six stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen2_1
+    alexa one fly stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen2_1
+    alexa one for stock
+
+    Today at 4:16 PM on ALANGO_Echo_Gen2_1
+    alexa one three stop
+
+    Today at 4:15 PM on ALANGO_Echo_Gen2_1
+    alexa one two stop
+
+    Today at 4:03 PM on ALANGO_Echo_Gen2_1
+    alexa one one stop
+
+    Today at 3:56 PM on ALANGO_Echo_Gen2_1
+    alexa one zero stop
+
+    Today at 3:56 PM on ALANGO_Echo_Gen2_1
+    alexa nine stop
+
+    Today at 3:56 PM on ALANGO_Echo_Gen2_1
+    alexa eight stop
+
+    Today at 3:56 PM on ALANGO_Echo_Gen2_1
+
+    alexa seven stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa six stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa five stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa for stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa three stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa to stop
+
+    Today at 3:55 PM on ALANGO_Echo_Gen2_1
+    alexa one stop
+
+    Today at 3:54 PM on ALANGO_Echo_Gen2_1
+
+0
+

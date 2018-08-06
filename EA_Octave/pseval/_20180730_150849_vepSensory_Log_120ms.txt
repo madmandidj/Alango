@@ -1,0 +1,229 @@
+
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [1]. Score - (1803.0). BLI-[CUR: -31.290 BKG: -44.000 Del: 12.710 Hold: 120.290 ]  FRAME - [84] time: 991 ms
+>>> ALEXA on Channel - [2]. Score - (1597.0). BLI-[CUR: -33.030 BKG: -45.760 Del: 12.730 Hold: 118.540 ]  FRAME - [84] time: 992 ms
+>>> ALEXA on Channel - [5]. Score - (1638.0). BLI-[CUR: -45.390 BKG: -56.310 Del: 10.920 Hold: 107.990 ]  FRAME - [84] time: 996 ms
+>>> ALEXA on Channel - [6]. Score - (1080.0). BLI-[CUR: -53.970 BKG: -55.320 Del: 1.350 Hold: 109.380 ]  FRAME - [88] time: 1019 ms
+>>> ALEXA on Channel - [8]. Score - (2006.0). BLI-[CUR: -34.530 BKG: -46.810 Del: 12.280 Hold: 118.270 ]  FRAME - [92] time: 1057 ms
+>>> ALEXA on Channel - [9]. Score - (2030.0). BLI-[CUR: -31.960 BKG: -43.660 Del: 11.700 Hold: 121.430 ]  FRAME - [92] time: 1059 ms
+
+---> Direction sent >>>>> - [1]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [7]. Score - (1481.0). BLI-[CUR: -44.820 BKG: -69.490 Del: 24.670 Hold: 24.850 ]  FRAME - [1583] time: 12985 ms
+>>> ALEXA on Channel - [8]. Score - (1449.0). BLI-[CUR: -41.920 BKG: -69.160 Del: 27.240 Hold: 27.580 ]  FRAME - [1583] time: 12986 ms
+>>> ALEXA on Channel - [3]. Score - (1492.0). BLI-[CUR: -48.890 BKG: -69.340 Del: 20.450 Hold: 24.350 ]  FRAME - [1587] time: 13024 ms
+>>> ALEXA on Channel - [1]. Score - (2103.0). BLI-[CUR: -33.050 BKG: -69.090 Del: 36.040 Hold: 37.500 ]  FRAME - [1590] time: 13043 ms
+>>> ALEXA on Channel - [2]. Score - (1995.0). BLI-[CUR: -33.280 BKG: -68.940 Del: 35.660 Hold: 36.920 ]  FRAME - [1590] time: 13044 ms
+>>> ALEXA on Channel - [4]. Score - (1696.0). BLI-[CUR: -58.960 BKG: -69.290 Del: 10.330 Hold: 16.760 ]  FRAME - [1590] time: 13045 ms
+>>> ALEXA on Channel - [5]. Score - (2354.0). BLI-[CUR: -51.270 BKG: -69.420 Del: 18.150 Hold: 23.880 ]  FRAME - [1590] time: 13047 ms
+>>> ALEXA on Channel - [6]. Score - (2515.0). BLI-[CUR: -51.730 BKG: -69.080 Del: 17.350 Hold: 20.170 ]  FRAME - [1590] time: 13048 ms
+>>> ALEXA on Channel - [9]. Score - (1814.0). BLI-[CUR: -31.670 BKG: -62.160 Del: 30.490 Hold: 32.290 ]  FRAME - [1590] time: 13050 ms
+
+---> Direction sent >>>>> - [1]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [8]. Score - (1250.0). BLI-[CUR: -45.110 BKG: -69.170 Del: 24.060 Hold: 24.290 ]  FRAME - [3082] time: 24974 ms
+>>> ALEXA on Channel - [1]. Score - (1488.0). BLI-[CUR: -32.050 BKG: -69.160 Del: 37.110 Hold: 37.300 ]  FRAME - [3084] time: 24991 ms
+>>> ALEXA on Channel - [2]. Score - (1452.0). BLI-[CUR: -31.930 BKG: -68.940 Del: 37.010 Hold: 37.190 ]  FRAME - [3084] time: 24992 ms
+>>> ALEXA on Channel - [9]. Score - (1426.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.290 ]  FRAME - [3084] time: 24998 ms
+>>> ALEXA on Channel - [4]. Score - (1097.0). BLI-[CUR: -56.250 BKG: -69.250 Del: 13.000 Hold: 18.570 ]  FRAME - [3088] time: 25017 ms
+>>> ALEXA on Channel - [6]. Score - (2411.0). BLI-[CUR: -48.350 BKG: -69.070 Del: 20.720 Hold: 22.470 ]  FRAME - [3088] time: 25019 ms
+>>> ALEXA on Channel - [7]. Score - (1615.0). BLI-[CUR: -49.880 BKG: -69.350 Del: 19.470 Hold: 24.450 ]  FRAME - [3088] time: 25021 ms
+>>> ALEXA on Channel - [3]. Score - (1065.0). BLI-[CUR: -48.340 BKG: -69.420 Del: 21.080 Hold: 27.650 ]  FRAME - [3090] time: 25034 ms
+>>> ALEXA on Channel - [5]. Score - (2069.0). BLI-[CUR: -52.180 BKG: -69.420 Del: 17.240 Hold: 23.260 ]  FRAME - [3090] time: 25035 ms
+
+---> Direction sent >>>>> - [1]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [8]. Score - (198.0). BLI-[CUR: -47.580 BKG: -69.340 Del: 21.760 Hold: 21.810 ]  FRAME - [4573] time: 36908 ms
+>>> ALEXA on Channel - [1]. Score - (1411.0). BLI-[CUR: -32.430 BKG: -69.160 Del: 36.730 Hold: 36.900 ]  FRAME - [4584] time: 36985 ms
+>>> ALEXA on Channel - [2]. Score - (1479.0). BLI-[CUR: -31.880 BKG: -68.940 Del: 37.060 Hold: 37.240 ]  FRAME - [4584] time: 36987 ms
+>>> ALEXA on Channel - [3]. Score - (1341.0). BLI-[CUR: -32.790 BKG: -69.340 Del: 36.550 Hold: 36.720 ]  FRAME - [4584] time: 36988 ms
+>>> ALEXA on Channel - [4]. Score - (1107.0). BLI-[CUR: -48.880 BKG: -69.230 Del: 20.350 Hold: 21.390 ]  FRAME - [4584] time: 36990 ms
+>>> ALEXA on Channel - [9]. Score - (1414.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.290 ]  FRAME - [4584] time: 36995 ms
+>>> ALEXA on Channel - [5]. Score - (1861.0). BLI-[CUR: -50.340 BKG: -69.370 Del: 19.030 Hold: 23.050 ]  FRAME - [4588] time: 37022 ms
+>>> ALEXA on Channel - [6]. Score - (2438.0). BLI-[CUR: -47.460 BKG: -69.070 Del: 21.610 Hold: 23.260 ]  FRAME - [4588] time: 37024 ms
+
+---> Direction sent >>>>> - [2]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [4]. Score - (278.0). BLI-[CUR: -46.040 BKG: -69.280 Del: 23.240 Hold: 23.240 ]  FRAME - [6074] time: 48908 ms
+>>> ALEXA on Channel - [7]. Score - (553.0). BLI-[CUR: -44.750 BKG: -69.480 Del: 24.730 Hold: 24.800 ]  FRAME - [6074] time: 48911 ms
+>>> ALEXA on Channel - [8]. Score - (1464.0). BLI-[CUR: -49.460 BKG: -69.160 Del: 19.700 Hold: 20.110 ]  FRAME - [6083] time: 48993 ms
+>>> ALEXA on Channel - [5]. Score - (1833.0). BLI-[CUR: -49.210 BKG: -69.380 Del: 20.170 Hold: 23.270 ]  FRAME - [6087] time: 49015 ms
+>>> ALEXA on Channel - [1]. Score - (1772.0). BLI-[CUR: -45.090 BKG: -69.130 Del: 24.040 Hold: 27.670 ]  FRAME - [6089] time: 49032 ms
+
+---> Direction sent >>>>> - [1]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [1]. Score - (163.0). BLI-[CUR: -45.360 BKG: -69.240 Del: 23.880 Hold: 23.880 ]  FRAME - [7571] time: 60894 ms
+>>> ALEXA on Channel - [2]. Score - (1367.0). BLI-[CUR: -32.560 BKG: -68.940 Del: 36.380 Hold: 36.570 ]  FRAME - [7584] time: 60986 ms
+>>> ALEXA on Channel - [3]. Score - (1467.0). BLI-[CUR: -32.160 BKG: -69.350 Del: 37.190 Hold: 37.360 ]  FRAME - [7584] time: 60988 ms
+>>> ALEXA on Channel - [4]. Score - (1063.0). BLI-[CUR: -43.590 BKG: -69.230 Del: 25.640 Hold: 26.460 ]  FRAME - [7584] time: 60989 ms
+>>> ALEXA on Channel - [9]. Score - (1443.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [7584] time: 60994 ms
+
+---> Direction sent >>>>> - [3]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [6]. Score - (1864.0). BLI-[CUR: -53.100 BKG: -69.090 Del: 15.990 Hold: 16.260 ]  FRAME - [9083] time: 72994 ms
+>>> ALEXA on Channel - [8]. Score - (1884.0). BLI-[CUR: -48.990 BKG: -69.160 Del: 20.170 Hold: 20.550 ]  FRAME - [9083] time: 72996 ms
+>>> ALEXA on Channel - [5]. Score - (1704.0). BLI-[CUR: -49.000 BKG: -69.380 Del: 20.380 Hold: 23.970 ]  FRAME - [9087] time: 73015 ms
+>>> ALEXA on Channel - [1]. Score - (2285.0). BLI-[CUR: -52.870 BKG: -69.090 Del: 16.220 Hold: 22.460 ]  FRAME - [9090] time: 73037 ms
+>>> ALEXA on Channel - [2]. Score - (1578.0). BLI-[CUR: -34.180 BKG: -68.940 Del: 34.760 Hold: 36.050 ]  FRAME - [9090] time: 73040 ms
+>>> ALEXA on Channel - [3]. Score - (1895.0). BLI-[CUR: -33.210 BKG: -69.420 Del: 36.210 Hold: 37.420 ]  FRAME - [9090] time: 73042 ms
+>>> ALEXA on Channel - [4]. Score - (1996.0). BLI-[CUR: -34.580 BKG: -69.300 Del: 34.720 Hold: 36.160 ]  FRAME - [9090] time: 73043 ms
+>>> ALEXA on Channel - [7]. Score - (2177.0). BLI-[CUR: -51.580 BKG: -69.310 Del: 17.730 Hold: 25.410 ]  FRAME - [9090] time: 73044 ms
+>>> ALEXA on Channel - [9]. Score - (1709.0). BLI-[CUR: -31.660 BKG: -62.160 Del: 30.500 Hold: 32.300 ]  FRAME - [9090] time: 73046 ms
+
+---> Direction sent >>>>> - [3]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [3]. Score - (1469.0). BLI-[CUR: -32.180 BKG: -69.350 Del: 37.170 Hold: 37.340 ]  FRAME - [10584] time: 84988 ms
+>>> ALEXA on Channel - [4]. Score - (1503.0). BLI-[CUR: -32.510 BKG: -69.230 Del: 36.720 Hold: 36.910 ]  FRAME - [10584] time: 84990 ms
+>>> ALEXA on Channel - [9]. Score - (1400.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [10584] time: 84995 ms
+>>> ALEXA on Channel - [1]. Score - (2219.0). BLI-[CUR: -50.400 BKG: -69.130 Del: 18.730 Hold: 22.450 ]  FRAME - [10588] time: 85021 ms
+>>> ALEXA on Channel - [5]. Score - (1061.0). BLI-[CUR: -49.550 BKG: -69.370 Del: 19.820 Hold: 24.680 ]  FRAME - [10588] time: 85025 ms
+>>> ALEXA on Channel - [2]. Score - (1868.0). BLI-[CUR: -47.150 BKG: -68.940 Del: 21.790 Hold: 27.450 ]  FRAME - [10590] time: 85043 ms
+>>> ALEXA on Channel - [6]. Score - (1580.0). BLI-[CUR: -59.080 BKG: -69.080 Del: 10.000 Hold: 14.990 ]  FRAME - [10590] time: 85044 ms
+>>> ALEXA on Channel - [7]. Score - (2068.0). BLI-[CUR: -52.120 BKG: -69.310 Del: 17.190 Hold: 25.210 ]  FRAME - [10590] time: 85046 ms
+>>> ALEXA on Channel - [8]. Score - (2347.0). BLI-[CUR: -51.050 BKG: -69.220 Del: 18.170 Hold: 22.950 ]  FRAME - [10590] time: 85048 ms
+
+---> Direction sent >>>>> - [3]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [2]. Score - (269.0). BLI-[CUR: -44.570 BKG: -69.040 Del: 24.470 Hold: 24.470 ]  FRAME - [12071] time: 96883 ms
+>>> ALEXA on Channel - [3]. Score - (1457.0). BLI-[CUR: -32.370 BKG: -69.350 Del: 36.980 Hold: 37.150 ]  FRAME - [12084] time: 96991 ms
+>>> ALEXA on Channel - [4]. Score - (1609.0). BLI-[CUR: -32.190 BKG: -69.230 Del: 37.040 Hold: 37.240 ]  FRAME - [12084] time: 96992 ms
+>>> ALEXA on Channel - [9]. Score - (1375.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [12084] time: 96997 ms
+>>> ALEXA on Channel - [5]. Score - (1425.0). BLI-[CUR: -43.120 BKG: -69.390 Del: 26.270 Hold: 27.920 ]  FRAME - [12086] time: 97011 ms
+
+---> Direction sent >>>>> - [4]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [8]. Score - (691.0). BLI-[CUR: -43.700 BKG: -69.340 Del: 25.640 Hold: 25.690 ]  FRAME - [13572] time: 108899 ms
+>>> ALEXA on Channel - [1]. Score - (1245.0). BLI-[CUR: -47.310 BKG: -69.230 Del: 21.920 Hold: 21.930 ]  FRAME - [13577] time: 108937 ms
+>>> ALEXA on Channel - [6]. Score - (1201.0). BLI-[CUR: -49.880 BKG: -69.100 Del: 19.220 Hold: 19.500 ]  FRAME - [13583] time: 108982 ms
+>>> ALEXA on Channel - [2]. Score - (1071.0). BLI-[CUR: -50.240 BKG: -68.930 Del: 18.690 Hold: 21.670 ]  FRAME - [13587] time: 109021 ms
+>>> ALEXA on Channel - [7]. Score - (1709.0). BLI-[CUR: -49.540 BKG: -69.370 Del: 19.830 Hold: 24.350 ]  FRAME - [13587] time: 109025 ms
+
+---> Direction sent >>>>> - [8]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [6]. Score - (1117.0). BLI-[CUR: -47.190 BKG: -69.110 Del: 21.920 Hold: 21.960 ]  FRAME - [15082] time: 120973 ms
+>>> ALEXA on Channel - [3]. Score - (1002.0). BLI-[CUR: -42.370 BKG: -69.350 Del: 26.980 Hold: 27.700 ]  FRAME - [15084] time: 120990 ms
+>>> ALEXA on Channel - [5]. Score - (1513.0). BLI-[CUR: -32.250 BKG: -69.370 Del: 37.120 Hold: 37.380 ]  FRAME - [15084] time: 120993 ms
+>>> ALEXA on Channel - [8]. Score - (1998.0). BLI-[CUR: -44.960 BKG: -69.160 Del: 24.200 Hold: 24.910 ]  FRAME - [15084] time: 120997 ms
+>>> ALEXA on Channel - [9]. Score - (1431.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [15084] time: 120998 ms
+>>> ALEXA on Channel - [2]. Score - (578.0). BLI-[CUR: -50.110 BKG: -68.920 Del: 18.810 Hold: 20.800 ]  FRAME - [15086] time: 121012 ms
+>>> ALEXA on Channel - [7]. Score - (1380.0). BLI-[CUR: -49.880 BKG: -69.350 Del: 19.470 Hold: 24.480 ]  FRAME - [15088] time: 121017 ms
+>>> ALEXA on Channel - [1]. Score - (2022.0). BLI-[CUR: -53.310 BKG: -69.090 Del: 15.780 Hold: 22.280 ]  FRAME - [15090] time: 121032 ms
+>>> ALEXA on Channel - [4]. Score - (1943.0). BLI-[CUR: -33.570 BKG: -69.290 Del: 35.720 Hold: 37.270 ]  FRAME - [15091] time: 121053 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [8]. Score - (1881.0). BLI-[CUR: -46.450 BKG: -69.160 Del: 22.710 Hold: 23.050 ]  FRAME - [16583] time: 132984 ms
+>>> ALEXA on Channel - [2]. Score - (944.0). BLI-[CUR: -51.170 BKG: -68.920 Del: 17.750 Hold: 20.760 ]  FRAME - [16587] time: 133022 ms
+>>> ALEXA on Channel - [3]. Score - (1103.0). BLI-[CUR: -49.040 BKG: -69.350 Del: 20.310 Hold: 24.330 ]  FRAME - [16587] time: 133024 ms
+>>> ALEXA on Channel - [6]. Score - (1692.0). BLI-[CUR: -46.310 BKG: -69.070 Del: 22.760 Hold: 25.930 ]  FRAME - [16587] time: 133027 ms
+>>> ALEXA on Channel - [7]. Score - (1297.0). BLI-[CUR: -48.870 BKG: -69.370 Del: 20.500 Hold: 24.930 ]  FRAME - [16587] time: 133029 ms
+>>> ALEXA on Channel - [1]. Score - (2214.0). BLI-[CUR: -52.310 BKG: -69.090 Del: 16.780 Hold: 23.080 ]  FRAME - [16591] time: 133042 ms
+>>> ALEXA on Channel - [4]. Score - (2180.0). BLI-[CUR: -33.780 BKG: -69.290 Del: 35.510 Hold: 37.040 ]  FRAME - [16591] time: 133044 ms
+>>> ALEXA on Channel - [5]. Score - (2013.0). BLI-[CUR: -33.320 BKG: -69.450 Del: 36.130 Hold: 37.560 ]  FRAME - [16591] time: 133045 ms
+>>> ALEXA on Channel - [9]. Score - (1658.0). BLI-[CUR: -31.830 BKG: -62.180 Del: 30.350 Hold: 32.300 ]  FRAME - [16591] time: 133047 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [2]. Score - (1531.0). BLI-[CUR: -51.010 BKG: -68.920 Del: 17.910 Hold: 21.400 ]  FRAME - [18087] time: 145012 ms
+>>> ALEXA on Channel - [3]. Score - (1435.0). BLI-[CUR: -50.290 BKG: -69.350 Del: 19.060 Hold: 22.820 ]  FRAME - [18087] time: 145014 ms
+>>> ALEXA on Channel - [7]. Score - (1449.0). BLI-[CUR: -50.080 BKG: -69.370 Del: 19.290 Hold: 24.520 ]  FRAME - [18087] time: 145018 ms
+>>> ALEXA on Channel - [8]. Score - (1975.0). BLI-[CUR: -51.170 BKG: -69.240 Del: 18.070 Hold: 21.860 ]  FRAME - [18087] time: 145019 ms
+>>> ALEXA on Channel - [1]. Score - (2159.0). BLI-[CUR: -52.080 BKG: -69.090 Del: 17.010 Hold: 23.280 ]  FRAME - [18091] time: 145052 ms
+>>> ALEXA on Channel - [4]. Score - (2065.0). BLI-[CUR: -34.560 BKG: -69.290 Del: 34.730 Hold: 36.270 ]  FRAME - [18091] time: 145053 ms
+>>> ALEXA on Channel - [5]. Score - (2073.0). BLI-[CUR: -33.290 BKG: -69.450 Del: 36.160 Hold: 37.600 ]  FRAME - [18091] time: 145055 ms
+>>> ALEXA on Channel - [6]. Score - (1674.0). BLI-[CUR: -34.630 BKG: -69.080 Del: 34.450 Hold: 35.750 ]  FRAME - [18091] time: 145063 ms
+>>> ALEXA on Channel - [9]. Score - (1654.0). BLI-[CUR: -31.830 BKG: -62.180 Del: 30.350 Hold: 32.300 ]  FRAME - [18091] time: 145065 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [7]. Score - (25.0). BLI-[CUR: -44.120 BKG: -69.560 Del: 25.440 Hold: 25.440 ]  FRAME - [19570] time: 156877 ms
+
+---> Direction sent >>>>> - [7]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [7]. Score - (82.0). BLI-[CUR: -41.440 BKG: -69.540 Del: 28.100 Hold: 28.100 ]  FRAME - [21069] time: 168873 ms
+>>> ALEXA on Channel - [8]. Score - (342.0). BLI-[CUR: -48.860 BKG: -69.300 Del: 20.440 Hold: 20.530 ]  FRAME - [21076] time: 168930 ms
+>>> ALEXA on Channel - [5]. Score - (1601.0). BLI-[CUR: -32.250 BKG: -69.370 Del: 37.120 Hold: 37.370 ]  FRAME - [21084] time: 168992 ms
+>>> ALEXA on Channel - [9]. Score - (1580.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [21084] time: 168995 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [1]. Score - (545.0). BLI-[CUR: -47.340 BKG: -69.230 Del: 21.890 Hold: 21.900 ]  FRAME - [22572] time: 180893 ms
+>>> ALEXA on Channel - [2]. Score - (412.0). BLI-[CUR: -43.140 BKG: -69.020 Del: 25.880 Hold: 25.880 ]  FRAME - [22572] time: 180895 ms
+>>> ALEXA on Channel - [8]. Score - (1484.0). BLI-[CUR: -51.670 BKG: -69.240 Del: 17.570 Hold: 22.320 ]  FRAME - [22587] time: 181024 ms
+>>> ALEXA on Channel - [3]. Score - (2217.0). BLI-[CUR: -50.930 BKG: -69.380 Del: 18.450 Hold: 22.380 ]  FRAME - [22588] time: 181027 ms
+>>> ALEXA on Channel - [4]. Score - (1574.0). BLI-[CUR: -54.600 BKG: -69.250 Del: 14.650 Hold: 21.040 ]  FRAME - [22588] time: 181029 ms
+
+---> Direction sent >>>>> - [2]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [5]. Score - (170.0). BLI-[CUR: -41.680 BKG: -69.470 Del: 27.790 Hold: 27.790 ]  FRAME - [24071] time: 192886 ms
+>>> ALEXA on Channel - [3]. Score - (744.0). BLI-[CUR: -46.470 BKG: -69.360 Del: 22.890 Hold: 22.910 ]  FRAME - [24076] time: 192932 ms
+>>> ALEXA on Channel - [9]. Score - (1444.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [24084] time: 192994 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [2]. Score - (553.0). BLI-[CUR: -45.360 BKG: -69.020 Del: 23.660 Hold: 23.670 ]  FRAME - [25572] time: 204893 ms
+>>> ALEXA on Channel - [3]. Score - (671.0). BLI-[CUR: -45.840 BKG: -69.350 Del: 23.510 Hold: 23.540 ]  FRAME - [25574] time: 204914 ms
+>>> ALEXA on Channel - [5]. Score - (861.0). BLI-[CUR: -45.080 BKG: -69.370 Del: 24.290 Hold: 24.630 ]  FRAME - [25583] time: 204980 ms
+>>> ALEXA on Channel - [4]. Score - (1368.0). BLI-[CUR: -56.760 BKG: -69.240 Del: 12.480 Hold: 16.580 ]  FRAME - [25587] time: 205020 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [3]. Score - (725.0). BLI-[CUR: -45.850 BKG: -69.340 Del: 23.490 Hold: 23.520 ]  FRAME - [27075] time: 216926 ms
+>>> ALEXA on Channel - [6]. Score - (1426.0). BLI-[CUR: -33.630 BKG: -69.100 Del: 35.470 Hold: 35.610 ]  FRAME - [27084] time: 216992 ms
+>>> ALEXA on Channel - [9]. Score - (1480.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.300 ]  FRAME - [27084] time: 216995 ms
+>>> ALEXA on Channel - [1]. Score - (2145.0). BLI-[CUR: -51.500 BKG: -69.120 Del: 17.620 Hold: 22.220 ]  FRAME - [27088] time: 217016 ms
+>>> ALEXA on Channel - [2]. Score - (1629.0). BLI-[CUR: -51.750 BKG: -68.920 Del: 17.170 Hold: 21.400 ]  FRAME - [27088] time: 217017 ms
+>>> ALEXA on Channel - [5]. Score - (1546.0). BLI-[CUR: -50.050 BKG: -69.370 Del: 19.320 Hold: 23.840 ]  FRAME - [27088] time: 217019 ms
+>>> ALEXA on Channel - [4]. Score - (2061.0). BLI-[CUR: -57.430 BKG: -69.290 Del: 11.860 Hold: 17.060 ]  FRAME - [27090] time: 217031 ms
+>>> ALEXA on Channel - [7]. Score - (1886.0). BLI-[CUR: -33.490 BKG: -69.290 Del: 35.800 Hold: 37.570 ]  FRAME - [27091] time: 217052 ms
+>>> ALEXA on Channel - [8]. Score - (1534.0). BLI-[CUR: -34.300 BKG: -69.190 Del: 34.890 Hold: 36.530 ]  FRAME - [27091] time: 217053 ms
+
+---> Direction sent >>>>> - [7]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [2]. Score - (887.0). BLI-[CUR: -52.050 BKG: -68.920 Del: 16.870 Hold: 20.210 ]  FRAME - [28587] time: 229020 ms
+>>> ALEXA on Channel - [3]. Score - (1405.0). BLI-[CUR: -49.000 BKG: -69.350 Del: 20.350 Hold: 23.360 ]  FRAME - [28587] time: 229021 ms
+>>> ALEXA on Channel - [5]. Score - (1613.0). BLI-[CUR: -49.710 BKG: -69.380 Del: 19.670 Hold: 22.960 ]  FRAME - [28587] time: 229031 ms
+>>> ALEXA on Channel - [6]. Score - (1439.0). BLI-[CUR: -46.230 BKG: -69.070 Del: 22.840 Hold: 25.680 ]  FRAME - [28587] time: 229032 ms
+>>> ALEXA on Channel - [1]. Score - (1339.0). BLI-[CUR: -50.700 BKG: -69.130 Del: 18.430 Hold: 23.690 ]  FRAME - [28589] time: 229036 ms
+>>> ALEXA on Channel - [4]. Score - (2309.0). BLI-[CUR: -51.990 BKG: -69.290 Del: 17.300 Hold: 20.610 ]  FRAME - [28591] time: 229044 ms
+>>> ALEXA on Channel - [7]. Score - (1947.0). BLI-[CUR: -33.530 BKG: -69.290 Del: 35.760 Hold: 37.530 ]  FRAME - [28591] time: 229045 ms
+>>> ALEXA on Channel - [8]. Score - (1867.0). BLI-[CUR: -33.780 BKG: -69.190 Del: 35.410 Hold: 37.040 ]  FRAME - [28591] time: 229046 ms
+>>> ALEXA on Channel - [9]. Score - (1623.0). BLI-[CUR: -31.840 BKG: -62.180 Del: 30.340 Hold: 32.300 ]  FRAME - [28591] time: 229047 ms
+
+---> Direction sent >>>>> - [7]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [4]. Score - (552.0). BLI-[CUR: -46.430 BKG: -69.260 Del: 22.830 Hold: 22.840 ]  FRAME - [30072] time: 240890 ms
+>>> ALEXA on Channel - [6]. Score - (369.0). BLI-[CUR: -46.830 BKG: -69.090 Del: 22.260 Hold: 22.310 ]  FRAME - [30076] time: 240928 ms
+>>> ALEXA on Channel - [3]. Score - (1409.0). BLI-[CUR: -47.160 BKG: -69.350 Del: 22.190 Hold: 22.540 ]  FRAME - [30083] time: 240989 ms
+>>> ALEXA on Channel - [2]. Score - (370.0). BLI-[CUR: -50.230 BKG: -68.940 Del: 18.710 Hold: 20.120 ]  FRAME - [30085] time: 240995 ms
+>>> ALEXA on Channel - [5]. Score - (1766.0). BLI-[CUR: -49.310 BKG: -69.380 Del: 20.070 Hold: 23.210 ]  FRAME - [30087] time: 241011 ms
+
+---> Direction sent >>>>> - [5]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [1]. Score - (1496.0). BLI-[CUR: -32.530 BKG: -69.160 Del: 36.630 Hold: 36.810 ]  FRAME - [31584] time: 252984 ms
+>>> ALEXA on Channel - [9]. Score - (1485.0). BLI-[CUR: -30.140 BKG: -62.130 Del: 31.990 Hold: 32.290 ]  FRAME - [31584] time: 252992 ms
+>>> ALEXA on Channel - [5]. Score - (1912.0). BLI-[CUR: -50.410 BKG: -69.370 Del: 18.960 Hold: 23.030 ]  FRAME - [31588] time: 253023 ms
+>>> ALEXA on Channel - [6]. Score - (1265.0). BLI-[CUR: -55.600 BKG: -69.080 Del: 13.480 Hold: 19.360 ]  FRAME - [31588] time: 253024 ms
+>>> ALEXA on Channel - [2]. Score - (524.0). BLI-[CUR: -52.770 BKG: -68.940 Del: 16.170 Hold: 21.680 ]  FRAME - [31590] time: 253040 ms
+>>> ALEXA on Channel - [3]. Score - (2127.0). BLI-[CUR: -52.080 BKG: -69.420 Del: 17.340 Hold: 22.400 ]  FRAME - [31590] time: 253042 ms
+>>> ALEXA on Channel - [4]. Score - (2397.0). BLI-[CUR: -48.120 BKG: -69.290 Del: 21.170 Hold: 23.620 ]  FRAME - [31591] time: 253046 ms
+>>> ALEXA on Channel - [7]. Score - (1750.0). BLI-[CUR: -34.080 BKG: -69.290 Del: 35.210 Hold: 36.930 ]  FRAME - [31591] time: 253047 ms
+>>> ALEXA on Channel - [8]. Score - (1924.0). BLI-[CUR: -33.550 BKG: -69.190 Del: 35.640 Hold: 37.350 ]  FRAME - [31591] time: 253049 ms
+
+---> Direction sent >>>>> - [8]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [2]. Score - (1361.0). BLI-[CUR: -45.770 BKG: -68.960 Del: 23.190 Hold: 23.410 ]  FRAME - [33083] time: 264989 ms
+>>> ALEXA on Channel - [7]. Score - (1601.0). BLI-[CUR: -41.380 BKG: -69.490 Del: 28.110 Hold: 28.280 ]  FRAME - [33083] time: 264994 ms
+>>> ALEXA on Channel - [3]. Score - (1909.0). BLI-[CUR: -49.610 BKG: -69.350 Del: 19.740 Hold: 22.570 ]  FRAME - [33087] time: 265011 ms
+>>> ALEXA on Channel - [6]. Score - (672.0). BLI-[CUR: -57.680 BKG: -69.070 Del: 11.390 Hold: 16.310 ]  FRAME - [33087] time: 265014 ms
+>>> ALEXA on Channel - [5]. Score - (2122.0). BLI-[CUR: -51.620 BKG: -69.390 Del: 17.770 Hold: 23.030 ]  FRAME - [33089] time: 265032 ms
+>>> ALEXA on Channel - [1]. Score - (1954.0). BLI-[CUR: -33.330 BKG: -69.090 Del: 35.760 Hold: 37.310 ]  FRAME - [33091] time: 265051 ms
+>>> ALEXA on Channel - [4]. Score - (2437.0). BLI-[CUR: -48.980 BKG: -69.290 Del: 20.310 Hold: 22.880 ]  FRAME - [33091] time: 265052 ms
+>>> ALEXA on Channel - [8]. Score - (1909.0). BLI-[CUR: -33.610 BKG: -69.190 Del: 35.580 Hold: 37.270 ]  FRAME - [33091] time: 265054 ms
+>>> ALEXA on Channel - [9]. Score - (1501.0). BLI-[CUR: -31.840 BKG: -62.180 Del: 30.340 Hold: 32.290 ]  FRAME - [33091] time: 265055 ms
+
+---> Direction sent >>>>> - [1]
+============================================= - Trigger Recognition result - ==========================================
+>>> ALEXA on Channel - [7]. Score - (2.0). BLI-[CUR: -44.190 BKG: -69.560 Del: 25.370 Hold: 25.370 ]  FRAME - [34570] time: 276876 ms
+
+---> Direction sent >>>>> - [7]

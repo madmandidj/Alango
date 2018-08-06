@@ -1,0 +1,82 @@
+    Home 
+    Now Playing 
+    Music & Books 
+    Lists 
+    Reminders & Alarms 
+    Skills 
+    Smart Home 
+    Things to Try 
+    Settings 
+    Help & Feedback 
+    Not Eyal? Sign out 
+
+
+Settings
+
+History
+History shows your voice interactions with Alexa. Tap a line to see
+details, hear recordings, provide feedback, or delete recordings. Learn
+more <#help/node/201602230>.
+Filter by Date
+None
+
+    alexa one four stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    one three stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa one two stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    hi stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa what is the stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa what one seven one this stop
+
+    Today at 5:54 PM on ALANGO_RPI_1
+    alexa one one stop
+
+    Today at 5:53 PM on ALANGO_RPI_1
+    alexa one zero stop
+
+    Today at 5:53 PM on ALANGO_RPI_1
+    alexa nine stop
+
+    Today at 5:53 PM on ALANGO_RPI_1
+    alexa eight stop
+
+    Today at 5:53 PM on ALANGO_RPI_1
+    alexa seven stop
+
+    Today at 5:53 PM on ALANGO_RPI_1
+    alexa six stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+    alexa five stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+    alexa forest stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+    alexa three stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+    alexa to stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+    alexa one stop
+
+    Today at 5:52 PM on ALANGO_RPI_1
+
+0
+
