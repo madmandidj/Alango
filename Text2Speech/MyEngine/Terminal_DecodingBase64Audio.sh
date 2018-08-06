@@ -1,0 +1,1 @@
+base64 --decode processedBase64.txt > $1

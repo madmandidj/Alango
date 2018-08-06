@@ -1,0 +1,15 @@
+curl -H "Authorization: Bearer "$(gcloud auth application-default print-access-token) \
+  -H "Content-Type: application/json; charset=utf-8" \
+  --data "{
+    'input':{
+      'text':'Alexa'
+    },
+    'voice':{
+      'languageCode':'en-gb',
+      'name':'en-GB-Standard-A',
+      'ssmlGender':'FEMALE'
+    },
+    'audioConfig':{
+      'audioEncoding':'WAV'
+    }
+  }" "https://texttospeech.googleapis.com/v1beta1/text:synthesize" > alexa.txt

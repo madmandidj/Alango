@@ -1,0 +1,2218 @@
+Tue Jul 31 16:51:39 2018
+
+Round 1 start
+Player 1 board:
+0000000200
+0000000200
+4444000200
+0000000000
+0000000500
+3330000500
+0000010500
+0000010500
+0000000500
+0000000000
+
+Player 2 board:
+0000000000
+0000005110
+3330005000
+0044445000
+0000005002
+0000005002
+0000000002
+0000000000
+0000000000
+0000000000
+
+Player 1: [03,04] Hit
+Player 2: [04,05] Miss
+Player 1: [02,02] Miss
+Player 2: [04,09] Miss
+Player 1: [08,05] Miss
+Player 2: [03,08] Miss
+Player 1: [08,10] Miss
+Player 2: [04,02] Miss
+Player 1: [10,09] Miss
+Player 2: [07,06] Miss
+Player 1: [01,03] Hit
+Player 2: [09,07] Miss
+Player 1: [05,09] Miss
+Player 2: [01,10] Miss
+Player 1: [01,01] Miss
+Player 2: [07,02] Miss
+Player 1: [04,09] Miss
+Player 2: [10,04] Miss
+Player 1: [05,05] Miss
+Player 2: [07,01] Miss
+Player 1: [07,07] Miss
+Player 2: [02,09] Miss
+Player 1: [05,10] Miss
+Player 2: [07,04] Miss
+Player 1: [08,09] Miss
+Player 2: [09,03] Miss
+Player 1: [10,02] Miss
+Player 2: [04,06] Miss
+Player 1: [05,01] Miss
+Player 2: [08,07] Hit
+Player 1: [04,07] Miss
+Player 2: [02,06] Hit
+Player 1: [05,03] Miss
+Player 2: [08,04] Miss
+Player 1: [08,03] Miss
+Player 2: [02,07] Miss
+Player 1: [06,08] Miss
+Player 2: [06,05] Miss
+Player 1: [02,03] Hit
+Player 2: [01,01] Miss
+Player 1: [02,05] Miss
+Player 2: [08,02] Hit
+Player 1: [08,08] Miss
+Player 2: [08,08] Hit
+Player 1: [04,04] Hit
+Player 2: [06,10] Miss
+Player 1: [02,09] Miss
+Player 2: [03,07] Miss
+Player 1: [07,01] Miss
+Player 2: [01,02] Miss
+Player 1: [03,06] Miss
+Player 2: [05,08] Miss
+Player 1: [09,04] Miss
+Player 2: [06,02] Miss
+Player 1: [03,01] Miss
+Player 2: [05,01] Miss
+Player 1: [07,02] Hit
+Player 2: [09,10] Miss
+Player 1: [09,05] Miss
+Player 2: [02,05] Miss
+Player 1: [04,10] Miss
+Player 2: [09,09] Miss
+Player 1: [01,09] Miss
+Player 2: [09,04] Miss
+Player 1: [08,02] Hit
+Player 2: [01,08] Miss
+Player 1: [04,05] Miss
+Player 2: [10,07] Miss
+Player 1: [06,02] Miss
+Player 2: [05,09] Miss
+Player 1: [10,03] Miss
+Player 2: [06,06] Miss
+Player 1: [04,08] Miss
+Player 2: [05,04] Miss
+Player 1: [09,01] Miss
+Player 2: [01,07] Miss
+Player 1: [09,02] Destroyer sunk
+Player 2: [10,09] Miss
+Player 1: [10,08] Miss
+Player 2: [03,03] Hit
+Player 1: [09,03] Miss
+Player 2: [09,02] Miss
+Player 1: [06,09] Miss
+Player 2: [03,05] Miss
+Player 1: [09,07] Miss
+Player 2: [06,04] Miss
+Player 1: [05,07] Miss
+Player 2: [03,02] Miss
+Player 1: [02,10] Miss
+Player 2: [03,10] Miss
+Player 1: [06,03] Miss
+Player 2: [04,10] Miss
+Player 1: [06,04] Hit
+Player 2: [03,06] Hit
+Player 1: [03,03] Cruiser sunk
+Player 2: [10,05] Miss
+Player 1: [07,10] Miss
+Player 2: [05,10] Miss
+Player 1: [06,01] Miss
+Player 2: [08,10] Miss
+Player 1: [04,06] Miss
+Player 2: [05,02] Miss
+Player 1: [07,04] Hit
+Player 2: [03,09] Miss
+Player 1: [07,03] Hit
+Player 2: [07,03] Miss
+Player 1: [03,10] Miss
+Player 2: [05,03] Miss
+Player 1: [09,09] Miss
+Player 2: [08,06] Hit
+Player 1: [04,01] Miss
+Player 2: [09,08] Miss
+Player 1: [08,06] Miss
+Player 2: [04,03] Hit
+Player 1: [04,03] Miss
+Player 2: [08,01] Hit
+Player 1: [02,01] Miss
+Player 2: [07,08] Miss
+Player 1: [01,05] Miss
+Player 2: [10,06] Miss
+Player 1: [07,05] Hit
+Player 2: [09,05] Miss
+Player 1: [01,08] Miss
+Player 2: [01,06] Cruiser sunk
+Player 1: [07,08] Miss
+Player 2: [06,08] Hit
+Player 1: [06,06] Miss
+Player 2: [02,02] Miss
+Player 1: [02,08] Miss
+Player 2: [04,01] Miss
+Player 1: [01,02] Miss
+Player 2: [01,04] Miss
+Player 1: [08,01] Miss
+Player 2: [08,05] Hit
+Player 1: [06,07] Miss
+Player 2: [03,01] Miss
+Player 1: [08,07] Miss
+Player 2: [10,03] Miss
+Player 1: [07,06] Carrier sunk
+Player 2: [05,05] Miss
+Player 1: [08,04] Miss
+Player 2: [08,09] Carrier sunk
+Player 1: [05,02] Miss
+Player 2: [02,01] Miss
+Player 1: [03,09] Miss
+Player 2: [02,08] Miss
+Player 1: [01,04] Miss
+Player 2: [06,03] Miss
+Player 1: [01,06] Miss
+Player 2: [06,09] Miss
+Player 1: [03,08] Miss
+Player 2: [10,01] Miss
+Player 1: [05,04] Battleship sunk
+Player 2: [02,04] Miss
+Player 1: [10,01] Miss
+Player 2: [07,09] Miss
+Player 1: [10,06] Hit
+Player 2: [06,01] Miss
+Player 1: [02,04] Miss
+Player 2: [04,08] Miss
+Player 1: [01,10] Miss
+Player 2: [10,02] Miss
+Player 1: [10,04] Miss
+Player 2: [06,07] Destroyer sunk
+Player 1: [05,06] Miss
+Player 2: [05,06] Miss
+Player 1: [03,07] Miss
+Player 2: [07,07] Miss
+Player 1: [07,09] Miss
+Player 2: [04,04] Miss
+Player 1: [03,02] Miss
+Player 2: [03,04] Miss
+Player 1: [09,10] Miss
+Player 2: [09,01] Miss
+Player 1: [03,05] Miss
+Player 2: [01,09] Miss
+Player 1: [02,06] Miss
+Player 2: [09,06] Miss
+Player 1: [10,05] Hit
+Player 2: [02,03] Hit
+Player 1: [04,02] Miss
+Player 2: [05,07] Miss
+Player 1: [10,10] Miss
+Player 2: [08,03] Submarine sunk
+Player 1: [06,10] Miss
+Player 2: [01,03] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 16
+
+Player 2 game score: 117
+
+Round 2 start
+Player 1 board:
+0000555550
+4444000000
+0011000000
+0000000000
+0000000000
+0000002220
+0000300000
+0000300000
+0000300000
+0000000000
+
+Player 2 board:
+0000000000
+0000000000
+1150000000
+0050000004
+0050000004
+0050300004
+0050300004
+0000300000
+0000000000
+0002220000
+
+Player 1: [08,09] Miss
+Player 2: [06,09] Miss
+Player 1: [04,10] Hit
+Player 2: [05,05] Miss
+Player 1: [07,10] Miss
+Player 2: [09,06] Hit
+Player 1: [07,07] Miss
+Player 2: [01,08] Miss
+Player 1: [03,08] Miss
+Player 2: [03,07] Miss
+Player 1: [05,08] Hit
+Player 2: [02,04] Miss
+Player 1: [03,02] Miss
+Player 2: [07,04] Miss
+Player 1: [09,04] Miss
+Player 2: [03,09] Miss
+Player 1: [07,01] Miss
+Player 2: [02,03] Miss
+Player 1: [06,05] Miss
+Player 2: [07,08] Miss
+Player 1: [10,04] Hit
+Player 2: [05,08] Hit
+Player 1: [09,09] Miss
+Player 2: [02,07] Miss
+Player 1: [04,09] Miss
+Player 2: [08,07] Miss
+Player 1: [02,08] Miss
+Player 2: [03,04] Miss
+Player 1: [06,09] Miss
+Player 2: [08,04] Miss
+Player 1: [04,02] Miss
+Player 2: [01,09] Miss
+Player 1: [02,01] Miss
+Player 2: [10,03] Miss
+Player 1: [05,10] Hit
+Player 2: [02,06] Miss
+Player 1: [08,04] Miss
+Player 2: [04,05] Miss
+Player 1: [03,03] Hit
+Player 2: [01,02] Hit
+Player 1: [08,01] Miss
+Player 2: [03,05] Miss
+Player 1: [04,08] Miss
+Player 2: [04,10] Miss
+Player 1: [06,10] Submarine sunk
+Player 2: [08,03] Miss
+Player 1: [01,03] Hit
+Player 2: [09,07] Miss
+Player 1: [09,02] Miss
+Player 2: [09,04] Miss
+Player 1: [01,04] Miss
+Player 2: [07,03] Miss
+Player 1: [09,05] Miss
+Player 2: [02,09] Miss
+Player 1: [01,05] Miss
+Player 2: [09,09] Miss
+Player 1: [02,04] Miss
+Player 2: [09,10] Miss
+Player 1: [06,06] Miss
+Player 2: [06,07] Miss
+Player 1: [07,04] Miss
+Player 2: [01,01] Miss
+Player 1: [03,04] Hit
+Player 2: [01,07] Miss
+Player 1: [06,01] Miss
+Player 2: [10,08] Miss
+Player 1: [09,03] Miss
+Player 2: [10,05] Miss
+Player 1: [05,09] Miss
+Player 2: [03,08] Miss
+Player 1: [03,06] Hit
+Player 2: [09,05] Miss
+Player 1: [10,06] Hit
+Player 2: [02,10] Miss
+Player 1: [02,05] Miss
+Player 2: [04,02] Hit
+Player 1: [01,08] Miss
+Player 2: [10,01] Miss
+Player 1: [05,01] Miss
+Player 2: [08,10] Miss
+Player 1: [06,04] Miss
+Player 2: [09,03] Miss
+Player 1: [04,03] Miss
+Player 2: [02,01] Miss
+Player 1: [08,06] Miss
+Player 2: [06,02] Miss
+Player 1: [03,01] Miss
+Player 2: [10,09] Miss
+Player 1: [10,02] Miss
+Player 2: [04,01] Miss
+Player 1: [08,07] Miss
+Player 2: [07,01] Hit
+Player 1: [03,09] Miss
+Player 2: [10,10] Miss
+Player 1: [10,05] Hit
+Player 2: [03,01] Miss
+Player 1: [09,08] Miss
+Player 2: [09,08] Miss
+Player 1: [04,01] Miss
+Player 2: [05,03] Miss
+Player 1: [02,10] Miss
+Player 2: [01,04] Miss
+Player 1: [04,07] Miss
+Player 2: [03,03] Hit
+Player 1: [10,07] Battleship sunk
+Player 2: [05,01] Hit
+Player 1: [01,02] Miss
+Player 2: [03,10] Miss
+Player 1: [06,02] Miss
+Player 2: [07,09] Miss
+Player 1: [09,10] Miss
+Player 2: [10,02] Miss
+Player 1: [07,05] Miss
+Player 2: [07,05] Miss
+Player 1: [03,07] Hit
+Player 2: [06,10] Miss
+Player 1: [07,03] Miss
+Player 2: [06,04] Miss
+Player 1: [02,09] Miss
+Player 2: [08,06] Hit
+Player 1: [01,06] Miss
+Player 2: [10,04] Miss
+Player 1: [08,03] Miss
+Player 2: [02,02] Hit
+Player 1: [10,10] Miss
+Player 2: [07,06] Submarine sunk
+Player 1: [02,03] Destroyer sunk
+Player 2: [06,08] Miss
+Player 1: [02,07] Miss
+Player 2: [05,09] Hit
+Player 1: [06,07] Miss
+Player 2: [05,10] Miss
+Player 1: [01,07] Miss
+Player 2: [09,01] Hit
+Player 1: [02,02] Miss
+Player 2: [10,06] Miss
+Player 1: [08,10] Miss
+Player 2: [06,03] Miss
+Player 1: [06,03] Miss
+Player 2: [01,06] Miss
+Player 1: [07,02] Miss
+Player 2: [07,07] Miss
+Player 1: [07,09] Miss
+Player 2: [08,09] Miss
+Player 1: [01,10] Miss
+Player 2: [04,06] Miss
+Player 1: [08,08] Miss
+Player 2: [05,07] Cruiser sunk
+Player 1: [08,05] Miss
+Player 2: [08,02] Miss
+Player 1: [09,06] Miss
+Player 2: [06,06] Miss
+Player 1: [04,04] Miss
+Player 2: [09,02] Miss
+Player 1: [10,09] Miss
+Player 2: [04,07] Miss
+Player 1: [07,06] Miss
+Player 2: [03,06] Miss
+Player 1: [07,08] Miss
+Player 2: [04,08] Miss
+Player 1: [10,03] Miss
+Player 2: [03,02] Battleship sunk
+Player 1: [10,08] Miss
+Player 2: [05,04] Miss
+Player 1: [01,09] Miss
+Player 2: [01,03] Miss
+Player 1: [06,08] Miss
+Player 2: [05,02] Miss
+Player 1: [05,03] Miss
+Player 2: [04,09] Miss
+Player 1: [05,02] Miss
+Player 2: [08,08] Miss
+Player 1: [02,06] Miss
+Player 2: [01,10] Miss
+Player 1: [05,05] Miss
+Player 2: [04,04] Miss
+Player 1: [04,06] Miss
+Player 2: [01,05] Miss
+Player 1: [03,05] Carrier sunk
+Player 2: [06,01] Hit
+Player 1: [10,01] Miss
+Player 2: [08,01] Carrier sunk
+Player 1: [05,04] Miss
+Player 2: [02,08] Miss
+Player 1: [03,10] Miss
+Player 2: [04,03] Destroyer sunk
+
+Player 2 wins!
+Player 1 game score: 31
+
+Player 2 game score: 234
+
+Round 3 start
+Player 1 board:
+0520000000
+0520000000
+0520000000
+0500000000
+0500000000
+0030000000
+0030000000
+0030000000
+0011044440
+0000000000
+
+Player 2 board:
+0000000000
+0000000000
+0444400000
+0000000000
+0000000000
+5555500100
+0000000100
+0002220000
+0000333000
+0000000000
+
+Player 1: [06,01] Miss
+Player 2: [04,05] Miss
+Player 1: [01,02] Miss
+Player 2: [06,04] Miss
+Player 1: [05,03] Hit
+Player 2: [04,03] Miss
+Player 1: [10,05] Miss
+Player 2: [10,03] Miss
+Player 1: [05,10] Miss
+Player 2: [01,05] Miss
+Player 1: [09,06] Miss
+Player 2: [04,01] Miss
+Player 1: [02,08] Miss
+Player 2: [02,10] Miss
+Player 1: [09,09] Miss
+Player 2: [10,04] Miss
+Player 1: [04,03] Hit
+Player 2: [09,04] Miss
+Player 1: [05,01] Miss
+Player 2: [03,01] Hit
+Player 1: [02,03] Hit
+Player 2: [02,01] Hit
+Player 1: [08,07] Hit
+Player 2: [07,09] Hit
+Player 1: [01,06] Hit
+Player 2: [09,09] Hit
+Player 1: [10,06] Miss
+Player 2: [08,04] Miss
+Player 1: [03,03] Battleship sunk
+Player 2: [01,03] Miss
+Player 1: [04,02] Miss
+Player 2: [08,08] Miss
+Player 1: [03,09] Miss
+Player 2: [08,10] Miss
+Player 1: [06,10] Miss
+Player 2: [03,10] Miss
+Player 1: [02,04] Miss
+Player 2: [01,09] Miss
+Player 1: [02,10] Miss
+Player 2: [03,05] Miss
+Player 1: [08,06] Destroyer sunk
+Player 2: [09,02] Miss
+Player 1: [01,01] Miss
+Player 2: [08,02] Miss
+Player 1: [07,10] Miss
+Player 2: [04,08] Miss
+Player 1: [04,01] Miss
+Player 2: [05,04] Miss
+Player 1: [03,04] Miss
+Player 2: [03,08] Hit
+Player 1: [08,02] Miss
+Player 2: [08,01] Miss
+Player 1: [04,07] Miss
+Player 2: [04,02] Miss
+Player 1: [07,02] Miss
+Player 2: [06,02] Miss
+Player 1: [01,10] Miss
+Player 2: [02,06] Miss
+Player 1: [10,09] Miss
+Player 2: [01,01] Miss
+Player 1: [02,09] Miss
+Player 2: [06,01] Miss
+Player 1: [09,10] Miss
+Player 2: [03,09] Hit
+Player 1: [01,09] Miss
+Player 2: [05,08] Miss
+Player 1: [02,07] Miss
+Player 2: [09,01] Miss
+Player 1: [09,07] Miss
+Player 2: [06,08] Miss
+Player 1: [02,01] Miss
+Player 2: [04,06] Miss
+Player 1: [06,07] Miss
+Player 2: [02,05] Hit
+Player 1: [10,04] Miss
+Player 2: [03,04] Miss
+Player 1: [04,08] Hit
+Player 2: [09,08] Miss
+Player 1: [08,10] Miss
+Player 2: [06,09] Hit
+Player 1: [10,07] Miss
+Player 2: [05,02] Miss
+Player 1: [05,06] Hit
+Player 2: [08,07] Miss
+Player 1: [04,05] Miss
+Player 2: [07,04] Miss
+Player 1: [09,04] Miss
+Player 2: [05,03] Miss
+Player 1: [08,09] Miss
+Player 2: [10,01] Miss
+Player 1: [02,05] Miss
+Player 2: [01,08] Miss
+Player 1: [10,08] Miss
+Player 2: [05,06] Miss
+Player 1: [03,01] Miss
+Player 2: [01,07] Miss
+Player 1: [06,02] Miss
+Player 2: [07,02] Miss
+Player 1: [04,06] Hit
+Player 2: [07,06] Miss
+Player 1: [03,08] Miss
+Player 2: [06,03] Miss
+Player 1: [03,06] Hit
+Player 2: [09,07] Miss
+Player 1: [06,09] Hit
+Player 2: [07,05] Miss
+Player 1: [01,05] Miss
+Player 2: [06,06] Miss
+Player 1: [03,10] Miss
+Player 2: [06,10] Miss
+Player 1: [06,05] Miss
+Player 2: [10,06] Miss
+Player 1: [09,08] Miss
+Player 2: [06,05] Miss
+Player 1: [07,09] Hit
+Player 2: [10,09] Miss
+Player 1: [07,08] Miss
+Player 2: [05,05] Miss
+Player 1: [10,02] Miss
+Player 2: [10,08] Miss
+Player 1: [02,02] Miss
+Player 2: [10,02] Miss
+Player 1: [06,06] Miss
+Player 2: [07,08] Miss
+Player 1: [10,01] Miss
+Player 2: [09,05] Miss
+Player 1: [05,05] Miss
+Player 2: [05,10] Miss
+Player 1: [05,04] Miss
+Player 2: [02,02] Hit
+Player 1: [01,03] Miss
+Player 2: [01,10] Miss
+Player 1: [09,01] Miss
+Player 2: [10,05] Miss
+Player 1: [01,08] Miss
+Player 2: [05,09] Miss
+Player 1: [07,07] Miss
+Player 2: [04,07] Miss
+Player 1: [01,04] Miss
+Player 2: [04,04] Miss
+Player 1: [08,08] Miss
+Player 2: [01,04] Miss
+Player 1: [07,04] Miss
+Player 2: [09,03] Miss
+Player 1: [04,10] Miss
+Player 2: [08,03] Miss
+Player 1: [10,03] Miss
+Player 2: [08,05] Miss
+Player 1: [05,08] Hit
+Player 2: [10,10] Miss
+Player 1: [07,03] Miss
+Player 2: [07,03] Miss
+Player 1: [03,05] Miss
+Player 2: [02,09] Miss
+Player 1: [09,05] Miss
+Player 2: [05,07] Miss
+Player 1: [08,05] Miss
+Player 2: [01,02] Miss
+Player 1: [05,07] Miss
+Player 2: [02,07] Miss
+Player 1: [02,06] Carrier sunk
+Player 2: [02,03] Hit
+Player 1: [08,01] Miss
+Player 2: [02,08] Miss
+Player 1: [09,02] Miss
+Player 2: [08,06] Miss
+Player 1: [03,02] Miss
+Player 2: [01,06] Miss
+Player 1: [07,05] Miss
+Player 2: [07,01] Miss
+Player 1: [09,03] Miss
+Player 2: [03,07] Hit
+Player 1: [04,04] Miss
+Player 2: [03,03] Hit
+Player 1: [06,03] Miss
+Player 2: [05,01] Miss
+Player 1: [07,01] Miss
+Player 2: [02,04] Carrier sunk
+Player 1: [05,02] Miss
+Player 2: [09,10] Miss
+Player 1: [04,09] Miss
+Player 2: [07,10] Miss
+Player 1: [07,06] Miss
+Player 2: [04,09] Destroyer sunk
+Player 1: [06,04] Miss
+Player 2: [06,07] Miss
+Player 1: [08,04] Miss
+Player 2: [04,10] Miss
+Player 1: [05,09] Cruiser sunk
+Player 2: [09,06] Miss
+Player 1: [10,10] Miss
+Player 2: [03,02] Submarine sunk
+Player 1: [01,07] Miss
+Player 2: [07,07] Miss
+Player 1: [08,03] Miss
+Player 2: [03,06] Cruiser sunk
+Player 1: [03,07] Miss
+Player 2: [08,09] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 47
+
+Player 2 game score: 351
+
+Round 4 start
+Player 1 board:
+0055555000
+0000000000
+2030000000
+2130000000
+2130004000
+0000004000
+0000004000
+0000004000
+0000000000
+0000000000
+
+Player 2 board:
+0000050000
+0000050030
+0000050030
+0000050030
+0000050000
+0000000000
+0000000000
+0010002220
+0010000000
+4444000000
+
+Player 1: [09,03] Hit
+Player 2: [10,08] Miss
+Player 1: [10,10] Miss
+Player 2: [01,01] Miss
+Player 1: [07,05] Miss
+Player 2: [03,06] Miss
+Player 1: [04,06] Miss
+Player 2: [02,10] Miss
+Player 1: [08,09] Miss
+Player 2: [05,10] Miss
+Player 1: [02,10] Hit
+Player 2: [09,08] Miss
+Player 1: [10,07] Miss
+Player 2: [10,06] Miss
+Player 1: [08,05] Miss
+Player 2: [05,09] Miss
+Player 1: [07,06] Miss
+Player 2: [02,05] Hit
+Player 1: [10,09] Miss
+Player 2: [04,05] Miss
+Player 1: [06,08] Miss
+Player 2: [08,06] Miss
+Player 1: [02,04] Miss
+Player 2: [04,08] Miss
+Player 1: [06,04] Hit
+Player 2: [05,01] Hit
+Player 1: [03,05] Miss
+Player 2: [10,09] Miss
+Player 1: [01,05] Miss
+Player 2: [03,07] Miss
+Player 1: [02,06] Miss
+Player 2: [07,02] Miss
+Player 1: [01,06] Miss
+Player 2: [01,05] Hit
+Player 1: [09,08] Hit
+Player 2: [01,09] Miss
+Player 1: [02,08] Miss
+Player 2: [03,09] Miss
+Player 1: [01,02] Miss
+Player 2: [02,01] Miss
+Player 1: [04,03] Miss
+Player 2: [04,03] Miss
+Player 1: [03,09] Hit
+Player 2: [02,09] Miss
+Player 1: [08,06] Miss
+Player 2: [07,03] Miss
+Player 1: [04,08] Miss
+Player 2: [01,06] Miss
+Player 1: [05,04] Miss
+Player 2: [08,04] Miss
+Player 1: [09,01] Miss
+Player 2: [06,07] Miss
+Player 1: [07,09] Miss
+Player 2: [02,03] Miss
+Player 1: [07,07] Miss
+Player 2: [03,05] Hit
+Player 1: [04,01] Miss
+Player 2: [03,01] Hit
+Player 1: [06,02] Hit
+Player 2: [09,01] Miss
+Player 1: [09,05] Miss
+Player 2: [06,08] Miss
+Player 1: [03,04] Miss
+Player 2: [09,10] Miss
+Player 1: [02,07] Miss
+Player 2: [03,03] Hit
+Player 1: [09,06] Miss
+Player 2: [07,07] Hit
+Player 1: [09,10] Miss
+Player 2: [04,06] Miss
+Player 1: [08,07] Miss
+Player 2: [08,08] Miss
+Player 1: [01,01] Miss
+Player 2: [10,04] Miss
+Player 1: [01,04] Miss
+Player 2: [08,07] Miss
+Player 1: [03,06] Miss
+Player 2: [06,04] Miss
+Player 1: [03,02] Miss
+Player 2: [01,03] Hit
+Player 1: [09,09] Miss
+Player 2: [02,07] Miss
+Player 1: [08,02] Miss
+Player 2: [10,03] Miss
+Player 1: [08,01] Miss
+Player 2: [10,01] Miss
+Player 1: [09,02] Hit
+Player 2: [02,08] Miss
+Player 1: [07,10] Miss
+Player 2: [06,01] Hit
+Player 1: [07,08] Hit
+Player 2: [06,03] Miss
+Player 1: [06,07] Miss
+Player 2: [08,09] Miss
+Player 1: [06,06] Miss
+Player 2: [05,03] Miss
+Player 1: [01,10] Hit
+Player 2: [10,10] Miss
+Player 1: [04,09] Miss
+Player 2: [08,02] Miss
+Player 1: [02,01] Miss
+Player 2: [09,09] Miss
+Player 1: [06,10] Miss
+Player 2: [07,10] Miss
+Player 1: [04,02] Miss
+Player 2: [05,07] Miss
+Player 1: [06,01] Hit
+Player 2: [09,07] Miss
+Player 1: [08,04] Miss
+Player 2: [04,02] Miss
+Player 1: [05,03] Miss
+Player 2: [04,04] Miss
+Player 1: [07,01] Miss
+Player 2: [07,04] Miss
+Player 1: [07,04] Miss
+Player 2: [06,06] Miss
+Player 1: [02,05] Miss
+Player 2: [08,10] Miss
+Player 1: [06,03] Hit
+Player 2: [03,04] Cruiser sunk
+Player 1: [10,08] Miss
+Player 2: [09,02] Miss
+Player 1: [07,02] Miss
+Player 2: [09,05] Miss
+Player 1: [05,07] Miss
+Player 2: [05,02] Miss
+Player 1: [06,05] Carrier sunk
+Player 2: [09,04] Miss
+Player 1: [03,01] Miss
+Player 2: [09,06] Miss
+Player 1: [09,07] Miss
+Player 2: [08,01] Miss
+Player 1: [04,05] Miss
+Player 2: [05,05] Miss
+Player 1: [10,01] Miss
+Player 2: [10,02] Miss
+Player 1: [05,10] Miss
+Player 2: [04,10] Miss
+Player 1: [10,04] Miss
+Player 2: [10,05] Miss
+Player 1: [06,09] Miss
+Player 2: [07,09] Miss
+Player 1: [03,07] Miss
+Player 2: [03,10] Miss
+Player 1: [03,03] Miss
+Player 2: [08,05] Miss
+Player 1: [04,04] Miss
+Player 2: [04,01] Hit
+Player 1: [03,08] Destroyer sunk
+Player 2: [04,09] Miss
+Player 1: [01,03] Miss
+Player 2: [06,10] Miss
+Player 1: [10,02] Miss
+Player 2: [02,06] Miss
+Player 1: [07,03] Miss
+Player 2: [07,05] Hit
+Player 1: [01,07] Miss
+Player 2: [06,05] Miss
+Player 1: [02,09] Miss
+Player 2: [05,08] Miss
+Player 1: [02,03] Miss
+Player 2: [01,07] Miss
+Player 1: [01,09] Miss
+Player 2: [07,01] Carrier sunk
+Player 1: [10,05] Miss
+Player 2: [01,02] Miss
+Player 1: [05,01] Miss
+Player 2: [10,07] Miss
+Player 1: [08,10] Miss
+Player 2: [01,08] Miss
+Player 1: [02,02] Miss
+Player 2: [07,06] Hit
+Player 1: [03,10] Hit
+Player 2: [09,03] Miss
+Player 1: [04,10] Battleship sunk
+Player 2: [06,09] Miss
+Player 1: [05,06] Miss
+Player 2: [07,08] Battleship sunk
+Player 1: [09,04] Cruiser sunk
+Player 2: [02,02] Miss
+Player 1: [01,08] Miss
+Player 2: [01,10] Miss
+Player 1: [05,02] Miss
+Player 2: [03,08] Miss
+Player 1: [10,06] Miss
+Player 2: [05,06] Miss
+Player 1: [05,09] Miss
+Player 2: [03,02] Miss
+Player 1: [04,07] Miss
+Player 2: [08,03] Miss
+Player 1: [08,08] Submarine sunk
+
+Player 1 wins!
+Player 1 game score: 164
+
+Player 2 game score: 366
+
+Round 5 start
+Player 1 board:
+0000044440
+0000000000
+0200000000
+0200000000
+0200030100
+0000030100
+5555530000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+0000000500
+2000000500
+2000011500
+2033300500
+0000000500
+0000000000
+0000000000
+4444000000
+0000000000
+
+Player 1: [03,09] Hit
+Player 2: [03,04] Miss
+Player 1: [10,09] Miss
+Player 2: [06,01] Hit
+Player 1: [09,04] Miss
+Player 2: [06,02] Miss
+Player 1: [06,09] Miss
+Player 2: [04,08] Miss
+Player 1: [02,07] Miss
+Player 2: [01,10] Miss
+Player 1: [01,06] Miss
+Player 2: [04,02] Miss
+Player 1: [05,03] Miss
+Player 2: [01,02] Miss
+Player 1: [06,10] Miss
+Player 2: [01,05] Miss
+Player 1: [03,07] Miss
+Player 2: [01,06] Miss
+Player 1: [03,05] Hit
+Player 2: [09,06] Miss
+Player 1: [04,03] Miss
+Player 2: [10,08] Miss
+Player 1: [04,08] Miss
+Player 2: [05,10] Miss
+Player 1: [09,09] Miss
+Player 2: [09,01] Hit
+Player 1: [10,08] Miss
+Player 2: [04,01] Miss
+Player 1: [08,07] Miss
+Player 2: [02,03] Hit
+Player 1: [09,07] Miss
+Player 2: [04,10] Miss
+Player 1: [06,02] Miss
+Player 2: [07,03] Miss
+Player 1: [06,05] Miss
+Player 2: [08,01] Hit
+Player 1: [09,01] Miss
+Player 2: [05,07] Hit
+Player 1: [10,07] Miss
+Player 2: [03,03] Miss
+Player 1: [03,02] Miss
+Player 2: [08,09] Miss
+Player 1: [10,03] Miss
+Player 2: [10,07] Miss
+Player 1: [10,06] Miss
+Player 2: [01,07] Hit
+Player 1: [03,06] Miss
+Player 2: [02,07] Hit
+Player 1: [02,01] Miss
+Player 2: [02,01] Miss
+Player 1: [04,06] Miss
+Player 2: [01,09] Miss
+Player 1: [01,02] Miss
+Player 2: [07,05] Miss
+Player 1: [05,10] Miss
+Player 2: [03,06] Miss
+Player 1: [02,05] Miss
+Player 2: [01,03] Miss
+Player 1: [02,06] Miss
+Player 2: [09,03] Miss
+Player 1: [06,07] Miss
+Player 2: [05,03] Miss
+Player 1: [05,06] Miss
+Player 2: [03,02] Miss
+Player 1: [02,08] Miss
+Player 2: [08,04] Miss
+Player 1: [01,10] Miss
+Player 2: [09,05] Miss
+Player 1: [06,01] Miss
+Player 2: [03,05] Miss
+Player 1: [01,07] Miss
+Player 2: [10,10] Miss
+Player 1: [07,01] Miss
+Player 2: [08,10] Miss
+Player 1: [10,01] Miss
+Player 2: [10,06] Miss
+Player 1: [10,10] Miss
+Player 2: [02,02] Miss
+Player 1: [05,08] Miss
+Player 2: [04,05] Miss
+Player 1: [05,01] Miss
+Player 2: [02,08] Miss
+Player 1: [05,02] Miss
+Player 2: [08,06] Hit
+Player 1: [02,03] Miss
+Player 2: [02,04] Hit
+Player 1: [07,05] Miss
+Player 2: [09,02] Miss
+Player 1: [05,09] Miss
+Player 2: [07,07] Miss
+Player 1: [04,05] Hit
+Player 2: [02,05] Submarine sunk
+Player 1: [01,08] Miss
+Player 2: [03,09] Miss
+Player 1: [07,03] Miss
+Player 2: [04,09] Miss
+Player 1: [10,04] Miss
+Player 2: [08,07] Miss
+Player 1: [04,01] Miss
+Player 2: [04,03] Miss
+Player 1: [01,03] Hit
+Player 2: [06,03] Miss
+Player 1: [09,10] Miss
+Player 2: [05,04] Miss
+Player 1: [03,04] Miss
+Player 2: [02,06] Miss
+Player 1: [10,02] Miss
+Player 2: [09,04] Miss
+Player 1: [09,05] Miss
+Player 2: [08,03] Miss
+Player 1: [07,08] Miss
+Player 2: [02,10] Miss
+Player 1: [03,03] Miss
+Player 2: [04,06] Miss
+Player 1: [02,02] Miss
+Player 2: [05,05] Miss
+Player 1: [06,06] Miss
+Player 2: [09,10] Miss
+Player 1: [08,05] Hit
+Player 2: [05,08] Miss
+Player 1: [05,07] Miss
+Player 2: [03,08] Miss
+Player 1: [09,06] Miss
+Player 2: [07,09] Miss
+Player 1: [08,03] Hit
+Player 2: [06,08] Miss
+Player 1: [01,04] Hit
+Player 2: [09,07] Miss
+Player 1: [07,10] Miss
+Player 2: [02,09] Miss
+Player 1: [07,02] Miss
+Player 2: [06,10] Miss
+Player 1: [09,02] Miss
+Player 2: [06,06] Hit
+Player 1: [10,05] Miss
+Player 2: [07,08] Miss
+Player 1: [03,08] Miss
+Player 2: [10,03] Miss
+Player 1: [03,10] Miss
+Player 2: [06,04] Miss
+Player 1: [02,10] Miss
+Player 2: [10,01] Miss
+Player 1: [08,04] Hit
+Player 2: [01,04] Miss
+Player 1: [01,05] Submarine sunk
+Player 2: [07,10] Miss
+Player 1: [07,06] Miss
+Player 2: [07,02] Miss
+Player 1: [04,07] Miss
+Player 2: [03,01] Miss
+Player 1: [04,10] Miss
+Player 2: [06,07] Hit
+Player 1: [03,01] Miss
+Player 2: [04,04] Miss
+Player 1: [01,09] Hit
+Player 2: [06,09] Miss
+Player 1: [06,08] Miss
+Player 2: [05,02] Miss
+Player 1: [09,03] Miss
+Player 2: [09,08] Miss
+Player 1: [01,01] Miss
+Player 2: [08,08] Miss
+Player 1: [05,04] Miss
+Player 2: [08,05] Destroyer sunk
+Player 1: [08,10] Miss
+Player 2: [04,07] Hit
+Player 1: [04,04] Miss
+Player 2: [01,08] Miss
+Player 1: [07,07] Miss
+Player 2: [10,04] Miss
+Player 1: [08,02] Hit
+Player 2: [03,10] Miss
+Player 1: [05,05] Cruiser sunk
+Player 2: [10,02] Miss
+Player 1: [04,09] Hit
+Player 2: [07,04] Miss
+Player 1: [08,01] Miss
+Player 2: [03,07] Carrier sunk
+Player 1: [02,04] Miss
+Player 2: [07,01] Battleship sunk
+Player 1: [08,09] Miss
+Player 2: [05,01] Miss
+Player 1: [06,04] Hit
+Player 2: [10,05] Miss
+Player 1: [08,08] Miss
+Player 2: [06,05] Cruiser sunk
+
+Player 2 wins!
+Player 1 game score: 178
+
+Player 2 game score: 483
+
+Round 6 start
+Player 1 board:
+0000002000
+0000002010
+0000002013
+0000555553
+0000000003
+0000000000
+0004444000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+4000000000
+4000000000
+4000000000
+4000000000
+0000011000
+5555502000
+0000002000
+0000002000
+0003330000
+
+Player 1: [03,08] Miss
+Player 2: [10,06] Miss
+Player 1: [04,04] Miss
+Player 2: [02,07] Miss
+Player 1: [10,06] Miss
+Player 2: [09,04] Hit
+Player 1: [09,08] Miss
+Player 2: [02,02] Miss
+Player 1: [05,04] Miss
+Player 2: [06,08] Miss
+Player 1: [01,02] Hit
+Player 2: [08,09] Miss
+Player 1: [07,06] Hit
+Player 2: [10,10] Miss
+Player 1: [02,02] Miss
+Player 2: [03,10] Miss
+Player 1: [06,04] Miss
+Player 2: [01,05] Miss
+Player 1: [07,04] Miss
+Player 2: [03,09] Miss
+Player 1: [01,01] Miss
+Player 2: [09,02] Hit
+Player 1: [09,06] Miss
+Player 2: [08,01] Miss
+Player 1: [05,08] Miss
+Player 2: [05,04] Hit
+Player 1: [05,03] Miss
+Player 2: [06,05] Miss
+Player 1: [01,03] Hit
+Player 2: [05,10] Miss
+Player 1: [05,07] Hit
+Player 2: [04,09] Miss
+Player 1: [09,10] Miss
+Player 2: [02,10] Miss
+Player 1: [04,03] Miss
+Player 2: [01,07] Miss
+Player 1: [01,09] Miss
+Player 2: [09,01] Miss
+Player 1: [04,02] Miss
+Player 2: [03,05] Miss
+Player 1: [06,03] Miss
+Player 2: [10,09] Miss
+Player 1: [03,10] Miss
+Player 2: [01,01] Miss
+Player 1: [07,08] Hit
+Player 2: [05,03] Miss
+Player 1: [07,02] Miss
+Player 2: [02,05] Miss
+Player 1: [02,03] Miss
+Player 2: [10,03] Hit
+Player 1: [07,01] Miss
+Player 2: [03,01] Miss
+Player 1: [08,05] Miss
+Player 2: [01,10] Miss
+Player 1: [03,06] Miss
+Player 2: [04,06] Miss
+Player 1: [09,03] Miss
+Player 2: [05,07] Hit
+Player 1: [09,04] Miss
+Player 2: [02,08] Miss
+Player 1: [01,07] Hit
+Player 2: [06,02] Miss
+Player 1: [01,04] Hit
+Player 2: [10,01] Miss
+Player 1: [02,05] Miss
+Player 2: [04,05] Miss
+Player 1: [03,07] Hit
+Player 2: [09,03] Destroyer sunk
+Player 1: [01,10] Miss
+Player 2: [07,07] Hit
+Player 1: [07,03] Miss
+Player 2: [08,02] Miss
+Player 1: [02,10] Miss
+Player 2: [08,03] Miss
+Player 1: [06,02] Miss
+Player 2: [04,01] Miss
+Player 1: [09,05] Miss
+Player 2: [07,08] Miss
+Player 1: [02,01] Miss
+Player 2: [04,04] Miss
+Player 1: [02,06] Miss
+Player 2: [05,06] Miss
+Player 1: [04,05] Miss
+Player 2: [05,08] Miss
+Player 1: [01,08] Miss
+Player 2: [09,10] Miss
+Player 1: [08,01] Miss
+Player 2: [04,02] Miss
+Player 1: [04,07] Hit
+Player 2: [02,01] Miss
+Player 1: [10,07] Miss
+Player 2: [03,02] Miss
+Player 1: [10,01] Miss
+Player 2: [06,03] Miss
+Player 1: [08,02] Miss
+Player 2: [07,06] Miss
+Player 1: [04,01] Miss
+Player 2: [04,07] Hit
+Player 1: [10,04] Miss
+Player 2: [08,07] Miss
+Player 1: [04,10] Hit
+Player 2: [06,09] Miss
+Player 1: [01,06] Miss
+Player 2: [05,09] Miss
+Player 1: [06,01] Miss
+Player 2: [03,06] Miss
+Player 1: [03,05] Miss
+Player 2: [06,06] Miss
+Player 1: [05,10] Hit
+Player 2: [07,10] Miss
+Player 1: [02,04] Miss
+Player 2: [03,04] Miss
+Player 1: [10,10] Miss
+Player 2: [01,02] Miss
+Player 1: [08,10] Miss
+Player 2: [02,06] Miss
+Player 1: [08,06] Miss
+Player 2: [02,04] Miss
+Player 1: [02,09] Miss
+Player 2: [08,10] Miss
+Player 1: [10,03] Miss
+Player 2: [02,03] Miss
+Player 1: [04,06] Miss
+Player 2: [07,03] Hit
+Player 1: [05,06] Miss
+Player 2: [09,08] Miss
+Player 1: [06,10] Cruiser sunk
+Player 2: [07,01] Hit
+Player 1: [09,02] Miss
+Player 2: [05,05] Miss
+Player 1: [06,05] Miss
+Player 2: [01,08] Miss
+Player 1: [10,05] Miss
+Player 2: [06,07] Battleship sunk
+Player 1: [03,02] Miss
+Player 2: [04,03] Miss
+Player 1: [08,04] Miss
+Player 2: [10,07] Miss
+Player 1: [06,08] Miss
+Player 2: [04,08] Miss
+Player 1: [03,09] Miss
+Player 2: [10,08] Miss
+Player 1: [09,01] Miss
+Player 2: [01,06] Miss
+Player 1: [10,09] Miss
+Player 2: [01,03] Miss
+Player 1: [05,02] Miss
+Player 2: [06,04] Hit
+Player 1: [10,08] Miss
+Player 2: [10,05] Hit
+Player 1: [08,08] Miss
+Player 2: [01,04] Miss
+Player 1: [08,09] Miss
+Player 2: [07,02] Submarine sunk
+Player 1: [06,09] Miss
+Player 2: [10,04] Cruiser sunk
+Player 1: [06,06] Destroyer sunk
+Player 2: [04,10] Miss
+Player 1: [07,10] Miss
+Player 2: [09,09] Miss
+Player 1: [04,09] Miss
+Player 2: [06,01] Miss
+Player 1: [09,09] Miss
+Player 2: [05,01] Miss
+Player 1: [07,05] Miss
+Player 2: [09,07] Miss
+Player 1: [03,04] Miss
+Player 2: [06,10] Miss
+Player 1: [02,08] Miss
+Player 2: [08,05] Miss
+Player 1: [05,01] Miss
+Player 2: [07,05] Miss
+Player 1: [01,05] Battleship sunk
+Player 2: [09,06] Miss
+Player 1: [05,09] Miss
+Player 2: [05,02] Miss
+Player 1: [08,03] Miss
+Player 2: [01,09] Miss
+Player 1: [03,03] Miss
+Player 2: [07,09] Miss
+Player 1: [06,07] Miss
+Player 2: [08,04] Hit
+Player 1: [07,07] Hit
+Player 2: [10,02] Miss
+Player 1: [07,09] Submarine sunk
+Player 2: [03,03] Miss
+Player 1: [02,07] Carrier sunk
+
+Player 1 wins!
+Player 1 game score: 295
+
+Player 2 game score: 499
+
+Round 7 start
+Player 1 board:
+2000000000
+2000444400
+2000000000
+0100000000
+0100333000
+0000555550
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000003
+0110000003
+0000000003
+0022200000
+0000000000
+0040000000
+0040000000
+0040555550
+0040000000
+0000000000
+
+Player 1: [09,09] Miss
+Player 2: [02,04] Hit
+Player 1: [05,09] Miss
+Player 2: [05,09] Miss
+Player 1: [09,06] Miss
+Player 2: [05,05] Hit
+Player 1: [02,01] Miss
+Player 2: [02,03] Miss
+Player 1: [03,01] Miss
+Player 2: [06,01] Miss
+Player 1: [09,08] Hit
+Player 2: [01,06] Miss
+Player 1: [03,06] Hit
+Player 2: [05,03] Miss
+Player 1: [05,03] Miss
+Player 2: [10,09] Miss
+Player 1: [06,07] Miss
+Player 2: [07,02] Hit
+Player 1: [01,05] Miss
+Player 2: [02,07] Miss
+Player 1: [07,06] Miss
+Player 2: [04,02] Miss
+Player 1: [05,07] Miss
+Player 2: [03,10] Miss
+Player 1: [02,07] Miss
+Player 2: [08,08] Miss
+Player 1: [08,08] Hit
+Player 2: [01,04] Miss
+Player 1: [04,08] Miss
+Player 2: [06,02] Hit
+Player 1: [08,09] Miss
+Player 2: [01,05] Miss
+Player 1: [02,10] Miss
+Player 2: [04,01] Miss
+Player 1: [09,01] Miss
+Player 2: [09,03] Miss
+Player 1: [07,04] Miss
+Player 2: [09,06] Hit
+Player 1: [05,10] Miss
+Player 2: [05,02] Hit
+Player 1: [06,09] Miss
+Player 2: [01,09] Miss
+Player 1: [02,02] Hit
+Player 2: [07,03] Miss
+Player 1: [10,02] Hit
+Player 2: [08,01] Miss
+Player 1: [06,05] Miss
+Player 2: [03,08] Miss
+Player 1: [07,09] Miss
+Player 2: [10,06] Miss
+Player 1: [09,02] Miss
+Player 2: [09,04] Miss
+Player 1: [08,10] Miss
+Player 2: [04,06] Miss
+Player 1: [09,04] Miss
+Player 2: [01,10] Miss
+Player 1: [10,04] Miss
+Player 2: [09,10] Miss
+Player 1: [08,04] Miss
+Player 2: [07,09] Miss
+Player 1: [03,07] Hit
+Player 2: [02,09] Miss
+Player 1: [02,04] Miss
+Player 2: [09,08] Miss
+Player 1: [09,10] Miss
+Player 2: [10,07] Miss
+Player 1: [07,10] Miss
+Player 2: [06,06] Hit
+Player 1: [03,09] Hit
+Player 2: [09,09] Miss
+Player 1: [01,06] Miss
+Player 2: [10,08] Miss
+Player 1: [04,04] Hit
+Player 2: [07,06] Hit
+Player 1: [04,09] Miss
+Player 2: [04,10] Miss
+Player 1: [05,05] Miss
+Player 2: [03,01] Miss
+Player 1: [10,09] Miss
+Player 2: [03,03] Miss
+Player 1: [08,05] Miss
+Player 2: [05,07] Miss
+Player 1: [09,07] Miss
+Player 2: [06,09] Miss
+Player 1: [08,06] Miss
+Player 2: [08,02] Battleship sunk
+Player 1: [08,01] Miss
+Player 2: [10,03] Miss
+Player 1: [02,06] Miss
+Player 2: [06,10] Miss
+Player 1: [07,05] Miss
+Player 2: [07,08] Miss
+Player 1: [10,03] Hit
+Player 2: [01,08] Miss
+Player 1: [10,10] Miss
+Player 2: [09,05] Miss
+Player 1: [07,02] Miss
+Player 2: [01,02] Hit
+Player 1: [06,03] Miss
+Player 2: [04,04] Miss
+Player 1: [04,03] Miss
+Player 2: [03,07] Miss
+Player 1: [03,05] Miss
+Player 2: [06,07] Miss
+Player 1: [03,04] Hit
+Player 2: [08,09] Miss
+Player 1: [01,01] Miss
+Player 2: [08,10] Miss
+Player 1: [07,08] Hit
+Player 2: [06,03] Miss
+Player 1: [04,02] Miss
+Player 2: [07,07] Miss
+Player 1: [08,03] Miss
+Player 2: [07,01] Miss
+Player 1: [05,02] Miss
+Player 2: [09,07] Miss
+Player 1: [10,06] Miss
+Player 2: [07,05] Hit
+Player 1: [04,01] Miss
+Player 2: [05,10] Miss
+Player 1: [06,01] Miss
+Player 2: [03,02] Miss
+Player 1: [03,02] Destroyer sunk
+Player 2: [09,02] Miss
+Player 1: [07,01] Miss
+Player 2: [03,09] Miss
+Player 1: [01,09] Miss
+Player 2: [08,04] Miss
+Player 1: [06,02] Miss
+Player 2: [05,01] Miss
+Player 1: [02,09] Miss
+Player 2: [08,07] Miss
+Player 1: [03,03] Miss
+Player 2: [08,05] Miss
+Player 1: [10,05] Miss
+Player 2: [03,06] Miss
+Player 1: [09,03] Miss
+Player 2: [05,08] Miss
+Player 1: [03,08] Battleship sunk
+Player 2: [02,08] Miss
+Player 1: [06,08] Hit
+Player 2: [04,08] Miss
+Player 1: [01,02] Miss
+Player 2: [02,06] Miss
+Player 1: [01,10] Miss
+Player 2: [05,04] Miss
+Player 1: [02,08] Miss
+Player 2: [01,03] Hit
+Player 1: [06,10] Miss
+Player 2: [04,07] Miss
+Player 1: [07,03] Miss
+Player 2: [05,06] Hit
+Player 1: [01,07] Miss
+Player 2: [08,06] Carrier sunk
+Player 1: [05,08] Carrier sunk
+Player 2: [02,02] Miss
+Player 1: [10,08] Miss
+Player 2: [10,01] Miss
+Player 1: [05,01] Miss
+Player 2: [10,04] Miss
+Player 1: [01,04] Miss
+Player 2: [07,10] Miss
+Player 1: [07,07] Miss
+Player 2: [01,01] Submarine sunk
+Player 1: [09,05] Miss
+Player 2: [09,01] Miss
+Player 1: [03,10] Miss
+Player 2: [06,08] Miss
+Player 1: [04,07] Miss
+Player 2: [04,05] Miss
+Player 1: [06,06] Miss
+Player 2: [02,05] Destroyer sunk
+Player 1: [05,06] Miss
+Player 2: [07,04] Miss
+Player 1: [02,05] Miss
+Player 2: [08,03] Miss
+Player 1: [04,06] Miss
+Player 2: [04,09] Miss
+Player 1: [04,05] Miss
+Player 2: [03,05] Miss
+Player 1: [02,03] Miss
+Player 2: [10,02] Miss
+Player 1: [04,10] Miss
+Player 2: [01,07] Miss
+Player 1: [01,03] Miss
+Player 2: [06,04] Miss
+Player 1: [10,07] Miss
+Player 2: [02,01] Miss
+Player 1: [08,02] Miss
+Player 2: [10,10] Miss
+Player 1: [06,04] Miss
+Player 2: [04,03] Miss
+Player 1: [01,08] Miss
+Player 2: [06,05] Cruiser sunk
+
+Player 2 wins!
+Player 1 game score: 310
+
+Player 2 game score: 616
+
+Round 8 start
+Player 1 board:
+0000000000
+0000000000
+0044440000
+0000000000
+0001502220
+0001500000
+3000500000
+3000500000
+3000500000
+0000000000
+
+Player 2 board:
+0000000000
+0000000000
+0000000000
+0000000300
+0000000310
+0444400310
+0000000000
+0055555000
+0000000000
+0000002220
+
+Player 1: [10,01] Miss
+Player 2: [07,06] Miss
+Player 1: [01,09] Miss
+Player 2: [04,01] Miss
+Player 1: [03,03] Miss
+Player 2: [07,08] Miss
+Player 1: [02,05] Miss
+Player 2: [02,01] Miss
+Player 1: [06,03] Miss
+Player 2: [04,04] Miss
+Player 1: [05,08] Hit
+Player 2: [09,05] Hit
+Player 1: [03,07] Miss
+Player 2: [09,08] Miss
+Player 1: [02,08] Miss
+Player 2: [04,03] Hit
+Player 1: [03,01] Miss
+Player 2: [02,06] Miss
+Player 1: [06,07] Miss
+Player 2: [08,02] Miss
+Player 1: [04,09] Miss
+Player 2: [03,08] Miss
+Player 1: [04,07] Miss
+Player 2: [04,05] Hit
+Player 1: [08,06] Hit
+Player 2: [07,10] Miss
+Player 1: [03,09] Miss
+Player 2: [03,05] Miss
+Player 1: [02,07] Miss
+Player 2: [09,06] Miss
+Player 1: [05,05] Miss
+Player 2: [05,09] Hit
+Player 1: [02,02] Miss
+Player 2: [01,04] Miss
+Player 1: [06,09] Miss
+Player 2: [10,10] Miss
+Player 1: [01,10] Miss
+Player 2: [03,09] Miss
+Player 1: [04,01] Miss
+Player 2: [02,05] Miss
+Player 1: [06,05] Miss
+Player 2: [05,07] Hit
+Player 1: [09,08] Miss
+Player 2: [05,10] Miss
+Player 1: [04,06] Hit
+Player 2: [07,03] Miss
+Player 1: [09,04] Miss
+Player 2: [07,07] Miss
+Player 1: [07,06] Miss
+Player 2: [06,08] Miss
+Player 1: [04,02] Miss
+Player 2: [10,09] Miss
+Player 1: [10,08] Miss
+Player 2: [03,03] Hit
+Player 1: [07,03] Miss
+Player 2: [10,05] Miss
+Player 1: [08,09] Miss
+Player 2: [06,03] Hit
+Player 1: [08,02] Miss
+Player 2: [06,06] Miss
+Player 1: [10,05] Miss
+Player 2: [07,02] Miss
+Player 1: [03,10] Miss
+Player 2: [09,02] Miss
+Player 1: [01,05] Miss
+Player 2: [06,04] Miss
+Player 1: [03,08] Hit
+Player 2: [10,02] Miss
+Player 1: [09,01] Miss
+Player 2: [01,01] Miss
+Player 1: [02,09] Miss
+Player 2: [06,09] Miss
+Player 1: [02,03] Miss
+Player 2: [01,02] Miss
+Player 1: [10,02] Miss
+Player 2: [04,06] Destroyer sunk
+Player 1: [10,04] Miss
+Player 2: [03,02] Miss
+Player 1: [06,10] Miss
+Player 2: [08,05] Hit
+Player 1: [05,06] Hit
+Player 2: [02,07] Miss
+Player 1: [10,10] Miss
+Player 2: [08,03] Miss
+Player 1: [09,10] Hit
+Player 2: [04,02] Miss
+Player 1: [07,09] Miss
+Player 2: [02,04] Miss
+Player 1: [10,07] Miss
+Player 2: [01,05] Miss
+Player 1: [05,09] Miss
+Player 2: [04,07] Miss
+Player 1: [04,04] Miss
+Player 2: [02,02] Miss
+Player 1: [03,04] Miss
+Player 2: [10,04] Miss
+Player 1: [01,07] Miss
+Player 2: [01,07] Hit
+Player 1: [05,04] Miss
+Player 2: [02,03] Miss
+Player 1: [10,03] Miss
+Player 2: [06,01] Miss
+Player 1: [07,07] Miss
+Player 2: [02,10] Miss
+Player 1: [09,06] Hit
+Player 2: [10,03] Miss
+Player 1: [02,01] Miss
+Player 2: [05,02] Miss
+Player 1: [08,08] Miss
+Player 2: [03,10] Miss
+Player 1: [06,04] Miss
+Player 2: [10,01] Miss
+Player 1: [06,08] Hit
+Player 2: [01,09] Hit
+Player 1: [01,02] Miss
+Player 2: [09,07] Miss
+Player 1: [09,05] Destroyer sunk
+Player 2: [05,04] Miss
+Player 1: [10,06] Miss
+Player 2: [03,04] Miss
+Player 1: [07,08] Hit
+Player 2: [01,08] Cruiser sunk
+Player 1: [03,05] Miss
+Player 2: [10,08] Miss
+Player 1: [03,02] Miss
+Player 2: [01,10] Miss
+Player 1: [07,04] Miss
+Player 2: [02,09] Miss
+Player 1: [04,03] Miss
+Player 2: [05,05] Hit
+Player 1: [01,01] Miss
+Player 2: [01,03] Miss
+Player 1: [05,02] Miss
+Player 2: [07,04] Miss
+Player 1: [05,10] Miss
+Player 2: [08,07] Miss
+Player 1: [02,06] Hit
+Player 2: [03,01] Miss
+Player 1: [01,08] Miss
+Player 2: [03,06] Miss
+Player 1: [10,09] Miss
+Player 2: [08,04] Miss
+Player 1: [05,07] Miss
+Player 2: [08,08] Miss
+Player 1: [06,06] Miss
+Player 2: [04,08] Miss
+Player 1: [08,04] Hit
+Player 2: [08,10] Miss
+Player 1: [05,01] Miss
+Player 2: [04,09] Miss
+Player 1: [03,06] Battleship sunk
+Player 2: [07,09] Miss
+Player 1: [09,07] Miss
+Player 2: [08,09] Miss
+Player 1: [08,01] Miss
+Player 2: [03,07] Miss
+Player 1: [01,04] Miss
+Player 2: [05,03] Battleship sunk
+Player 1: [05,03] Miss
+Player 2: [09,01] Miss
+Player 1: [08,10] Hit
+Player 2: [09,03] Miss
+Player 1: [07,10] Submarine sunk
+Player 2: [10,06] Miss
+Player 1: [02,04] Miss
+Player 2: [06,05] Miss
+Player 1: [04,05] Miss
+Player 2: [10,07] Miss
+Player 1: [06,02] Miss
+Player 2: [05,06] Hit
+Player 1: [07,05] Miss
+Player 2: [09,09] Miss
+Player 1: [07,01] Miss
+Player 2: [05,01] Miss
+Player 1: [08,07] Miss
+Player 2: [07,01] Miss
+Player 1: [01,06] Miss
+Player 2: [02,08] Miss
+Player 1: [08,05] Cruiser sunk
+Player 2: [01,06] Miss
+Player 1: [06,01] Miss
+Player 2: [08,01] Miss
+Player 1: [02,10] Miss
+Player 2: [09,10] Miss
+Player 1: [01,03] Miss
+Player 2: [06,07] Miss
+Player 1: [04,10] Miss
+Player 2: [05,08] Carrier sunk
+Player 1: [09,09] Miss
+Player 2: [04,10] Miss
+Player 1: [08,03] Miss
+Player 2: [07,05] Submarine sunk
+
+Player 2 wins!
+Player 1 game score: 326
+
+Player 2 game score: 733
+
+Round 9 start
+Player 1 board:
+0000000000
+0333500110
+0000500200
+0000500200
+0000500200
+0000500000
+0000044440
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+0555550000
+0000000000
+3000004020
+3000004020
+3000004020
+0001004000
+0001000000
+0000000000
+0000000000
+
+Player 1: [01,09] Miss
+Player 2: [04,09] Miss
+Player 1: [10,04] Miss
+Player 2: [01,08] Miss
+Player 1: [06,05] Miss
+Player 2: [02,01] Miss
+Player 1: [08,02] Miss
+Player 2: [09,08] Miss
+Player 1: [03,09] Miss
+Player 2: [06,10] Miss
+Player 1: [10,10] Miss
+Player 2: [04,07] Miss
+Player 1: [05,07] Miss
+Player 2: [10,04] Miss
+Player 1: [04,02] Hit
+Player 2: [04,05] Miss
+Player 1: [06,09] Miss
+Player 2: [03,01] Miss
+Player 1: [03,06] Miss
+Player 2: [01,10] Miss
+Player 1: [01,10] Miss
+Player 2: [08,02] Hit
+Player 1: [05,03] Miss
+Player 2: [04,06] Miss
+Player 1: [07,10] Miss
+Player 2: [07,09] Miss
+Player 1: [05,09] Miss
+Player 2: [04,02] Hit
+Player 1: [01,08] Miss
+Player 2: [07,01] Miss
+Player 1: [03,04] Miss
+Player 2: [07,04] Miss
+Player 1: [03,02] Hit
+Player 2: [10,05] Miss
+Player 1: [08,03] Miss
+Player 2: [10,08] Miss
+Player 1: [04,07] Hit
+Player 2: [01,03] Miss
+Player 1: [07,08] Miss
+Player 2: [07,03] Miss
+Player 1: [07,02] Miss
+Player 2: [07,06] Miss
+Player 1: [02,08] Miss
+Player 2: [03,05] Miss
+Player 1: [04,04] Miss
+Player 2: [04,03] Miss
+Player 1: [10,03] Miss
+Player 2: [01,07] Miss
+Player 1: [09,04] Hit
+Player 2: [08,10] Miss
+Player 1: [06,06] Miss
+Player 2: [08,09] Miss
+Player 1: [02,03] Miss
+Player 2: [08,08] Miss
+Player 1: [08,04] Miss
+Player 2: [09,03] Miss
+Player 1: [09,09] Miss
+Player 2: [03,03] Miss
+Player 1: [08,08] Miss
+Player 2: [06,04] Miss
+Player 1: [07,09] Miss
+Player 2: [05,02] Hit
+Player 1: [03,03] Miss
+Player 2: [10,03] Miss
+Player 1: [06,02] Hit
+Player 2: [02,04] Miss
+Player 1: [02,01] Miss
+Player 2: [09,05] Miss
+Player 1: [04,05] Miss
+Player 2: [08,06] Miss
+Player 1: [08,09] Miss
+Player 2: [06,08] Miss
+Player 1: [02,09] Miss
+Player 2: [05,08] Miss
+Player 1: [07,01] Miss
+Player 2: [06,06] Miss
+Player 1: [09,05] Hit
+Player 2: [05,05] Hit
+Player 1: [04,09] Miss
+Player 2: [09,06] Miss
+Player 1: [10,02] Miss
+Player 2: [04,08] Miss
+Player 1: [08,06] Miss
+Player 2: [02,06] Miss
+Player 1: [10,07] Miss
+Player 2: [01,05] Miss
+Player 1: [09,10] Miss
+Player 2: [09,04] Miss
+Player 1: [01,05] Hit
+Player 2: [03,06] Miss
+Player 1: [08,05] Miss
+Player 2: [01,04] Miss
+Player 1: [04,01] Miss
+Player 2: [10,09] Miss
+Player 1: [09,07] Miss
+Player 2: [07,10] Miss
+Player 1: [03,05] Miss
+Player 2: [05,01] Miss
+Player 1: [07,03] Miss
+Player 2: [08,05] Hit
+Player 1: [08,01] Miss
+Player 2: [05,06] Hit
+Player 1: [05,04] Miss
+Player 2: [10,07] Miss
+Player 1: [06,01] Miss
+Player 2: [09,09] Miss
+Player 1: [05,01] Miss
+Player 2: [10,06] Miss
+Player 1: [01,02] Miss
+Player 2: [02,05] Miss
+Player 1: [01,01] Miss
+Player 2: [06,03] Miss
+Player 1: [02,10] Miss
+Player 2: [06,07] Hit
+Player 1: [08,10] Miss
+Player 2: [01,09] Miss
+Player 1: [10,01] Miss
+Player 2: [07,08] Miss
+Player 1: [05,05] Miss
+Player 2: [04,01] Miss
+Player 1: [02,04] Miss
+Player 2: [08,03] Hit
+Player 1: [04,03] Miss
+Player 2: [03,07] Miss
+Player 1: [02,06] Miss
+Player 2: [05,10] Miss
+Player 1: [10,08] Miss
+Player 2: [03,09] Miss
+Player 1: [01,07] Miss
+Player 2: [10,02] Miss
+Player 1: [09,08] Miss
+Player 2: [03,10] Miss
+Player 1: [02,05] Miss
+Player 2: [03,04] Miss
+Player 1: [06,04] Miss
+Player 2: [08,01] Miss
+Player 1: [10,09] Miss
+Player 2: [04,04] Miss
+Player 1: [09,01] Miss
+Player 2: [03,08] Miss
+Player 1: [06,07] Miss
+Player 2: [10,01] Miss
+Player 1: [03,08] Miss
+Player 2: [05,09] Miss
+Player 1: [07,05] Hit
+Player 2: [02,09] Miss
+Player 1: [10,05] Miss
+Player 2: [02,02] Hit
+Player 1: [09,02] Miss
+Player 2: [02,07] Miss
+Player 1: [06,03] Miss
+Player 2: [07,02] Miss
+Player 1: [04,10] Miss
+Player 2: [09,02] Destroyer sunk
+Player 1: [02,07] Miss
+Player 2: [02,03] Miss
+Player 1: [05,10] Miss
+Player 2: [07,07] Hit
+Player 1: [07,04] Hit
+Player 2: [06,05] Miss
+Player 1: [01,06] Hit
+Player 2: [07,05] Miss
+Player 1: [03,07] Miss
+Player 2: [06,09] Miss
+Player 1: [09,06] Submarine sunk
+Player 2: [05,04] Hit
+Player 1: [01,04] Cruiser sunk
+Player 2: [02,10] Miss
+Player 1: [05,08] Miss
+Player 2: [06,01] Miss
+Player 1: [06,08] Miss
+Player 2: [05,03] Carrier sunk
+Player 1: [04,08] Destroyer sunk
+Player 2: [09,10] Miss
+Player 1: [06,10] Miss
+Player 2: [09,01] Miss
+Player 1: [04,06] Miss
+Player 2: [08,07] Hit
+Player 1: [08,07] Miss
+Player 2: [09,07] Battleship sunk
+Player 1: [07,07] Hit
+Player 2: [04,10] Miss
+Player 1: [07,06] Battleship sunk
+Player 2: [03,02] Cruiser sunk
+Player 1: [02,02] Hit
+Player 2: [02,08] Miss
+Player 1: [05,06] Miss
+Player 2: [01,06] Miss
+Player 1: [10,06] Miss
+Player 2: [08,04] Submarine sunk
+
+Player 2 wins!
+Player 1 game score: 342
+
+Player 2 game score: 850
+
+Round 10 start
+Player 1 board:
+1104000000
+0004000000
+0004000000
+0004000000
+0022200000
+0055555000
+3330000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0444400000
+0000000000
+0055555000
+0000003330
+0110000000
+0200000000
+0200000000
+0200000000
+0000000000
+0000000000
+
+Player 1: [05,06] Miss
+Player 2: [08,01] Miss
+Player 1: [08,10] Miss
+Player 2: [05,03] Miss
+Player 1: [07,09] Miss
+Player 2: [02,05] Miss
+Player 1: [06,03] Hit
+Player 2: [02,04] Miss
+Player 1: [01,09] Miss
+Player 2: [03,08] Miss
+Player 1: [10,02] Miss
+Player 2: [07,05] Miss
+Player 1: [10,01] Miss
+Player 2: [04,05] Hit
+Player 1: [10,07] Miss
+Player 2: [05,10] Miss
+Player 1: [06,07] Miss
+Player 2: [06,09] Miss
+Player 1: [06,05] Miss
+Player 2: [05,07] Miss
+Player 1: [10,03] Miss
+Player 2: [09,02] Miss
+Player 1: [05,03] Hit
+Player 2: [08,10] Miss
+Player 1: [08,07] Miss
+Player 2: [10,05] Miss
+Player 1: [02,05] Hit
+Player 2: [04,10] Miss
+Player 1: [06,08] Miss
+Player 2: [06,01] Miss
+Player 1: [07,07] Miss
+Player 2: [07,02] Miss
+Player 1: [10,09] Miss
+Player 2: [06,06] Hit
+Player 1: [02,04] Miss
+Player 2: [05,09] Miss
+Player 1: [01,07] Miss
+Player 2: [04,03] Hit
+Player 1: [05,09] Miss
+Player 2: [09,03] Miss
+Player 1: [05,07] Miss
+Player 2: [08,03] Miss
+Player 1: [02,01] Hit
+Player 2: [01,09] Miss
+Player 1: [03,02] Miss
+Player 2: [01,08] Miss
+Player 1: [03,06] Miss
+Player 2: [09,09] Miss
+Player 1: [08,04] Hit
+Player 2: [09,05] Miss
+Player 1: [01,10] Miss
+Player 2: [08,08] Miss
+Player 1: [06,04] Miss
+Player 2: [06,03] Miss
+Player 1: [04,01] Hit
+Player 2: [01,06] Miss
+Player 1: [05,04] Miss
+Player 2: [08,07] Miss
+Player 1: [03,03] Hit
+Player 2: [02,10] Miss
+Player 1: [09,04] Hit
+Player 2: [05,02] Miss
+Player 1: [04,05] Miss
+Player 2: [03,02] Miss
+Player 1: [09,02] Miss
+Player 2: [10,09] Miss
+Player 1: [03,10] Miss
+Player 2: [10,04] Miss
+Player 1: [08,02] Miss
+Player 2: [10,02] Miss
+Player 1: [06,10] Miss
+Player 2: [04,08] Miss
+Player 1: [01,01] Miss
+Player 2: [07,03] Miss
+Player 1: [04,02] Miss
+Player 2: [07,04] Miss
+Player 1: [03,07] Miss
+Player 2: [05,04] Miss
+Player 1: [03,05] Destroyer sunk
+Player 2: [02,01] Hit
+Player 1: [05,02] Miss
+Player 2: [08,04] Miss
+Player 1: [09,05] Miss
+Player 2: [03,04] Miss
+Player 1: [01,02] Miss
+Player 2: [10,06] Miss
+Player 1: [06,06] Miss
+Player 2: [03,01] Miss
+Player 1: [05,08] Miss
+Player 2: [05,05] Hit
+Player 1: [01,08] Miss
+Player 2: [03,03] Miss
+Player 1: [07,04] Cruiser sunk
+Player 2: [04,01] Hit
+Player 1: [02,08] Hit
+Player 2: [02,09] Miss
+Player 1: [05,10] Miss
+Player 2: [01,05] Miss
+Player 1: [07,06] Miss
+Player 2: [08,02] Miss
+Player 1: [05,01] Hit
+Player 2: [03,06] Hit
+Player 1: [10,08] Miss
+Player 2: [07,09] Miss
+Player 1: [08,01] Miss
+Player 2: [06,04] Miss
+Player 1: [01,03] Miss
+Player 2: [03,10] Miss
+Player 1: [04,09] Miss
+Player 2: [09,04] Miss
+Player 1: [02,06] Hit
+Player 2: [09,07] Miss
+Player 1: [02,03] Miss
+Player 2: [03,05] Submarine sunk
+Player 1: [08,08] Miss
+Player 2: [02,02] Miss
+Player 1: [04,03] Hit
+Player 2: [04,09] Miss
+Player 1: [09,08] Miss
+Player 2: [02,08] Miss
+Player 1: [03,04] Miss
+Player 2: [04,07] Miss
+Player 1: [08,06] Miss
+Player 2: [10,07] Miss
+Player 1: [09,10] Miss
+Player 2: [06,07] Miss
+Player 1: [01,05] Miss
+Player 2: [03,09] Miss
+Player 1: [09,07] Miss
+Player 2: [01,02] Miss
+Player 1: [06,09] Miss
+Player 2: [10,08] Miss
+Player 1: [07,10] Miss
+Player 2: [07,01] Miss
+Player 1: [05,05] Miss
+Player 2: [02,03] Miss
+Player 1: [04,06] Miss
+Player 2: [09,06] Miss
+Player 1: [06,01] Miss
+Player 2: [01,04] Miss
+Player 1: [09,01] Miss
+Player 2: [10,10] Miss
+Player 1: [10,06] Miss
+Player 2: [01,03] Miss
+Player 1: [08,05] Miss
+Player 2: [06,02] Miss
+Player 1: [10,10] Miss
+Player 2: [09,10] Miss
+Player 1: [07,01] Miss
+Player 2: [10,03] Miss
+Player 1: [09,06] Miss
+Player 2: [06,05] Miss
+Player 1: [04,08] Miss
+Player 2: [03,07] Hit
+Player 1: [06,02] Miss
+Player 2: [05,08] Miss
+Player 1: [04,07] Miss
+Player 2: [06,08] Miss
+Player 1: [02,10] Miss
+Player 2: [01,07] Hit
+Player 1: [09,03] Miss
+Player 2: [07,06] Hit
+Player 1: [02,07] Submarine sunk
+Player 2: [07,10] Miss
+Player 1: [02,09] Miss
+Player 2: [05,01] Miss
+Player 1: [04,10] Miss
+Player 2: [08,06] Miss
+Player 1: [04,04] Miss
+Player 2: [09,01] Miss
+Player 1: [10,05] Miss
+Player 2: [04,06] Hit
+Player 1: [02,02] Miss
+Player 2: [01,01] Destroyer sunk
+Player 1: [07,05] Miss
+Player 2: [05,06] Carrier sunk
+Player 1: [07,02] Miss
+Player 2: [08,09] Miss
+Player 1: [07,03] Carrier sunk
+Player 2: [08,05] Miss
+Player 1: [01,04] Miss
+Player 2: [10,01] Miss
+Player 1: [09,09] Miss
+Player 2: [04,02] Hit
+Player 1: [10,04] Miss
+Player 2: [02,07] Cruiser sunk
+Player 1: [01,06] Miss
+Player 2: [01,10] Miss
+Player 1: [03,08] Miss
+Player 2: [09,08] Miss
+Player 1: [08,09] Miss
+Player 2: [06,10] Miss
+Player 1: [08,03] Miss
+Player 2: [07,08] Miss
+Player 1: [07,08] Miss
+Player 2: [04,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 358
+
+Player 2 game score: 967
+

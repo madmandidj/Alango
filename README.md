@@ -1,2 +1,2 @@
-# Alango
-My Alango directory
+# EA_ALANGO
+
