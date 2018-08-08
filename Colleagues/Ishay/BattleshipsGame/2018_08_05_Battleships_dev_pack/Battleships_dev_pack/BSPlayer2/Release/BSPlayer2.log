@@ -1,0 +1,8 @@
+﻿  BSPlayer.c
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(233): warning C4101: 'shipStart': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(234): warning C4101: 'shipEnd': unreferenced local variable
+     Creating library C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer2.lib and object C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer2.exp
+  Generating code
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BSPlayer2.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer2.dll

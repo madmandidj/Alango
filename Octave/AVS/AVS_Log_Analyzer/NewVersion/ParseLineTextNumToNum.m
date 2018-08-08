@@ -6,6 +6,12 @@ function parsedNum = ParseLineTextNumToNum(_strLine)
   isCommandFullyRecognized = 1;
   isPartialRecognized = 0;
   isStopRecognized = 0;
+  textNotAvailable = "Text not available. Click to play recording.";
+
+  if (strcmp(_strLine, textNotAvailable))
+    parsedNum = -1;
+    return;
+  endif
   
   while (0 != token)
     switch(token)
@@ -126,7 +132,7 @@ function parsedNum = ParseLineTextNumToNum(_strLine)
   endwhile
   if (isCommandFullyRecognized)
     parsedNum = str2num(numStr);
-  elseif (isPartialRecognized)
+  elseif (isPartialRecognized )
     parsedNum = 0;
   else
     parsedNum = -1;

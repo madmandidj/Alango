@@ -1,0 +1,85 @@
+    Home 
+    Now Playing 
+    Music & Books 
+    Lists 
+    Reminders & Alarms 
+    Skills 
+    Smart Home 
+    Things to Try 
+    Settings 
+    Help & Feedback 
+    Not Eyal? Sign out 
+
+
+Settings
+
+History
+History shows your voice interactions with Alexa. Tap a line to see
+details, hear recordings, provide feedback, or delete recordings. Learn
+more <#help/node/201602230>.
+Filter by Date
+None
+
+    one zero stop
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    no stop
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    eight stop
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    seven stop
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    stop
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:40 PM on ALANGO_Echo_Gen2_1
+    five stop
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    four stop
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    three stop
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    to stop
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    one stop
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+    Text not available. Click to play recording.
+
+    Today at 5:39 PM on ALANGO_Echo_Gen2_1
+
+0
+

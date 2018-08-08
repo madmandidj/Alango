@@ -1,6 +1,9 @@
 function  missingCells = CreateMissingCellsWithID(_resultsWithTriggerID)
     numOfRows = rows(_resultsWithTriggerID);
     missingCells = cell(0, 0);
+    if (0 == numOfRows)
+        return;
+    endif
     curMissingRow = 1;
     for curRow = 1:numOfRows
         if (iscellstr(_resultsWithTriggerID(curRow,1)))
