@@ -1,203 +1,74 @@
-/*
+#include <stdio.h>
 #include <stdlib.h>
 #include "BSPlayer.h"
+#ifdef __linux__ 
+    #include <unistd.h>
+#elif _WIN32
+    #include<Windows.h>
+#elif __APPLE__
+    /*TODO*/
+#endif
 
-static const unsigned int ship_sizes[] = { 0,2,3,3,4,5 };
-
-static BS_Board_t board = { 0 };
-
-static int last_guess[2] = { 0 };
-
-void staging_cb(BS_Board_t* p_board);
-void turn_cb(BS_Coortinates_t* p_coordinates);
-void status_cb(BS_HitStatus_t hit_status);
-
-static void clear_board(void);
-static void fill_board(BS_Board_t* p_board);
-
-void staging_cb(BS_Board_t* p_board) {
-	clear_board();
-	fill_board(p_board);
-}
-
-void turn_cb(BS_Coortinates_t* p_coordinates) {
-	do {
-		last_guess[0] = rand() % BS_BOARD_SIZE;
-		last_guess[1] = rand() % BS_BOARD_SIZE;
-	} while (board[last_guess[1]][last_guess[0]] != 0);
-
-	p_coordinates->x = last_guess[0];
-	p_coordinates->y = last_guess[1];
-}
-
-void status_cb(BS_HitStatus_t status) {
-	if (status)
-		board[last_guess[1]][last_guess[0]] = 1;
-	else
-		board[last_guess[1]][last_guess[0]] = -1;
-}
-
-static void clear_board(void) {
-	for (unsigned int row = 0; row < BS_BOARD_SIZE; row++) {
-		for (unsigned int col = 0; col < BS_BOARD_SIZE; col++) {
-			board[row][col] = 0;
-		}
-	}
-}
-
-static void fill_board(BS_Board_t* p_board) {
-	BS_Board_t scratch_board[2];
-	BS_ShipCoordinates_t coordinates;
-	unsigned int orientation;
-	unsigned int spaces_left;
-
-	for (unsigned int row = 0; row < BS_BOARD_SIZE; row++) {
-		for (unsigned int col = 0; col < BS_BOARD_SIZE; col++) {
-			scratch_board[0][row][col] = 10 - col;
-			scratch_board[1][row][col] = 10 - row;
-		}
-	}
-
-	for (BS_ShipClass_t ship = BS_SHIP_CLASS_CARRIER; ship > BS_SHIP_CLASS_NONE; ship--) {
-		do {
-			orientation = rand() % 2;
-			if(orientation) {
-				coordinates.ship_start.x = rand() % (BS_BOARD_SIZE);
-				coordinates.ship_start.y = rand() % (BS_BOARD_SIZE - ship_sizes[ship]);
-			}
-			else {
-				coordinates.ship_start.x = rand() % (BS_BOARD_SIZE - ship_sizes[ship]);
-				coordinates.ship_start.y = rand() % (BS_BOARD_SIZE);
-			}
-		} while (scratch_board[orientation][coordinates.ship_start.y][coordinates.ship_start.x] < ship_sizes[ship]);
-
-		if (orientation) {
-			coordinates.ship_end.x = coordinates.ship_start.x;
-
-			for (coordinates.ship_end.y = coordinates.ship_start.y; coordinates.ship_end.y < coordinates.ship_start.y + ship_sizes[ship]; coordinates.ship_end.y++) {
-				scratch_board[0][coordinates.ship_end.y][coordinates.ship_end.x] = 0;
-				scratch_board[1][coordinates.ship_end.y][coordinates.ship_end.x] = 0;
-			}
-
-			for (int row = coordinates.ship_start.y - 1, spaces_left = 1; row >= 0; row--) {
-				if (!scratch_board[1][row][coordinates.ship_end.x]) break;
-				scratch_board[1][row][coordinates.ship_end.x] = spaces_left++;
-			}
-
-			for (int row = coordinates.ship_end.y; row < BS_BOARD_SIZE; row++) {
-				if ((!scratch_board[1][row][coordinates.ship_end.x]) || (row == BS_BOARD_SIZE - 1)) {
-					for(spaces_left = 1; row >= coordinates.ship_end.y; row--)
-						scratch_board[1][row][coordinates.ship_end.x] = spaces_left++;
-					break;
-				}
-			}
-
-			for (int row = coordinates.ship_start.y; row < coordinates.ship_end.y; row++) {
-				for (int col = coordinates.ship_start.x - 1, spaces_left = 1; col >= 0; col--) {
-					if (!scratch_board[0][row][col]) break;
-					scratch_board[0][row][col] = spaces_left++;
-				}
-
-				for (int col = coordinates.ship_end.x; col < BS_BOARD_SIZE; col++) {
-					if ((!scratch_board[0][row][col]) || (col == BS_BOARD_SIZE - 1)) {
-						for (spaces_left = 1; col > coordinates.ship_end.x; col--)
-							scratch_board[0][row][col] = spaces_left++;
-						break;
-					}
-				}
-			}
-
-			coordinates.ship_end.y--;
-		}
-		else {
-			coordinates.ship_end.y = coordinates.ship_start.y;
-			for (coordinates.ship_end.x = coordinates.ship_start.x; coordinates.ship_end.x < coordinates.ship_start.x + ship_sizes[ship]; coordinates.ship_end.x++) {
-				scratch_board[0][coordinates.ship_end.y][coordinates.ship_end.x] = 0;
-				scratch_board[1][coordinates.ship_end.y][coordinates.ship_end.x] = 0;
-			}
-
-			for (int col = coordinates.ship_start.x - 1, spaces_left = 1; col >= 0; col--) {
-				if (!scratch_board[0][coordinates.ship_end.y][col]) break;
-				scratch_board[0][coordinates.ship_end.y][col] = spaces_left++;
-			}
-
-			for (int col = coordinates.ship_end.x; col < BS_BOARD_SIZE; col++) {
-				if ((!scratch_board[0][coordinates.ship_end.y][col]) || (col == BS_BOARD_SIZE - 1)) {
-					for (spaces_left = 1; col >= coordinates.ship_end.x; col--)
-						scratch_board[0][coordinates.ship_end.y][col] = spaces_left++;
-					break;
-				}
-			}
-
-			for (int col = coordinates.ship_start.x; col < coordinates.ship_end.x; col++) {
-				for (int row = coordinates.ship_start.y - 1, spaces_left = 1; row >= 0; row--) {
-					if (!scratch_board[1][row][col]) break;
-					scratch_board[1][row][col] = spaces_left++;
-				}
-
-				for (int row = coordinates.ship_end.y; row < BS_BOARD_SIZE; row++) {
-					if ((!scratch_board[1][row][col]) || (row == BS_BOARD_SIZE - 1)) {
-						for (spaces_left = 1; row > coordinates.ship_end.y; row--)
-							scratch_board[1][row][col] = spaces_left++;
-						break;
-					}
-				}
-			}
-
-			coordinates.ship_end.x--;
-		}
-
-		BS_Board_PlaceShip(p_board, ship, &coordinates);
-	}
-}
-*/
-#include <stdlib.h>
-#include "BSPlayer.h"
-/*Globals and Function Declarations*/
-/*********************************************/
-/*
-#define BS_BOARD_SIZE 10
-typedef int BS_Board_t[BS_BOARD_SIZE][BS_BOARD_SIZE];
-*/
-static const unsigned int s_ship_sizes[] = { 0,2,3,3,4,5 };
+/* #define BS_BOARD_SIZE 10                                    /* BSEngine_board.h */
+/* typedef int BS_Board_t[BS_BOARD_SIZE][BS_BOARD_SIZE];       /* BSEngine_board.h */
+#define NUM_OF_SEARCH_BLOCKS 25
+#define NUM_OF_COORDINATES ((BS_BOARD_SIZE * BS_BOARD_SIZE))
+#define NUM_OF_COORD_PER_BLOCK ((NUM_OF_COORDINATES / NUM_OF_SEARCH_BLOCKS))
+/*********************************************
+TYPEDEFS AND ENUMS
+*********************************************/
+typedef int EA_CheckerBlockBoard[NUM_OF_SEARCH_BLOCKS][NUM_OF_SEARCH_BLOCKS];
+typedef struct 
+{
+    BS_Coortinates_t m_checkerBlock[NUM_OF_COORD_PER_BLOCK];
+    BS_Coortinates_t m_coord_1;
+    BS_Coortinates_t m_coord_2;
+    BS_Coortinates_t m_coord_3;
+    BS_Coortinates_t m_coord_4;
+}EA_CheckerBlock;
+typedef enum 
+{
+    SEARCH_ATTACK,
+    DESTROY_ATTACK,
+}AttackMode;
+/*********************************************
+STATIC FUNCTION DECLARATIONS
+*********************************************/
+static void InitAttackBoard();
+static void InitCheckerBoard();
+static void PlaceAllShips(BS_Board_t* p_board);
+static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipClass_t _ship);
+static BS_Coortinates_t CalculateAttackCoordinate();
+static BS_HitStatus_t GetBCHitStatus(unsigned int _x, unsigned int _y);
+static EA_CheckerBlock GetNextCheckerBlock();
+static BS_Coortinates_t GetNextSearchCoord(EA_CheckerBlock _checkerBlock);
+static BS_Coortinates_t GetFirstHitCoordinateFound();
+static BS_Coortinates_t GetNextDestroyCoord(BS_Coortinates_t _attackAndDestroyCoord);
+void Sleep_Wrapper(unsigned int _sleepTimeSecs);
+/*********************************************
+STATIC GLOBALS INSTANTIATION
+*********************************************/
+static const unsigned int s_ship_sizes[] = {0,2,3,3,4,5};
 static BS_Board_t s_attackBoard = { 0 };
 static int s_myAttackResult[2] = { 0 };
-void staging_cb(BS_Board_t* p_board);
-void turn_cb(BS_Coortinates_t* p_coordinates);
-void status_cb(BS_HitStatus_t hit_status);
-/*********************************************/
-static s_numOfShips = 5;
-static void InitAttackBoard();
-static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipClass_t _ship);
-static void PlaceAllShips(BS_Board_t* p_board);
-static BS_Coortinates_t CalculateAttackCoordinate();
-
-
+static unsigned int s_numOfShips = 5;
+static BS_Board_t s_checkerBoard = { 0 };
+static unsigned int s_attackMode = 0;
+static unsigned int s_currentSearchBlock = 0;
+/*********************************************
+API FUNCTIONS DEFINITIONS
+*********************************************/
 void staging_cb(BS_Board_t* p_board)
 {
-
-	// BS_ShipClass_t curShip = 0;
-
 	InitAttackBoard();
+	InitCheckerBoard();
 	PlaceAllShips(p_board);
-	// for (curShip = 1; curShip <= s_numOfShips; ++curShip)
-	// {
-	//     while(BS_BE_OK != bsBoardError)
-	//     {
-	//         bsBoardError = BS_BE_SHIP_OUT_OF_BOUNDS;
-	//         curShipCoordinate = CalculateShipPlacement(p_board, curShip);
-	//         bsBoardError = BS_Board_PlaceShip(p_board, curShip, &curShipCoordinate);
-	//     }
-	// }
 }
-
 
 void turn_cb(BS_Coortinates_t* p_coordinates)
 {
 	BS_Coortinates_t myCoord = { 0 };
-
 	myCoord = CalculateAttackCoordinate();
-
 	p_coordinates->x = myCoord.x;
 	p_coordinates->y = myCoord.y;
 }
@@ -210,9 +81,9 @@ void status_cb(BS_HitStatus_t status)
 		s_attackBoard[s_myAttackResult[1]][s_myAttackResult[0]] = -1;
 }
 
-/*********************************************/
-
-
+/*********************************************
+STATIC FUNCTIONS DEFINITIONS
+*********************************************/
 static void InitAttackBoard()
 {
 	size_t xPos;
@@ -227,29 +98,21 @@ static void InitAttackBoard()
 	}
 }
 
-static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipClass_t _ship)
+static void InitCheckerBoard()
 {
-	static size_t curShip = 0;
-	//BS_Coortinates_t shipStart;
-	//BS_Coortinates_t shipEnd;
-	BS_ShipCoordinates_t shipCoord;
-	// while(1)
-	// {
-	//     shipStart.x = rand() % 10;
-	//     shipStart.y = rand() % 10;
+    unsigned int curCol;
+    unsigned curRow;
+    unsigned int shouldStartSecondRow = 1;
 
-	//     yPos = rand() % 10;
-	//     boardCoord[]
-	// }
-	
-	shipCoord.ship_start.x = curShip;
-	shipCoord.ship_start.y = 0;
-	shipCoord.ship_end.x = curShip;
-	++curShip;
-	shipCoord.ship_end.y = s_ship_sizes[curShip] - 1;
-	//shipCoord.ship_start = shipStart;
-	//shipCoord.ship_end = shipEnd;
-	return shipCoord;
+    for (curCol = 0; curCol < BS_BOARD_SIZE; ++curCol)
+    {
+        curRow = shouldStartSecondRow ? 0 : 1;
+        while (curRow < BS_BOARD_SIZE)
+        {
+            s_checkerBoard[curCol][curRow] = (0 == (curRow % 2)) ? (shouldStartSecondRow ? 0 : 1) : (shouldStartSecondRow ? 1 : 0); 
+            ++curRow;
+        } 
+    }
 }
 
 static void PlaceAllShips(BS_Board_t* p_board)
@@ -269,26 +132,94 @@ static void PlaceAllShips(BS_Board_t* p_board)
 	}
 }
 
+static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipClass_t _ship)
+{
+	BS_ShipCoordinates_t shipCoord;
+	shipCoord.ship_start.x = _ship;
+	shipCoord.ship_start.y = 0;
+	shipCoord.ship_end.x = _ship;
+	shipCoord.ship_end.y = s_ship_sizes[_ship] - 1;
+	return shipCoord;
+}
+
 static BS_Coortinates_t CalculateAttackCoordinate()
 {
-	BS_Coortinates_t attackCoord;
-	unsigned int isCoordValid = 0;
+    BS_Coortinates_t attackCoord;
+    BS_Coortinates_t attackAndDestroyCoord;
+    EA_CheckerBlock checkerBlock;
+    unsigned int isAttackCoordValid = 0;
 
-	while (1)
-	{
-		attackCoord.x = rand() % 10;
-		attackCoord.y = rand() % 10;
-		if (s_attackBoard[attackCoord.x][attackCoord.y] != 0)
-		{
-			continue;
-		}
-		return attackCoord;
-	}
+    switch (s_attackMode)
+    {
+        case SEARCH_ATTACK:
+                checkerBlock = GetNextCheckerBlock();
+                attackCoord = GetNextSearchCoord(checkerBlock);
+            break;
+
+        case DESTROY_ATTACK:
+            while (!isAttackCoordValid)
+            {
+                attackAndDestroyCoord = GetFirstHitCoordinateFound();
+                attackCoord = GetNextDestroyCoord(attackAndDestroyCoord);
+            } 
+            break;
+
+        default:
+            printf("\n\nI cannot play anything other than search and destroy. Mua ha ha. This game will self destruct in\n\n 5\n");
+
+            Sleep_Wrapper(1);
+            printf("4\n");
+            Sleep_Wrapper(1);
+            printf("3\n");
+            Sleep_Wrapper(1);
+            printf("2\n");
+            Sleep_Wrapper(1);
+            printf("1\n");
+            Sleep_Wrapper(1);
+            printf("KaBooM ! ! !\n");
+            Sleep_Wrapper(1);
+            exit(0);
+    }
+
+    return attackCoord;
+}
+
+static EA_CheckerBlock GetNextCheckerBlock()
+{
+
+        
+}
+
+
+static BS_Coortinates_t GetNextSearchCoord(EA_CheckerBlock _checkerBlock)
+{
+
 }
 
 
 
 
+static BS_Coortinates_t GetFirstHitCoordinateFound()
+{
+
+}
+
+
+static BS_Coortinates_t GetNextDestroyCoord(BS_Coortinates_t _attackAndDestroyCoord)
+{
+
+}
 
 
 
+
+void Sleep_Wrapper(unsigned int _sleepTimeSecs)
+{
+    #ifdef __linux__ 
+        sleep(_sleepTimeSecs);
+    #elif _WIN32
+        Sleep(1);
+    #elif __APPLE__
+        /*TODO*/
+    #endif
+}

@@ -1,2 +1,7 @@
 ﻿  BSPlayer.c
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(124): warning C4018: '<=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(197): warning C4716: 'GetNextSearchCoord': must return a value
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(211): warning C4716: 'GetNextDestroyCoord': must return a value
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(191): warning C4716: 'GetNextCheckerBlock': must return a value
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(205): warning C4716: 'GetFirstHitCoordinateFound': must return a value
   BSPlayer2.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer2.dll
