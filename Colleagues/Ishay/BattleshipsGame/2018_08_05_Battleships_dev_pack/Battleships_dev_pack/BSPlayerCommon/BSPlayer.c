@@ -245,8 +245,8 @@ static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipC
 	shipCoord.ship_start.x = curShip;
 	shipCoord.ship_start.y = 0;
 	shipCoord.ship_end.x = curShip;
-	shipCoord.ship_end.y = s_ship_sizes[curShip + 1];
 	++curShip;
+	shipCoord.ship_end.y = s_ship_sizes[curShip] - 1;
 	//shipCoord.ship_start = shipStart;
 	//shipCoord.ship_end = shipEnd;
 	return shipCoord;
@@ -262,10 +262,10 @@ static void PlaceAllShips(BS_Board_t* p_board)
 	{
 		while (BS_BE_OK != bsBoardError)
 		{
-			bsBoardError = BS_BE_SHIP_OUT_OF_BOUNDS;
 			curShipCoordinate = CalculateShipPlacement(p_board, curShip);
 			bsBoardError = BS_Board_PlaceShip(p_board, curShip, &curShipCoordinate);
 		}
+		bsBoardError = BS_BE_SHIP_OUT_OF_BOUNDS;
 	}
 }
 
