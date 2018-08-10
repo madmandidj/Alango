@@ -1,16 +1,16 @@
-FLAGS = -g -ansi -pedantic -Wall -Wconversion -m32
-INC_PATH = ../../inc/
-objects = BinarySearchTree.o TEST_BinarySearchTree.o
+#FLAGS = -g -ansi -pedantic -Wall -Wconversion -m32
+INC_PATH = ./inc/
+DLL_PATH = ./bin/
+SRC_PATH = ./source/
 
+all: BSPlayerX.dll BSPlayerX.o
 
-TEST_BinarySearchTree.out: $(objects) 
-	gcc $(FLAGS) -o TEST_BinarySearchTree.out  $(objects)
+BSPlayerX.dll: BSPlayerX.o $(DLL_PATH)BSEngine.dll 
+	gcc -shared -o $(DLL_PATH)BSPlayerX.dll BSPlayerX.o $(DLL_PATH)BSEngine.dll 
 
-TEST_BinarySearchTree.o: TEST_BinarySearchTree.c $(INC_PATH)BinarySearchTree.h $(INC_PATH)mu_test.h $(INC_PATH)ADTErr.h
-	gcc $(FLAGS) -c TEST_BinarySearchTree.c
-
-BinarySearchTree.o: BinarySearchTree.c $(INC_PATH)BinarySearchTree.h $(INC_PATH)ADTErr.h
-	gcc $(FLAGS) -c BinarySearchTree.c
+BSPlayerX.o: $(SRC_PATH)BSPlayer.c $(INC_PATH)BSPlayer.h 
+	gcc -c -DBUILDING_EXAMPLE_DLL $(SRC_PATH)BSPlayer.c -o BSPlayerX.o
 
 clean:
-	rm $(objects) TEST_BinarySearchTree.out
+	erase BSPlayerX.o 
+	erase .\bin\BSPlayerX.dll 

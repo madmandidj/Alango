@@ -8,7 +8,7 @@
     /*TODO*/
 #endif
 #include <math.h>
-#include "BSPlayer.h"
+#include "../inc/BSPlayer.h"
 
 /* #define BS_BOARD_SIZE 10                                    /* BSEngine_board.h */
 /* typedef int BS_Board_t[BS_BOARD_SIZE][BS_BOARD_SIZE];       /* BSEngine_board.h */
