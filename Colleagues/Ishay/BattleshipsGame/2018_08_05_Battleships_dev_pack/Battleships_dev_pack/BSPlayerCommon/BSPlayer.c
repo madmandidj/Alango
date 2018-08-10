@@ -16,6 +16,7 @@
 #define SIDE_LENGTH_IN_BLOCKS 5 /* because 5 * 5 = 25 */
 #define NUM_OF_COORDINATES ((BS_BOARD_SIZE * BS_BOARD_SIZE))
 #define NUM_OF_COORD_PER_BLOCK ((NUM_OF_COORDINATES / NUM_OF_SEARCH_BLOCKS))
+#define NUM_OF_SHIPS 5
 /*********************************************
 TYPEDEFS AND ENUMS
 *********************************************/
@@ -68,6 +69,7 @@ static unsigned int s_numOfShips = 5;
 static EA_SearchBlockBoard s_searchBoard = { 0 };
 static unsigned int s_attackMode = 0;
 static unsigned int s_currentSearchBlock = 0;
+static BS_ShipCoordinates_t s_shipsCoordContainer[NUM_OF_SHIPS];
 /*********************************************
 API FUNCTIONS DEFINITIONS
 *********************************************/
@@ -107,7 +109,12 @@ void status_cb(BS_HitStatus_t status)
 {
 	unsigned int areAllShipsSunk = 0;
 	BS_Coortinates_t coord;
+	BS_Coortinates_t curStart;
+	BS_Coortinates_t curEnd;
+	unsigned int curPos;
+	unsigned int curShip;
 	unsigned int curRow;
+	unsigned int finalCurPos;
 
 	switch (status)
 	{
@@ -115,10 +122,76 @@ void status_cb(BS_HitStatus_t status)
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = EMPTYMISS;
 		break;
 	case BS_HS_HIT:
+		s_attackMode = DESTROY_ATTACK;
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = HITSHIP;
 		break;
 	default:
-		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = HITSHIP;
+		s_attackMode = SEARCH_ATTACK;
+		for (curShip = 0; curShip < NUM_OF_SHIPS; ++curShip)
+		{
+			if (s_shipsCoordContainer[curShip].ship_start.x == s_shipsCoordContainer[curShip].ship_end.x)
+			{
+				if (s_shipsCoordContainer[curShip].ship_start.y < s_shipsCoordContainer[curShip].ship_end.y)
+				{
+					for (curPos = s_shipsCoordContainer[curShip].ship_start.y; curPos <= s_shipsCoordContainer[curShip].ship_end.y; ++curPos)
+					{
+						if (s_myAttackCoord.y == curPos)
+						{
+							for (finalCurPos = s_shipsCoordContainer[curShip].ship_start.y; finalCurPos <= s_shipsCoordContainer[curShip].ship_end.y; ++finalCurPos)
+							{
+								s_statusBoard.m_eaStatusBoard[s_shipsCoordContainer[curShip].ship_start.x][finalCurPos] = SUNKSHIP;
+							}
+							return;
+						}
+					}
+				}
+				else
+				{
+					for (curPos = s_shipsCoordContainer[curShip].ship_end.y; curPos <= s_shipsCoordContainer[curShip].ship_start.y; ++curPos)
+					{
+						if (s_myAttackCoord.y == curPos)
+						{
+							for (finalCurPos = s_shipsCoordContainer[curShip].ship_end.y; finalCurPos <= s_shipsCoordContainer[curShip].ship_start.y; ++finalCurPos)
+							{
+								s_statusBoard.m_eaStatusBoard[s_shipsCoordContainer[curShip].ship_start.x][finalCurPos] = SUNKSHIP;
+							}
+							return;
+						}
+					}
+				}
+			}
+			else
+			{
+				if (s_shipsCoordContainer[curShip].ship_start.x < s_shipsCoordContainer[curShip].ship_end.x)
+				{
+					for (curPos = s_shipsCoordContainer[curShip].ship_start.x; curPos <= s_shipsCoordContainer[curShip].ship_end.x; ++curPos)
+					{
+						if (s_myAttackCoord.x == curPos)
+						{
+							for (finalCurPos = s_shipsCoordContainer[curShip].ship_start.x; finalCurPos <= s_shipsCoordContainer[curShip].ship_end.x; ++finalCurPos)
+							{
+								s_statusBoard.m_eaStatusBoard[finalCurPos][s_shipsCoordContainer[curShip].ship_start.y] = SUNKSHIP;
+							}
+							return;
+						}
+					}
+				}
+				else
+				{
+					for (curPos = s_shipsCoordContainer[curShip].ship_end.x; curPos <= s_shipsCoordContainer[curShip].ship_start.x; ++curPos)
+					{
+						if (s_myAttackCoord.x == curPos)
+						{
+							for (finalCurPos = s_shipsCoordContainer[curShip].ship_end.x; finalCurPos <= s_shipsCoordContainer[curShip].ship_start.x; ++finalCurPos)
+							{
+								s_statusBoard.m_eaStatusBoard[finalCurPos][s_shipsCoordContainer[curShip].ship_start.y] = SUNKSHIP;
+							}
+							return;
+						}
+					}
+				}
+			}
+		}
 		break;
 	}
 }
@@ -170,6 +243,8 @@ static void PlaceAllShips(BS_Board_t* p_board)
 			curShipCoordinate = CalculateShipPlacement(p_board, curShip);
 			bsBoardError = BS_Board_PlaceShip(p_board, curShip, &curShipCoordinate);
 		}
+		s_shipsCoordContainer[curShip - 1].ship_start = curShipCoordinate.ship_start;
+		s_shipsCoordContainer[curShip - 1].ship_end = curShipCoordinate.ship_end;
 		bsBoardError = BS_BE_SHIP_OUT_OF_BOUNDS;
 	}
 }
@@ -199,16 +274,13 @@ static BS_Coortinates_t CalculateAttackCoordinate()
             break;
 
         case DESTROY_ATTACK:
-            while (!isAttackCoordValid)
-            {
-                attackAndDestroyCoord = GetFirstHitCoordinateFound();
-				if (attackAndDestroyCoord.x > BS_BOARD_SIZE)
-				{
-					attackCoord = GetNextSearchCoord();
-					break;
-				}
-                attackCoord = GetNextDestroyCoord(attackAndDestroyCoord);
-            } 
+            attackAndDestroyCoord = GetFirstHitCoordinateFound();
+			if (attackAndDestroyCoord.x > BS_BOARD_SIZE)
+			{
+				attackCoord = GetNextSearchCoord();
+				break;
+			}
+            attackCoord = GetNextDestroyCoord(attackAndDestroyCoord);
             break;
 
         default:

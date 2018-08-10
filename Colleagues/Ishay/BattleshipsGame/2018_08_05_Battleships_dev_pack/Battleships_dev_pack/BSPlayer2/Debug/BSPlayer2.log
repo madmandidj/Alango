@@ -1,8 +1,9 @@
 ﻿  BSPlayer.c
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(124): warning C4018: '<=': signed/unsigned mismatch
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(149): warning C4101: 'searchBlock': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(257): warning C4716: 'GetNextDestroyCoord': must return a value
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(251): warning C4716: 'GetFirstHitCoordinateFound': must return a value
-  LINK : C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer2.dll not found or not built by the last incremental link; performing full link
-     Creating library C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer2.lib and object C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer2.exp
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(111): warning C4101: 'coord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(112): warning C4101: 'curStart': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(113): warning C4101: 'curEnd': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(116): warning C4101: 'curRow': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(239): warning C4018: '<=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(398): warning C4101: 'curCoordNum': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(438): warning C4715: 'GetNextDestroyCoord': not all control paths return a value
   BSPlayer2.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer2.dll
