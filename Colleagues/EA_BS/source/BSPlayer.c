@@ -10,22 +10,13 @@
 #include <math.h>
 #include "BSPlayer.h"
 
-#define NUM_OF_SEARCH_BLOCKS 25
-#define SIDE_LENGTH_IN_BLOCKS 5 /* because 5 * 5 = 25 */
 #define NUM_OF_COORDINATES ((BS_BOARD_SIZE * BS_BOARD_SIZE))
-#define NUM_OF_COORD_PER_BLOCK ((NUM_OF_COORDINATES / NUM_OF_SEARCH_BLOCKS))
 #define NUM_OF_CHECKERED_COORD ((NUM_OF_COORDINATES) / (2))
 #define NUM_OF_SHIPS 5
+#define TOTAL_NUM_OF_EXPECTED_HITS 17
 /*********************************************
 TYPEDEFS AND ENUMS
 *********************************************/
-typedef struct 
-{
-    BS_Coortinates_t m_searchBlock[NUM_OF_COORD_PER_BLOCK/2][NUM_OF_COORD_PER_BLOCK/2];
-}EA_SearchBlock;
-
-typedef EA_SearchBlock EA_SearchBlockBoard[SIDE_LENGTH_IN_BLOCKS][SIDE_LENGTH_IN_BLOCKS];
-
 typedef enum 
 {
     SEARCH_ATTACK,
@@ -57,24 +48,23 @@ typedef struct EA_StatusBoard
 STATIC FUNCTION DECLARATIONS
 *********************************************/
 static void InitAttackBoard();
-static void InitSearchBoard();
+//static void InitSearchBoard();
 static void PlaceAllShips(BS_Board_t* p_board);
 static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipClass_t _ship);
 static BS_Coortinates_t CalculateAttackCoordinate();
-static BS_HitStatus_t GetBCHitStatus(unsigned int _x, unsigned int _y);
-// static EA_SearchBlock GetNextSearchBlock();
+//static BS_HitStatus_t GetBCHitStatus(unsigned int _x, unsigned int _y);
 static BS_Coortinates_t GetNextSearchCoord();
-static BS_Coortinates_t GetFirstHitCoordinateFound();
-static BS_Coortinates_t GetNextDestroyCoord(BS_Coortinates_t _attackAndDestroyCoord);
+//static BS_Coortinates_t GetFirstHitCoordinateFound();
+static BS_Coortinates_t GetNextDestroyCoord();
 static BS_Coortinates_t GetDestroyDirectionCoord();
 void Sleep_Wrapper(unsigned int _sleepTimeSecs);
 static unsigned int IsCheckeredCoordinate(unsigned int _row, unsigned int _col);
 static unsigned int IsValidAttackCoordinate(BS_Coortinates_t _coord);
+
 /*********************************************
 STATIC GLOBALS INSTANTIATION
 *********************************************/
 static const unsigned int s_ship_sizes[] = {0,2,3,3,4,5};
-//static BS_Board_t s_attackBoard = { 0 };
 static EA_StatusBoard s_statusBoard;
 static int s_myAttackResult[2] = { 0 };
 static BS_Coortinates_t s_myAttackCoord;
@@ -82,20 +72,21 @@ static BS_Coortinates_t s_firstHitCoord;
 static BS_Coortinates_t s_prevDestroyCoord;
 static PotentialDestroyDirections s_curDestroyDirection;
 static unsigned int s_numOfShips = 5;
-static EA_SearchBlockBoard s_searchBoard = { 0 };
 static unsigned int s_attackMode = 0;
 static unsigned int s_prevAttackMode = 0;
 static unsigned int s_currentSearchBlock = 0;
 static BS_ShipCoordinates_t s_shipsCoordContainer[NUM_OF_SHIPS];
 static unsigned int s_numOfAttackedSearchCheckers = 0;
 static DestroyedDirectionsResults s_destroyedDirectionResults;
+static unsigned int s_curTotalNumOfHits = 0;
+static unsigned int s_destroyDirectionOffset = 1;
+static unsigned int s_curSearchNumRep = 0;
 /*********************************************
 API FUNCTIONS DEFINITIONS
 *********************************************/
 void staging_cb(BS_Board_t* p_board)
 {
 	InitAttackBoard();
-	// InitSearchBoard();
 	PlaceAllShips(p_board);
 }
 
@@ -115,22 +106,8 @@ void turn_cb(BS_Coortinates_t* p_coordinates)
 	}
 	p_coordinates->x = myCoord.x;
 	p_coordinates->y = myCoord.y;
+	++s_curSearchNumRep;
 }
-
-
-
-/*/
-typedef enum {
-	BS_HS_MISS,
-	BS_HS_HIT,
-	BS_HS_DESTROYER_SUNK,
-	BS_HS_SUBMARINE_SUNK,
-	BS_HS_CRUISER_SUNK,
-	BS_HS_BATTLESHIP_SUNK,
-	BS_HS_CARRIER_SUNK
-} BS_HitStatus_t;
-*/
-
 
 void status_cb(BS_HitStatus_t status)
 {
@@ -152,7 +129,9 @@ void status_cb(BS_HitStatus_t status)
 		}
 		else if (DESTROY_DIRECTION == s_attackMode)
 		{
-			s_attackMode = DESTROY_ATTACK;
+			//s_attackMode = DESTROY_ATTACK;
+			s_prevDestroyCoord = s_firstHitCoord;
+			s_attackMode = DESTROY_DIRECTION;
 		}
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = EMPTYMISS;
 		break;
@@ -160,6 +139,7 @@ void status_cb(BS_HitStatus_t status)
 		if (SEARCH_ATTACK == s_attackMode)
 		{
 			s_attackMode = DESTROY_ATTACK;
+			s_prevDestroyCoord = s_myAttackCoord;
 			s_firstHitCoord = s_myAttackCoord;
 		}
 		else if (DESTROY_ATTACK == s_attackMode)
@@ -172,14 +152,17 @@ void status_cb(BS_HitStatus_t status)
 			s_prevDestroyCoord = s_myAttackCoord;
 		}
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = HITSHIP;
+		++s_curTotalNumOfHits;
 		break;
 	default:
+		++s_curTotalNumOfHits;
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = SUNKSHIP;
 		s_attackMode = SEARCH_ATTACK;
 		s_destroyedDirectionResults[0] = 0;
 		s_destroyedDirectionResults[1] = 0;
 		s_destroyedDirectionResults[2] = 0;
 		s_destroyedDirectionResults[3] = 0;
+		s_destroyDirectionOffset = 1;
 		break;
 	}
 }
@@ -191,7 +174,8 @@ static void InitAttackBoard()
 {
 	size_t xPos;
 	size_t yPos;
-
+	srand(time(NULL));
+	s_curSearchNumRep = 0;
 	for (xPos = 0; xPos < BS_BOARD_SIZE; ++xPos)
 	{
 		for (yPos = 0; yPos < BS_BOARD_SIZE; ++yPos)
@@ -200,23 +184,6 @@ static void InitAttackBoard()
 		}
 	}
 }
-
-// static void InitSearchBoard()
-// {
-//     unsigned int curCol;
-//     unsigned curRow;
-//     unsigned int shouldStartSecondRow = 1;
-
-//     for (curCol = 0; curCol < BS_BOARD_SIZE; ++curCol)
-//     {
-//         curRow = shouldStartSecondRow ? 0 : 1;
-//         while (curRow < BS_BOARD_SIZE)
-//         {
-//             s_searchBoard[curCol][curRow] = (0 == (curRow % 2)) ? (shouldStartSecondRow ? 0 : 1) : (shouldStartSecondRow ? 1 : 0); 
-//             ++curRow;
-//         } 
-//     }
-// }
 
 static void PlaceAllShips(BS_Board_t* p_board)
 {
@@ -253,29 +220,20 @@ static BS_Coortinates_t CalculateAttackCoordinate()
 {
     BS_Coortinates_t attackCoord;
     BS_Coortinates_t attackAndDestroyCoord;
-    //EA_SearchBlock searchBlock;
     unsigned int isAttackCoordValid = 0;
 
     switch (s_attackMode)
     {
         case SEARCH_ATTACK:
-                // searchBlock = GetNextSearchBlock();
-                attackCoord = GetNextSearchCoord();
+            attackCoord = GetNextSearchCoord();
             break;
 
         case DESTROY_ATTACK:
-           /* attackAndDestroyCoord = GetFirstHitCoordinateFound();
-			if (attackAndDestroyCoord.x > BS_BOARD_SIZE)
-			{
-				attackCoord = GetNextSearchCoord();
-				break;
-			}*/
-            attackCoord = GetNextDestroyCoord(s_myAttackCoord);
+            attackCoord = GetNextDestroyCoord();
             break;
 		case DESTROY_DIRECTION:
 			attackCoord = GetDestroyDirectionCoord();
 			break;
-
         default:
             printf("\n\nI cannot play anything other than search and destroy. Mua ha ha. This game will self destruct in\n\n 5\n");
 
@@ -292,63 +250,91 @@ static BS_Coortinates_t CalculateAttackCoordinate()
             Sleep_Wrapper(1);
             exit(0);
     }
-
     return attackCoord;
 }
 
 static BS_Coortinates_t GetNextSearchCoord()
 {
-    unsigned int curCoord = 0;
-    unsigned int isFound = 0;
-    unsigned int isValidCheckerSpot = 0;
-    unsigned int curRow;
-    unsigned int curCol;
-    BS_Coortinates_t searchCoord;
+	unsigned int curCoord = 0;
+	unsigned int isFound = 0;
+	unsigned int isValidCheckerSpot = 0;
+	unsigned int curRow = 0;
+	unsigned int curCol = 0;
+	BS_Coortinates_t searchCoord;
 	BS_Coortinates_t tempCoord;
+	unsigned int curSearchRepNum = 0;
 
+	/*if (16 == s_curTotalNumOfHits)
+	{
+		while (1)
+		{
+			if ((HITSHIP == s_statusBoard.m_eaStatusBoard[curCoord / 10][curCoord % 10]) || SUNKSHIP == (s_statusBoard.m_eaStatusBoard[curCoord / 10][curCoord % 10]))
+			{
 
-    while (!isFound)
-    {
-        isValidCheckerSpot = 0;
-        while(!isValidCheckerSpot)
-        {
-            curCoord = rand() % 11;
-            curRow = curCoord > 9 ? 0 : curCoord;
-            curCoord = rand() % 11;
-            curCol = curCoord > 9 ? 0 : curCoord;
-            /*if((curRow % 2) && (curCol % 2))
-            {
-                isValidCheckerSpot = 1;
-            }
-            else if (!(curRow % 2) && !(curCol % 2))
-            {
-                isValidCheckerSpot = 1;
-            }*/
-			isValidCheckerSpot = IsCheckeredCoordinate(curRow, curCol);
-			if (!isValidCheckerSpot)
-			{
-				continue;
 			}
-           /* if (EMPTY != s_statusBoard.m_eaStatusBoard[curRow][curCol])
-            {
-                isValidCheckerSpot = 0;
-            }*/
-			tempCoord.x = curRow;
-			tempCoord.y = curCol;
-			if (!(isValidCheckerSpot = IsValidAttackCoordinate(tempCoord)))
+			else
 			{
-				isValidCheckerSpot = 0;
+
 			}
-            else
-            {
-                isFound = 1;
-				break;
-            }
-        }
-    }
-    searchCoord.x = curRow;
-    searchCoord.y = curCol;
-    return searchCoord;
+
+		}
+	}*/
+	if (60 <= s_curSearchNumRep)
+	{
+		while (1)
+		{
+			for (curRow = 0; curRow < BS_BOARD_SIZE; ++curRow)
+			{
+				for (curCol = 0; curCol < BS_BOARD_SIZE; ++curCol)
+				{
+					if (EMPTY == s_statusBoard.m_eaStatusBoard[curRow][curCol])
+					{
+						searchCoord.x = curRow;
+						searchCoord.y = curCol;
+						return searchCoord;
+					}
+
+				}
+			}
+		}
+	}
+	else
+	{
+		while (!isFound)
+		{
+			//srand(time(NULL));
+			isValidCheckerSpot = 0;
+			while (!isValidCheckerSpot)
+			{
+
+				curCoord = rand() % 11;
+				curRow = curCoord > 9 ? 0 : curCoord;
+				//srand(time(NULL));
+				curCoord = rand() % 11;
+				curCol = curCoord > 9 ? 0 : curCoord;
+				isValidCheckerSpot = IsCheckeredCoordinate(curRow, curCol);
+				if (!isValidCheckerSpot)
+				{
+					continue;
+				}
+				tempCoord.x = curRow;
+				tempCoord.y = curCol;
+				if (!(isValidCheckerSpot = IsValidAttackCoordinate(tempCoord)))
+				{
+					isValidCheckerSpot = 0;
+				}
+				else
+				{
+					isFound = 1;
+					break;
+				}
+			}
+		}
+	}
+	searchCoord.x = curRow;
+	searchCoord.y = curCol;
+	++curSearchRepNum;
+	return searchCoord;
 }
 
 
@@ -380,45 +366,12 @@ static unsigned int IsCheckeredCoordinate(unsigned int _row, unsigned int _col)
 	return 0;
 }
 
-
-
-//static BS_Coortinates_t GetFirstHitCoordinateFound()
-//{
-//	BS_Coortinates_t firstHitCoordFound;
-//	unsigned int isFound = 0;
-//	unsigned int curRow;
-//	unsigned int curCol;
-//
-//	for (curRow = 0; curRow < BS_BOARD_SIZE; ++curRow)
-//	{
-//		for (curCol = 0; curCol < BS_BOARD_SIZE; ++curCol)
-//		{
-//			if ( HITSHIP == s_statusBoard.m_eaStatusBoard[curRow][curCol])
-//			{
-//				firstHitCoordFound.x = curRow;
-//				firstHitCoordFound.y = curCol;
-//				return firstHitCoordFound;
-//			}
-//		}
-//	}
-//	firstHitCoordFound.x = BS_BOARD_SIZE + 1;
-//	firstHitCoordFound.y = BS_BOARD_SIZE + 1;
-//	return firstHitCoordFound;
-//}
-
-
-static BS_Coortinates_t GetNextDestroyCoord(BS_Coortinates_t _attackAndDestroyCoord)
+static BS_Coortinates_t GetNextDestroyCoord()
 {
 	BS_Coortinates_t firstHitnorth;
 	BS_Coortinates_t firstHitsouth;
 	BS_Coortinates_t firstHiteast;
 	BS_Coortinates_t firstHitwest;
-	BS_Coortinates_t north;
-	BS_Coortinates_t south;
-	BS_Coortinates_t east;
-	BS_Coortinates_t west;
-	unsigned int curCoordNum;
-	unsigned int index;
 
 	firstHitnorth.x = s_firstHitCoord.x + 1;
 	firstHitnorth.y = s_firstHitCoord.y;
@@ -450,113 +403,39 @@ static BS_Coortinates_t GetNextDestroyCoord(BS_Coortinates_t _attackAndDestroyCo
 		return firstHitwest;
 	}
 
+	firstHitnorth.x = s_firstHitCoord.x + 2;
+	firstHitnorth.y = s_firstHitCoord.y;
+	firstHitsouth.x = s_firstHitCoord.x - 2;
+	firstHitsouth.y = s_firstHitCoord.y;
+	firstHiteast.x = s_firstHitCoord.x;
+	firstHiteast.y = s_firstHitCoord.y + 2;
+	firstHitwest.x = s_firstHitCoord.x;
+	firstHitwest.y = s_firstHitCoord.y - 2;
+
+	if (IsValidAttackCoordinate(firstHitnorth))
+	{
+		s_curDestroyDirection = NORTH;
+		return firstHitnorth;
+	}
+	else if (IsValidAttackCoordinate(firstHitsouth))
+	{
+		s_curDestroyDirection = SOUTH;
+		return firstHitsouth;
+	}
+	else if (IsValidAttackCoordinate(firstHiteast))
+	{
+		s_curDestroyDirection = EAST;
+		return firstHiteast;
+	}
+	else if (IsValidAttackCoordinate(firstHitwest))
+	{
+		s_curDestroyDirection = WEST;
+		return firstHitwest;
+	}
+
+
 	return GetNextSearchCoord();
-
-
-	//north.x = _attackAndDestroyCoord.x + 1;
-	//north.y = _attackAndDestroyCoord.y;
-	//south.x = _attackAndDestroyCoord.x - 1;
-	//south.y = _attackAndDestroyCoord.y;
-	//east.x = _attackAndDestroyCoord.x;
-	//east.y = _attackAndDestroyCoord.y + 1;
-	//west.x = _attackAndDestroyCoord.x;
-	//west.y = _attackAndDestroyCoord.y - 1;
-
-	//if (firstHitnorth.x < BS_BOARD_SIZE)
-	//{
-
-	//}
-
-	//for (index = 0; index < 4; ++index)
-	//{
-	//	if (0 < s_destroyedDirectionResults[index])
-	//	{
-	//		if (0 == index % 2)
-	//		{
-	//			if (0 < s_destroyedDirectionResults[index + 1])
-	//			{
-	//				if (0 < s_destroyedDirectionResults[index + 1])
-	//				{
-
-	//				}
-	//			}
-	//		}
-	//	}
-	//}
-
-
-
-
-
-	//if (HITSHIP != s_statusBoard.m_eaStatusBoard[_attackAndDestroyCoord.x][_attackAndDestroyCoord.y])
-	//{
-	//	
-	//}
-
-
-
-	//if (north.x < BS_BOARD_SIZE)
-	//{
-	//	if (EMPTY == s_statusBoard.m_eaStatusBoard[north.x][north.y])
-	//	{
-	//		return north;
-	//	}
-	//	if (HITSHIP == s_statusBoard.m_eaStatusBoard[north.x][north.y])
-	//	{
-	//		if (EMPTY == s_statusBoard.m_eaStatusBoard[south.x][south.y])
-	//		{
-	//			return south;
-	//		}
-	//	}
-	//}
-	//if (south.x < BS_BOARD_SIZE)
-	//{
-	//	if (EMPTY == s_statusBoard.m_eaStatusBoard[south.x][south.y])
-	//	{
-	//		return south;
-	//	}
-	//	if (HITSHIP == s_statusBoard.m_eaStatusBoard[south.x][south.y])
-	//	{
-	//		if (EMPTY == s_statusBoard.m_eaStatusBoard[north.x][north.y])
-	//		{
-	//			return north;
-	//		}
-	//	}
-	//}
-	//if (east.x < BS_BOARD_SIZE)
-	//{
-	//	if (EMPTY == s_statusBoard.m_eaStatusBoard[east.x][east.y])
-	//	{
-	//		return east;
-	//	}
-	//	if (HITSHIP == s_statusBoard.m_eaStatusBoard[east.x][east.y])
-	//	{
-	//		if (EMPTY == s_statusBoard.m_eaStatusBoard[west.x][west.y])
-	//		{
-	//			return west;
-	//		}
-	//	}
-	//}
-	//if (west.x < BS_BOARD_SIZE)
-	//{
-	//	if (EMPTY == s_statusBoard.m_eaStatusBoard[west.x][west.y])
-	//	{
-	//		return west;
-	//	}
-	//	if (HITSHIP == s_statusBoard.m_eaStatusBoard[west.x][west.y])
-	//	{
-	//		if (EMPTY == s_statusBoard.m_eaStatusBoard[east.x][east.y])
-	//		{
-	//			return east;
-	//		}
-	//	}
-	//}
-
-
 }
-
-
-
 
 static BS_Coortinates_t GetDestroyDirectionCoord()
 {
@@ -567,6 +446,7 @@ static BS_Coortinates_t GetDestroyDirectionCoord()
 	BS_Coortinates_t nextWest;
 	unsigned int isFound = 0;
 	unsigned int numOfReps = 0;
+	static unsigned int offset = 1;
 
 	nextNorth.x = s_prevDestroyCoord.x - 1;
 	nextNorth.y = s_prevDestroyCoord.y;
@@ -582,7 +462,45 @@ static BS_Coortinates_t GetDestroyDirectionCoord()
 		++numOfReps;
 		if (numOfReps >= 5)
 		{
-			return GetNextSearchCoord();
+			while (!IsValidAttackCoordinate(nextNorth) &&
+				!IsValidAttackCoordinate(nextSouth) &&
+				!IsValidAttackCoordinate(nextEast) &&
+				!IsValidAttackCoordinate(nextWest))
+			{
+				if (s_destroyDirectionOffset > BS_BOARD_SIZE - 1)
+				{
+					while (!IsValidAttackCoordinate(nextNorth) &&
+						!IsValidAttackCoordinate(nextSouth) &&
+						!IsValidAttackCoordinate(nextEast) &&
+						!IsValidAttackCoordinate(nextWest))
+					{
+						s_destroyDirectionOffset = 2;
+						nextNorth.x = s_prevDestroyCoord.x - s_destroyDirectionOffset;
+						nextNorth.y = s_prevDestroyCoord.y;
+						nextSouth.x = s_prevDestroyCoord.x + s_destroyDirectionOffset;
+						nextSouth.y = s_prevDestroyCoord.y;
+						nextEast.x = s_prevDestroyCoord.x;
+						nextEast.y = s_prevDestroyCoord.y + s_destroyDirectionOffset;
+						nextWest.x = s_prevDestroyCoord.x;
+						nextWest.y = s_prevDestroyCoord.y - s_destroyDirectionOffset;
+						break;
+					}
+				}
+				else
+				{
+					++s_destroyDirectionOffset;
+					nextNorth.x = s_firstHitCoord.x - s_destroyDirectionOffset;
+					nextNorth.y = s_firstHitCoord.y;
+					nextSouth.x = s_firstHitCoord.x + s_destroyDirectionOffset;
+					nextSouth.y = s_firstHitCoord.y;
+					nextEast.x = s_firstHitCoord.x;
+					nextEast.y = s_firstHitCoord.y + s_destroyDirectionOffset;
+					nextWest.x = s_firstHitCoord.x;
+					nextWest.y = s_firstHitCoord.y - s_destroyDirectionOffset;
+				}
+			}
+			numOfReps = 1;
+			//return GetNextSearchCoord();
 		}
 		switch (s_curDestroyDirection)
 		{

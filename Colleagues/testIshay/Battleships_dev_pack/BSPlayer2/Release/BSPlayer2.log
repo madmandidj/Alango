@@ -1,0 +1,13 @@
+﻿  BSPlayer.c
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(88): warning C4018: '>=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(94): warning C4018: '<': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(102): warning C4018: '>': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(125): warning C4018: '>=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(131): warning C4018: '<': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\testishay\battleships_dev_pack\bsplayercommon\bsplayer.c(139): warning C4018: '>': signed/unsigned mismatch
+     Creating library C:\Users\Eyal.Alon\Desktop\testIshay\Battleships_dev_pack\Release\BSPlayer2.lib and object C:\Users\Eyal.Alon\Desktop\testIshay\Battleships_dev_pack\Release\BSPlayer2.exp
+  Generating code
+  All 5 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BSPlayer2.vcxproj -> C:\Users\Eyal.Alon\Desktop\testIshay\Battleships_dev_pack\Release\BSPlayer2.dll

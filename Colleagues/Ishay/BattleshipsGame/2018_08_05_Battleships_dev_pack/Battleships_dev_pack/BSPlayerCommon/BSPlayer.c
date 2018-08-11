@@ -14,6 +14,7 @@
 #define NUM_OF_CHECKERED_COORD ((NUM_OF_COORDINATES) / (2))
 #define NUM_OF_SHIPS 5
 #define TOTAL_NUM_OF_EXPECTED_HITS 17
+#define SEARCH_NUM_REP_LIMIT 200000
 /*********************************************
 TYPEDEFS AND ENUMS
 *********************************************/
@@ -106,7 +107,7 @@ void turn_cb(BS_Coortinates_t* p_coordinates)
 	}
 	p_coordinates->x = myCoord.x;
 	p_coordinates->y = myCoord.y;
-	++s_curSearchNumRep;
+	//++s_curSearchNumRep;
 }
 
 void status_cb(BS_HitStatus_t status)
@@ -131,6 +132,8 @@ void status_cb(BS_HitStatus_t status)
 		{
 			//s_attackMode = DESTROY_ATTACK;
 			s_prevDestroyCoord = s_firstHitCoord;
+			++s_curDestroyDirection;
+			s_curDestroyDirection %= 4;
 			s_attackMode = DESTROY_DIRECTION;
 		}
 		s_statusBoard.m_eaStatusBoard[s_myAttackCoord.x][s_myAttackCoord.y] = EMPTYMISS;
@@ -208,6 +211,17 @@ static BS_ShipCoordinates_t CalculateShipPlacement(BS_Board_t* p_board, BS_ShipC
 {
 	static unsigned int shipColPos = 0;
 	BS_ShipCoordinates_t shipCoord;
+	//unsigned int curShip;
+	//while (1)
+	//{
+	//	for (curShip = 1; curShip <= _ship; ++curShip)
+	//	{
+
+	//	}
+	//}
+
+
+
 	shipCoord.ship_start.x = _ship;
 	shipCoord.ship_start.y = 0;
 	shipCoord.ship_end.x = _ship;
@@ -279,7 +293,10 @@ static BS_Coortinates_t GetNextSearchCoord()
 
 		}
 	}*/
-	if (60 <= s_curSearchNumRep)
+
+
+
+	/*if (75 <= s_curSearchNumRep)
 	{
 		while (1)
 		{
@@ -297,16 +314,39 @@ static BS_Coortinates_t GetNextSearchCoord()
 				}
 			}
 		}
-	}
-	else
-	{
+	}*/
+	//else
+	//{
+	s_curSearchNumRep = 0;
 		while (!isFound)
 		{
 			//srand(time(NULL));
-			isValidCheckerSpot = 0;
-			while (!isValidCheckerSpot)
+			
+			if (SEARCH_NUM_REP_LIMIT <= s_curSearchNumRep)
 			{
+				while (1)
+				{
+					for (curRow = 0; curRow < BS_BOARD_SIZE; ++curRow)
+					{
+						for (curCol = 0; curCol < BS_BOARD_SIZE; ++curCol)
+						{
+							if (EMPTY == s_statusBoard.m_eaStatusBoard[curRow][curCol])
+							{
+								searchCoord.x = curRow;
+								searchCoord.y = curCol;
+								return searchCoord;
+							}
 
+						}
+					}
+				}
+			}
+
+
+			isValidCheckerSpot = 0;
+			while (!isValidCheckerSpot && SEARCH_NUM_REP_LIMIT > s_curSearchNumRep)
+			{
+				++s_curSearchNumRep;
 				curCoord = rand() % 11;
 				curRow = curCoord > 9 ? 0 : curCoord;
 				//srand(time(NULL));
@@ -330,7 +370,7 @@ static BS_Coortinates_t GetNextSearchCoord()
 				}
 			}
 		}
-	}
+	//}
 	searchCoord.x = curRow;
 	searchCoord.y = curCol;
 	++curSearchRepNum;

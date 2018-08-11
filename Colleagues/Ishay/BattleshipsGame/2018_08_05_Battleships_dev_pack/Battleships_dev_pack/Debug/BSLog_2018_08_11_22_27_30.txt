@@ -1,0 +1,55 @@
+Sat Aug 11 22:27:30 2018
+
+Round 1 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 1: [06,06] Miss
+Player 2: [07,09] Miss
+Player 1: [09,01] Miss
+Player 2: [10,02] Miss
+Player 1: [04,02] Hit
+Player 2: [01,07] Miss
+Player 1: [05,02] Hit
+Player 2: [03,07] Miss
+Player 1: [06,02] Hit
+Player 2: [06,08] Miss
+Player 1: [07,02] Miss
+Player 2: [01,05] Miss
+Player 1: [04,03] Hit
+Player 2: [05,07] Miss
+Player 1: [04,04] Miss
+Player 2: [08,08] Miss
+Player 1: [04,01] Cruiser sunk
+Player 2: [03,03] Hit
+Player 1: [01,07] Miss
+Player 2: [04,03] Hit
+Player 1: [04,08] Miss
+Player 2: [05,03] Hit
+Player 1: [01,09] Miss
+Player 2: [06,03] Hit
+Player 1: [05,03] Hit
+Player 2: [07,03] Miss
+Player 1: [06,03] Hit
+Player 2: [03,04] Miss

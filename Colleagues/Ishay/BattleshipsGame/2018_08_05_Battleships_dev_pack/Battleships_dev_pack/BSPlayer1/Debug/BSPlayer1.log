@@ -1,14 +1,14 @@
 ﻿  BSPlayer.c
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(119): warning C4101: 'curShip': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(115): warning C4101: 'coord': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(118): warning C4101: 'curPos': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(116): warning C4101: 'curStart': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(117): warning C4101: 'curEnd': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(120): warning C4101: 'curRow': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(121): warning C4101: 'finalCurPos': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(177): warning C4013: 'time' undefined; assuming extern returning int
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(194): warning C4018: '<=': signed/unsigned mismatch
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(222): warning C4101: 'attackAndDestroyCoord': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(442): warning C4101: 'nextCoord': unreferenced local variable
-c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(557): warning C4715: 'GetDestroyDirectionCoord': not all control paths return a value
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(120): warning C4101: 'curShip': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(116): warning C4101: 'coord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(119): warning C4101: 'curPos': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(117): warning C4101: 'curStart': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(118): warning C4101: 'curEnd': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(121): warning C4101: 'curRow': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(122): warning C4101: 'finalCurPos': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(180): warning C4013: 'time' undefined; assuming extern returning int
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(197): warning C4018: '<=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(236): warning C4101: 'attackAndDestroyCoord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(482): warning C4101: 'nextCoord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(597): warning C4715: 'GetDestroyDirectionCoord': not all control paths return a value
   BSPlayer1.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Debug\BSPlayer1.dll
