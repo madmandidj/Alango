@@ -1,0 +1,65 @@
+Sun Aug 12 08:31:17 2018
+
+Round 1 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 1: [02,02] Hit
+Player 2: [01,07] Miss
+Player 1: [03,02] Hit
+Player 2: [04,08] Miss
+Player 1: [04,02] Hit
+Player 2: [09,09] Miss
+Player 1: [05,02] Hit
+Player 2: [05,01] Hit
+Player 1: [06,02] Hit
+Player 2: [06,01] Hit
+Player 1: [07,02] Miss
+Player 2: [07,01] Miss
+Player 1: [02,03] Miss
+Player 2: [05,02] Hit
+Player 1: [02,01] Destroyer sunk
+Player 2: [05,03] Hit
+Player 1: [01,01] Miss
+Player 2: [05,04] Battleship sunk
+Player 1: [09,07] Miss
+Player 2: [01,01] Miss
+Player 1: [05,07] Miss
+Player 2: [06,04] Hit
+Player 1: [06,10] Miss
+Player 2: [07,04] Miss
+Player 1: [01,09] Miss
+Player 2: [06,05] Hit
+Player 1: [03,07] Miss
+Player 2: [06,06] Miss
+Player 1: [05,01] Hit
+Player 2: [06,03] Hit
+Player 1: [06,01] Hit
+Player 2: [06,02] Carrier sunk
+Player 1: [07,01] Miss
+Player 2: [06,08] Miss
+Player 1: [04,01] Hit
+Player 2: [03,09] Miss
+Player 1: [03,01] Hit
+Player 2: [04,02] Hit

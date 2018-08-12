@@ -1,0 +1,1048 @@
+Sun Aug 12 08:40:40 2018
+
+Round 1 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0002000000
+0002000300
+0002000300
+0000000300
+0015004000
+0015004000
+0005004000
+0005004000
+0005000000
+0000000000
+
+Player 1: [09,07] Miss
+Player 2: [05,05] Miss
+Player 1: [04,06] Hit
+Player 2: [06,06] Miss
+Player 1: [05,06] Miss
+Player 2: [04,04] Miss
+Player 1: [03,06] Hit
+Player 2: [07,07] Miss
+Player 1: [03,07] Miss
+Player 2: [07,03] Miss
+Player 1: [04,05] Hit
+Player 2: [03,07] Miss
+Player 1: [04,04] Miss
+Player 2: [08,04] Miss
+Player 1: [04,07] Hit
+Player 2: [04,08] Miss
+Player 1: [04,08] Hit
+Player 2: [08,08] Miss
+Player 1: [04,09] Carrier sunk
+Player 2: [03,03] Hit
+Player 1: [02,10] Miss
+Player 2: [04,03] Hit
+Player 1: [05,01] Miss
+Player 2: [05,03] Hit
+Player 1: [02,08] Miss
+Player 2: [05,02] Hit
+Player 1: [05,09] Miss
+Player 2: [06,02] Hit
+Player 1: [09,03] Miss
+Player 2: [07,02] Miss
+Player 1: [08,10] Miss
+Player 2: [06,03] Hit
+Player 1: [09,01] Miss
+Player 2: [06,04] Hit
+Player 1: [01,03] Miss
+Player 2: [06,05] Hit
+Player 1: [04,10] Miss
+Player 2: [08,05] Miss
+Player 1: [03,01] Miss
+Player 2: [06,07] Miss
+Player 1: [07,01] Miss
+Player 2: [07,05] Miss
+Player 1: [07,03] Miss
+Player 2: [06,01] Carrier sunk
+Player 1: [02,02] Miss
+Player 2: [02,06] Miss
+Player 1: [06,02] Miss
+Player 2: [05,09] Miss
+Player 1: [06,10] Miss
+Player 2: [03,02] Hit
+Player 1: [01,07] Miss
+Player 2: [04,02] Hit
+Player 1: [05,05] Miss
+Player 2: [02,02] Hit
+Player 1: [10,10] Miss
+Player 2: [02,03] Miss
+Player 1: [07,07] Hit
+Player 2: [01,02] Miss
+Player 1: [08,07] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [06,07] Miss
+Player 2: [09,06] Miss
+Player 1: [07,08] Hit
+Player 2: [05,01] Hit
+Player 1: [07,09] Miss
+Player 2: [07,01] Miss
+Player 1: [07,06] Hit
+Player 2: [04,01] Cruiser sunk
+Player 1: [07,05] Battleship sunk
+Player 2: [03,01] Submarine sunk
+Player 1: [03,03] Miss
+Player 2: [01,05] Miss
+Player 1: [10,08] Miss
+Player 2: [10,07] Miss
+Player 1: [08,06] Miss
+Player 2: [06,10] Miss
+Player 1: [10,04] Miss
+Player 2: [10,04] Miss
+Player 1: [05,07] Miss
+Player 2: [03,04] Miss
+Player 1: [01,09] Miss
+Player 2: [09,09] Miss
+Player 1: [08,08] Miss
+Player 2: [01,09] Miss
+Player 1: [06,06] Miss
+Player 2: [02,10] Miss
+Player 1: [03,09] Miss
+Player 2: [09,03] Miss
+Player 1: [01,05] Miss
+Player 2: [09,10] Miss
+Player 1: [01,01] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 10
+
+Player 2 game score: 117
+
+Round 2 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+0000050000
+0000050000
+0000050020
+3330050020
+0000050020
+0000000000
+0010000000
+0010000000
+0000044440
+
+Player 1: [07,07] Miss
+Player 2: [05,05] Miss
+Player 1: [08,08] Miss
+Player 2: [06,06] Miss
+Player 1: [05,01] Miss
+Player 2: [04,04] Miss
+Player 1: [04,06] Miss
+Player 2: [07,07] Miss
+Player 1: [05,07] Miss
+Player 2: [07,03] Miss
+Player 1: [02,10] Miss
+Player 2: [03,07] Miss
+Player 1: [03,09] Hit
+Player 2: [08,04] Miss
+Player 1: [04,09] Miss
+Player 2: [04,08] Miss
+Player 1: [02,09] Miss
+Player 2: [08,08] Miss
+Player 1: [03,10] Miss
+Player 2: [03,03] Hit
+Player 1: [03,08] Destroyer sunk
+Player 2: [04,03] Hit
+Player 1: [07,03] Miss
+Player 2: [05,03] Hit
+Player 1: [01,03] Miss
+Player 2: [05,02] Hit
+Player 1: [08,02] Miss
+Player 2: [06,02] Hit
+Player 1: [01,09] Miss
+Player 2: [07,02] Miss
+Player 1: [07,01] Miss
+Player 2: [06,03] Hit
+Player 1: [08,04] Miss
+Player 2: [06,04] Hit
+Player 1: [01,10] Miss
+Player 2: [06,05] Hit
+Player 1: [01,06] Miss
+Player 2: [08,05] Miss
+Player 1: [09,08] Miss
+Player 2: [06,07] Miss
+Player 1: [01,08] Miss
+Player 2: [07,05] Miss
+Player 1: [07,06] Miss
+Player 2: [06,01] Carrier sunk
+Player 1: [06,01] Miss
+Player 2: [02,06] Miss
+Player 1: [10,07] Miss
+Player 2: [05,09] Miss
+Player 1: [08,03] Miss
+Player 2: [03,02] Hit
+Player 1: [04,05] Miss
+Player 2: [04,02] Hit
+Player 1: [02,01] Miss
+Player 2: [02,02] Hit
+Player 1: [06,05] Hit
+Player 2: [02,03] Miss
+Player 1: [07,05] Miss
+Player 2: [01,02] Miss
+Player 1: [05,05] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [06,06] Hit
+Player 2: [09,06] Miss
+Player 1: [06,07] Miss
+Player 2: [05,01] Hit
+Player 1: [06,04] Hit
+Player 2: [07,01] Miss
+Player 1: [06,03] Hit
+Player 2: [04,01] Cruiser sunk
+Player 1: [06,02] Carrier sunk
+Player 2: [03,01] Submarine sunk
+Player 1: [08,09] Miss
+Player 2: [01,05] Miss
+Player 1: [01,02] Miss
+Player 2: [10,07] Miss
+Player 1: [09,02] Miss
+Player 2: [06,10] Miss
+Player 1: [05,02] Miss
+Player 2: [10,04] Miss
+Player 1: [01,04] Miss
+Player 2: [03,04] Miss
+Player 1: [09,06] Hit
+Player 2: [09,09] Miss
+Player 1: [10,06] Miss
+Player 2: [01,09] Miss
+Player 1: [08,06] Miss
+Player 2: [02,10] Miss
+Player 1: [09,07] Miss
+Player 2: [09,03] Miss
+Player 1: [09,05] Hit
+Player 2: [09,10] Miss
+Player 1: [09,04] Submarine sunk
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 20
+
+Player 2 game score: 234
+
+Round 3 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0011000000
+0000030000
+0000030000
+0002030000
+0002000000
+0002444400
+0055555000
+0000000000
+0000000000
+0000000000
+
+Player 1: [06,03] Hit
+Player 2: [05,05] Miss
+Player 1: [07,03] Miss
+Player 2: [06,06] Miss
+Player 1: [05,03] Miss
+Player 2: [04,04] Miss
+Player 1: [06,04] Hit
+Player 2: [07,07] Miss
+Player 1: [06,05] Miss
+Player 2: [07,03] Miss
+Player 1: [06,02] Cruiser sunk
+Player 2: [03,07] Miss
+Player 1: [07,06] Hit
+Player 2: [08,04] Miss
+Player 1: [08,06] Hit
+Player 2: [04,08] Miss
+Player 1: [09,06] Miss
+Player 2: [08,08] Miss
+Player 1: [07,07] Hit
+Player 2: [03,03] Hit
+Player 1: [07,08] Miss
+Player 2: [04,03] Hit
+Player 1: [07,05] Miss
+Player 2: [05,03] Hit
+Player 1: [06,06] Hit
+Player 2: [05,02] Hit
+Player 1: [05,06] Battleship sunk
+Player 2: [06,02] Hit
+Player 1: [10,01] Miss
+Player 2: [07,02] Miss
+Player 1: [05,08] Miss
+Player 2: [06,03] Hit
+Player 1: [06,01] Miss
+Player 2: [06,04] Hit
+Player 1: [10,09] Miss
+Player 2: [06,05] Hit
+Player 1: [05,04] Miss
+Player 2: [08,05] Miss
+Player 1: [04,01] Hit
+Player 2: [06,07] Miss
+Player 1: [05,01] Miss
+Player 2: [07,05] Miss
+Player 1: [03,01] Destroyer sunk
+Player 2: [06,01] Carrier sunk
+Player 1: [08,01] Miss
+Player 2: [02,06] Miss
+Player 1: [10,07] Miss
+Player 2: [05,09] Miss
+Player 1: [05,10] Miss
+Player 2: [03,02] Hit
+Player 1: [01,04] Miss
+Player 2: [04,02] Hit
+Player 1: [02,07] Miss
+Player 2: [02,02] Hit
+Player 1: [02,05] Miss
+Player 2: [02,03] Miss
+Player 1: [01,06] Miss
+Player 2: [01,02] Miss
+Player 1: [08,03] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [10,03] Miss
+Player 2: [09,06] Miss
+Player 1: [03,04] Miss
+Player 2: [05,01] Hit
+Player 1: [04,05] Hit
+Player 2: [07,01] Miss
+Player 1: [05,05] Miss
+Player 2: [04,01] Cruiser sunk
+Player 1: [03,05] Miss
+Player 2: [03,01] Submarine sunk
+Player 1: [04,06] Hit
+Player 2: [01,05] Miss
+Player 1: [04,07] Hit
+Player 2: [10,07] Miss
+Player 1: [04,08] Miss
+Player 2: [06,10] Miss
+Player 1: [04,04] Submarine sunk
+Player 2: [10,04] Miss
+Player 1: [03,02] Miss
+Player 2: [03,04] Miss
+Player 1: [05,02] Miss
+Player 2: [09,09] Miss
+Player 1: [03,10] Miss
+Player 2: [01,09] Miss
+Player 1: [06,09] Miss
+Player 2: [02,10] Miss
+Player 1: [07,10] Miss
+Player 2: [09,03] Miss
+Player 1: [07,04] Miss
+Player 2: [09,10] Miss
+Player 1: [07,02] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 34
+
+Player 2 game score: 351
+
+Round 4 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0555550000
+0000000000
+0003332000
+0000002000
+0001102000
+0004000000
+0004000000
+0004000000
+0004000000
+0000000000
+
+Player 1: [03,04] Miss
+Player 2: [05,05] Miss
+Player 1: [06,05] Miss
+Player 2: [06,06] Miss
+Player 1: [02,07] Miss
+Player 2: [04,04] Miss
+Player 1: [04,07] Hit
+Player 2: [07,07] Miss
+Player 1: [05,07] Miss
+Player 2: [07,03] Miss
+Player 1: [03,07] Miss
+Player 2: [03,07] Miss
+Player 1: [04,08] Hit
+Player 2: [08,04] Miss
+Player 1: [04,09] Hit
+Player 2: [04,08] Miss
+Player 1: [04,10] Miss
+Player 2: [08,08] Miss
+Player 1: [04,06] Battleship sunk
+Player 2: [03,03] Hit
+Player 1: [07,04] Hit
+Player 2: [04,03] Hit
+Player 1: [08,04] Miss
+Player 2: [05,03] Hit
+Player 1: [06,04] Miss
+Player 2: [05,02] Hit
+Player 1: [07,05] Hit
+Player 2: [06,02] Hit
+Player 1: [07,06] Miss
+Player 2: [07,02] Miss
+Player 1: [07,03] Submarine sunk
+Player 2: [06,03] Hit
+Player 1: [04,05] Hit
+Player 2: [06,04] Hit
+Player 1: [05,05] Destroyer sunk
+Player 2: [06,05] Hit
+Player 1: [10,01] Miss
+Player 2: [08,05] Miss
+Player 1: [03,10] Miss
+Player 2: [06,07] Miss
+Player 1: [06,01] Hit
+Player 2: [07,05] Miss
+Player 1: [07,01] Miss
+Player 2: [06,01] Carrier sunk
+Player 1: [05,01] Hit
+Player 2: [02,06] Miss
+Player 1: [05,02] Miss
+Player 2: [05,09] Miss
+Player 1: [06,02] Miss
+Player 2: [03,02] Hit
+Player 1: [04,01] Hit
+Player 2: [04,02] Hit
+Player 1: [03,01] Hit
+Player 2: [02,02] Hit
+Player 1: [02,01] Carrier sunk
+Player 2: [02,03] Miss
+Player 1: [01,08] Miss
+Player 2: [01,02] Miss
+Player 1: [08,01] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [05,04] Miss
+Player 2: [09,06] Miss
+Player 1: [10,03] Miss
+Player 2: [05,01] Hit
+Player 1: [08,03] Miss
+Player 2: [07,01] Miss
+Player 1: [09,02] Miss
+Player 2: [04,01] Cruiser sunk
+Player 1: [03,06] Miss
+Player 2: [03,01] Submarine sunk
+Player 1: [10,05] Miss
+Player 2: [01,05] Miss
+Player 1: [01,04] Miss
+Player 2: [10,07] Miss
+Player 1: [02,03] Miss
+Player 2: [06,10] Miss
+Player 1: [05,08] Miss
+Player 2: [10,04] Miss
+Player 1: [06,07] Miss
+Player 2: [03,04] Miss
+Player 1: [08,07] Miss
+Player 2: [09,09] Miss
+Player 1: [09,06] Miss
+Player 2: [01,09] Miss
+Player 1: [04,03] Hit
+Player 2: [02,10] Miss
+Player 1: [05,03] Hit
+Player 2: [09,03] Miss
+Player 1: [06,03] Cruiser sunk
+
+Player 1 wins!
+Player 1 game score: 151
+
+Player 2 game score: 367
+
+Round 5 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000040000
+0030040000
+0030040000
+0030040000
+0000000000
+0000102220
+0000100000
+5555500000
+0000000000
+0000000000
+
+Player 1: [04,03] Miss
+Player 2: [05,05] Miss
+Player 1: [08,07] Miss
+Player 2: [06,06] Miss
+Player 1: [06,05] Miss
+Player 2: [04,04] Miss
+Player 1: [04,01] Miss
+Player 2: [07,07] Miss
+Player 1: [01,04] Miss
+Player 2: [07,03] Miss
+Player 1: [08,03] Miss
+Player 2: [03,07] Miss
+Player 1: [05,08] Hit
+Player 2: [08,04] Miss
+Player 1: [06,08] Miss
+Player 2: [04,08] Miss
+Player 1: [04,08] Hit
+Player 2: [08,08] Miss
+Player 1: [04,09] Miss
+Player 2: [03,03] Hit
+Player 1: [05,07] Hit
+Player 2: [04,03] Hit
+Player 1: [05,06] Destroyer sunk
+Player 2: [05,03] Hit
+Player 1: [10,03] Miss
+Player 2: [05,02] Hit
+Player 1: [04,07] Miss
+Player 2: [06,02] Hit
+Player 1: [08,09] Miss
+Player 2: [07,02] Miss
+Player 1: [01,10] Miss
+Player 2: [06,03] Hit
+Player 1: [02,01] Miss
+Player 2: [06,04] Hit
+Player 1: [06,01] Hit
+Player 2: [06,05] Hit
+Player 1: [07,01] Miss
+Player 2: [08,05] Miss
+Player 1: [05,01] Miss
+Player 2: [06,07] Miss
+Player 1: [06,02] Hit
+Player 2: [07,05] Miss
+Player 1: [06,03] Hit
+Player 2: [06,01] Carrier sunk
+Player 1: [06,04] Battleship sunk
+Player 2: [02,06] Miss
+Player 1: [03,08] Hit
+Player 2: [05,09] Miss
+Player 1: [02,08] Hit
+Player 2: [03,02] Hit
+Player 1: [02,09] Miss
+Player 2: [04,02] Hit
+Player 1: [03,07] Miss
+Player 2: [02,02] Hit
+Player 1: [03,09] Miss
+Player 2: [02,03] Miss
+Player 1: [03,06] Miss
+Player 2: [01,02] Miss
+Player 1: [03,05] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [07,08] Miss
+Player 2: [09,06] Miss
+Player 1: [03,03] Hit
+Player 2: [05,01] Hit
+Player 1: [03,02] Hit
+Player 2: [07,01] Miss
+Player 1: [03,01] Miss
+Player 2: [04,01] Cruiser sunk
+Player 1: [09,08] Miss
+Player 2: [03,01] Submarine sunk
+Player 1: [10,08] Miss
+Player 2: [01,05] Miss
+Player 1: [03,10] Miss
+Player 2: [10,07] Miss
+Player 1: [03,04] Cruiser sunk
+Player 2: [06,10] Miss
+Player 1: [07,10] Miss
+Player 2: [10,04] Miss
+Player 1: [02,07] Miss
+Player 2: [03,04] Miss
+Player 1: [09,10] Miss
+Player 2: [09,09] Miss
+Player 1: [09,02] Miss
+Player 2: [01,09] Miss
+Player 1: [05,10] Miss
+Player 2: [02,10] Miss
+Player 1: [08,01] Miss
+Player 2: [09,03] Miss
+Player 1: [09,04] Miss
+Player 2: [09,10] Miss
+Player 1: [07,02] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 164
+
+Player 2 game score: 484
+
+Round 6 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+4005000000
+4005000110
+4005033300
+4005000000
+0005000000
+0002220000
+0000000000
+0000000000
+0000000000
+
+Player 1: [01,10] Miss
+Player 2: [05,05] Miss
+Player 1: [10,09] Miss
+Player 2: [06,06] Miss
+Player 1: [01,08] Miss
+Player 2: [04,04] Miss
+Player 1: [08,07] Miss
+Player 2: [07,07] Miss
+Player 1: [10,01] Miss
+Player 2: [07,03] Miss
+Player 1: [03,08] Miss
+Player 2: [03,07] Miss
+Player 1: [08,05] Miss
+Player 2: [08,04] Miss
+Player 1: [05,08] Miss
+Player 2: [04,08] Miss
+Player 1: [09,04] Miss
+Player 2: [08,08] Miss
+Player 1: [06,05] Miss
+Player 2: [03,03] Hit
+Player 1: [01,02] Hit
+Player 2: [04,03] Hit
+Player 1: [02,02] Miss
+Player 2: [05,03] Hit
+Player 1: [01,03] Hit
+Player 2: [05,02] Hit
+Player 1: [01,04] Hit
+Player 2: [06,02] Hit
+Player 1: [01,05] Battleship sunk
+Player 2: [07,02] Miss
+Player 1: [02,07] Miss
+Player 2: [06,03] Hit
+Player 1: [08,09] Miss
+Player 2: [06,04] Hit
+Player 1: [05,10] Miss
+Player 2: [06,05] Hit
+Player 1: [06,03] Miss
+Player 2: [08,05] Miss
+Player 1: [05,02] Miss
+Player 2: [06,07] Miss
+Player 1: [09,10] Miss
+Player 2: [07,05] Miss
+Player 1: [07,04] Hit
+Player 2: [06,01] Carrier sunk
+Player 1: [08,04] Hit
+Player 2: [02,06] Miss
+Player 1: [08,03] Hit
+Player 2: [05,09] Miss
+Player 1: [08,02] Miss
+Player 2: [03,02] Hit
+Player 1: [06,04] Cruiser sunk
+Player 2: [04,02] Hit
+Player 1: [04,09] Miss
+Player 2: [02,02] Hit
+Player 1: [08,01] Miss
+Player 2: [02,03] Miss
+Player 1: [09,08] Miss
+Player 2: [01,02] Miss
+Player 1: [10,05] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [10,03] Miss
+Player 2: [09,06] Miss
+Player 1: [07,02] Miss
+Player 2: [05,01] Hit
+Player 1: [03,10] Miss
+Player 2: [07,01] Miss
+Player 1: [10,07] Miss
+Player 2: [04,01] Cruiser sunk
+Player 1: [06,07] Hit
+Player 2: [03,01] Submarine sunk
+Player 1: [07,07] Miss
+Player 2: [01,05] Miss
+Player 1: [05,07] Hit
+Player 2: [10,07] Miss
+Player 1: [05,06] Miss
+Player 2: [06,10] Miss
+Player 1: [06,08] Miss
+Player 2: [10,04] Miss
+Player 1: [06,06] Miss
+Player 2: [03,04] Miss
+Player 1: [04,07] Submarine sunk
+Player 2: [09,09] Miss
+Player 1: [06,01] Miss
+Player 2: [01,09] Miss
+Player 1: [09,06] Miss
+Player 2: [02,10] Miss
+Player 1: [02,09] Miss
+Player 2: [09,03] Miss
+Player 1: [02,03] Miss
+Player 2: [09,10] Miss
+Player 1: [02,01] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 175
+
+Player 2 game score: 601
+
+Round 7 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+0210000000
+0210003335
+0200000005
+0000000005
+0000000005
+0004444005
+0000000000
+0000000000
+0000000000
+
+Player 1: [02,05] Miss
+Player 2: [05,05] Miss
+Player 1: [09,06] Miss
+Player 2: [06,06] Miss
+Player 1: [08,01] Miss
+Player 2: [04,04] Miss
+Player 1: [01,06] Miss
+Player 2: [07,07] Miss
+Player 1: [04,05] Miss
+Player 2: [07,03] Miss
+Player 1: [10,05] Hit
+Player 2: [03,07] Miss
+Player 1: [09,05] Miss
+Player 2: [08,04] Miss
+Player 1: [10,06] Hit
+Player 2: [04,08] Miss
+Player 1: [10,07] Hit
+Player 2: [08,08] Miss
+Player 1: [10,08] Miss
+Player 2: [03,03] Hit
+Player 1: [10,04] Hit
+Player 2: [04,03] Hit
+Player 1: [10,03] Carrier sunk
+Player 2: [05,03] Hit
+Player 1: [04,03] Miss
+Player 2: [05,02] Hit
+Player 1: [01,04] Miss
+Player 2: [06,02] Hit
+Player 1: [09,04] Miss
+Player 2: [07,02] Miss
+Player 1: [02,03] Hit
+Player 2: [06,03] Hit
+Player 1: [03,03] Hit
+Player 2: [06,04] Hit
+Player 1: [03,04] Miss
+Player 2: [06,05] Hit
+Player 1: [02,02] Hit
+Player 2: [08,05] Miss
+Player 1: [02,01] Miss
+Player 2: [06,07] Miss
+Player 1: [01,03] Miss
+Player 2: [07,05] Miss
+Player 1: [02,04] Submarine sunk
+Player 2: [06,01] Carrier sunk
+Player 1: [06,01] Miss
+Player 2: [02,06] Miss
+Player 1: [02,09] Miss
+Player 2: [05,09] Miss
+Player 1: [01,10] Miss
+Player 2: [03,02] Hit
+Player 1: [01,08] Miss
+Player 2: [04,02] Hit
+Player 1: [06,03] Miss
+Player 2: [02,02] Hit
+Player 1: [10,01] Miss
+Player 2: [02,03] Miss
+Player 1: [01,02] Miss
+Player 2: [01,02] Miss
+Player 1: [05,06] Miss
+Player 2: [02,01] Destroyer sunk
+Player 1: [08,05] Miss
+Player 2: [09,06] Miss
+Player 1: [10,09] Miss
+Player 2: [05,01] Hit
+Player 1: [07,08] Miss
+Player 2: [07,01] Miss
+Player 1: [03,10] Miss
+Player 2: [04,01] Cruiser sunk
+Player 1: [04,01] Miss
+Player 2: [03,01] Submarine sunk
+Player 1: [04,07] Hit
+Player 2: [01,05] Miss
+Player 1: [05,07] Hit
+Player 2: [10,07] Miss
+Player 1: [06,07] Hit
+Player 2: [06,10] Miss
+Player 1: [07,07] Battleship sunk
+Player 2: [10,04] Miss
+Player 1: [09,10] Miss
+Player 2: [03,04] Miss
+Player 1: [08,03] Hit
+Player 2: [09,09] Miss
+Player 1: [09,03] Hit
+Player 2: [01,09] Miss
+Player 1: [09,02] Miss
+Player 2: [02,10] Miss
+Player 1: [07,03] Cruiser sunk
+Player 2: [09,03] Miss
+Player 1: [04,09] Miss
+Player 2: [09,10] Miss
+Player 1: [05,08] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 191
+
+Player 2 game score: 718
+
+Round 8 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000555550
+0000000000
+0000000000
+0000444400
+0333000000
+0000000000
+0000010000
+0000010000
+0000002220
+0000000000
+
+Player 1: [01,02] Miss
+Player 2: [05,05] Miss
+Player 1: [10,01] Miss
+Player 2: [06,06] Miss
+Player 1: [01,10] Miss
+Player 2: [04,04] Miss
+Player 1: [07,08] Miss
+Player 2: [07,07] Miss
+Player 1: [05,10] Miss
+Player 2: [07,03] Miss
+Player 1: [04,01] Miss
+Player 2: [03,07] Miss
+Player 1: [09,08] Miss
+Player 2: [08,04] Miss
+Player 1: [08,01] Hit
+Player 2: [04,08] Miss
+Player 1: [09,01] Hit
+Player 2: [08,08] Miss
+Player 1: [09,02] Miss
+Player 2: [03,03] Hit
+Player 1: [07,01] Hit
+Player 2: [04,03] Hit
+Player 1: [06,01] Hit
+Player 2: [05,03] Hit
+Player 1: [05,01] Carrier sunk
+Player 2: [05,02] Hit
+Player 1: [04,03] Miss
+Player 2: [06,02] Hit
+Player 1: [02,07] Miss
+Player 2: [07,02] Miss
+Player 1: [06,09] Miss
+Player 2: [06,03] Hit
+Player 1: [02,03] Miss
+Player 2: [06,04] Hit
+Player 1: [01,08] Miss
+Player 2: [06,05] Hit
+Player 1: [04,07] Miss
+Player 2: [08,05] Miss
+Player 1: [04,09] Miss
+Player 2: [06,07] Miss
+Player 1: [07,10] Miss
+Player 2: [07,05] Miss
+Player 1: [10,05] Miss
+Player 2: [06,01] Carrier sunk
+Player 1: [09,04] Miss
+Player 2: [02,06] Miss
+Player 1: [09,10] Miss
+Player 2: [05,09] Miss
+Player 1: [03,02] Miss
+Player 2: [03,02] Hit
+Player 1: [06,03] Miss
+Player 2: [04,02] Hit
+Player 1: [10,09] Miss
+Player 2: [02,02] Hit
+Player 1: [04,05] Hit
+Player 2: [02,03] Miss
+Player 1: [05,05] Miss
+Player 2: [01,02] Miss
+Player 1: [03,05] Hit
+Player 2: [02,01] Destroyer sunk
+Player 1: [03,06] Miss
+Player 2: [09,06] Miss
+Player 1: [04,04] Miss
+Player 2: [05,01] Hit
+Player 1: [04,06] Miss
+Player 2: [07,01] Miss
+Player 1: [02,05] Cruiser sunk
+Player 2: [04,01] Cruiser sunk
+Player 1: [03,10] Miss
+Player 2: [03,01] Submarine sunk
+Player 1: [06,05] Miss
+Player 2: [01,05] Miss
+Player 1: [03,08] Miss
+Player 2: [10,07] Miss
+Player 1: [05,04] Hit
+Player 2: [06,10] Miss
+Player 1: [06,04] Hit
+Player 2: [10,04] Miss
+Player 1: [07,04] Hit
+Player 2: [03,04] Miss
+Player 1: [08,04] Battleship sunk
+Player 2: [09,09] Miss
+Player 1: [10,07] Miss
+Player 2: [01,09] Miss
+Player 1: [08,05] Miss
+Player 2: [02,10] Miss
+Player 1: [06,07] Hit
+Player 2: [09,03] Miss
+Player 1: [07,07] Miss
+Player 2: [09,10] Miss
+Player 1: [05,07] Miss
+Player 2: [05,04] Battleship sunk
+
+Player 2 wins!
+Player 1 game score: 204
+
+Player 2 game score: 835
+
+Round 9 start
+Player 1 board:
+0123450000
+0123450000
+0023450000
+0000450000
+0000050000
+0000000000
+0000000000
+0000000000
+0000000000
+0000000000
+
+Player 2 board:
+0000000000
+0000002000
+5555502000
+0000002000
+0000000400
+0110030400
+0000030400
+0000030400
+0000000000
+0000000000
+
+Player 1: [07,07] Miss
+Player 2: [05,05] Miss
+Player 1: [05,07] Miss
+Player 2: [06,06] Miss
+Player 1: [06,08] Hit
+Player 2: [04,04] Miss
+Player 1: [06,09] Miss
+Player 2: [07,07] Miss
+Player 1: [06,06] Hit
+Player 2: [07,03] Miss
+Player 1: [06,05] Miss
+Player 2: [03,07] Miss
+Player 1: [04,07] Miss
+Player 2: [08,04] Miss
+Player 1: [09,07] Miss
+Player 2: [04,08] Miss
+Player 1: [06,03] Miss
+Player 2: [08,08] Miss
+Player 1: [01,07] Miss
+Player 2: [03,03] Hit
+Player 1: [06,01] Miss
+Player 2: [04,03] Hit
+Player 1: [08,07] Hit
+Player 2: [05,03] Hit
+Player 1: [08,08] Hit
+Player 2: [05,02] Hit
+Player 1: [08,09] Miss
+Player 2: [06,02] Hit
+Player 1: [06,04] Miss
+Player 2: [07,02] Miss
+Player 1: [02,07] Miss
+Player 2: [06,03] Hit
+Player 1: [06,02] Miss
+Player 2: [06,04] Hit
+Player 1: [03,07] Miss
+Player 2: [06,05] Hit
+Player 1: [10,07] Miss
+Player 2: [08,05] Miss
+Player 1: [06,10] Miss
+Player 2: [06,07] Miss

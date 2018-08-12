@@ -120,7 +120,7 @@ void status_cb(BS_HitStatus_t status)
 	unsigned int curShip;
 	unsigned int curRow;
 	unsigned int finalCurPos;
-
+	
 	switch (status)
 	{
 	case BS_HS_MISS:

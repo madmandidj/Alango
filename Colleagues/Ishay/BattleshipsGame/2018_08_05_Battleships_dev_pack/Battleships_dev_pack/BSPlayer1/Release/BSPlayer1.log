@@ -1,1 +1,19 @@
-﻿  BSPlayer1.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer1.dll
+﻿  BSPlayer.c
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(120): warning C4101: 'curShip': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(116): warning C4101: 'coord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(119): warning C4101: 'curPos': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(117): warning C4101: 'curStart': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(118): warning C4101: 'curEnd': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(121): warning C4101: 'curRow': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(122): warning C4101: 'finalCurPos': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(180): warning C4013: 'time' undefined; assuming extern returning int
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(197): warning C4018: '<=': signed/unsigned mismatch
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(236): warning C4101: 'attackAndDestroyCoord': unreferenced local variable
+c:\users\eyal.alon\desktop\ea\ea_work\colleagues\ishay\battleshipsgame\2018_08_05_battleships_dev_pack\battleships_dev_pack\bsplayercommon\bsplayer.c(482): warning C4101: 'nextCoord': unreferenced local variable
+     Creating library C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer1.lib and object C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer1.exp
+  Generating code
+  0 of 16 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BSPlayer1.vcxproj -> C:\Users\Eyal.Alon\Desktop\EA\EA_Work\Colleagues\Ishay\BattleshipsGame\2018_08_05_Battleships_dev_pack\Battleships_dev_pack\Release\BSPlayer1.dll
