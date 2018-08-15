@@ -1,6 +1,4 @@
-function [triggersCountPerRound] = AnalyzeAVSLog (_fileNameString, _triggerWord, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)
-                        
-  detectionColumnNum = 5;
+function [triggersCountPerRound, statsCells] = AnalyzeAVSLog (_fileNameString, _triggerWord, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)  
 
   totalNumOfTriggers = _trigInDistNum * _distInNoiseNum * _noiseTotalNum;
                         
@@ -16,21 +14,7 @@ function [triggersCountPerRound] = AnalyzeAVSLog (_fileNameString, _triggerWord,
   
   triggersCountPerRound = GetTriggersCountPerRound(flippedCells, _noiseTotalNum, _distInNoiseNum, _trigInDistNum, _triggerWord);
   
-%%  expectedNumCells = CreateExpectedNumColumn(flippedCells);
+  statsCells = GenerateStats(triggersCountPerRound, _noiseTotalNum, _distInNoiseNum, _trigInDistNum);
   
-%%  detectedNumCells = CreateDetectedNumColumn(expectedNumCells);
-  
-%%  [recognizedCells, partialCells, unrecognizedCells] = ProcessCells(detectedNumCells, detectionColumnNum);
-  
-%%  [resultsHashMap, duplicateCells, illegalCells] = CreateResultsHashMap(recognizedCells, totalNumOfTriggers, detectionColumnNum);
-  
-%%  trimmedResults = TrimHashMap(resultsHashMap);
-  
-%%  resultsWithTriggerID = AddIDToResults(trimmedResults, _noiseTotalNum, _distInNoiseNum, _trigInDistNum);
-
-%%  missingCells = CreateMissingCellsWithID(resultsWithTriggerID);
-  
-%%  resultsStats = GenerateResultsStats(resultsWithTriggerID, rows(detectedNumCells), rows(unrecognizedCells), rows(partialCells), 
-%%                  rows(duplicateCells), rows(illegalCells), _noiseTotalNum, _distInNoiseNum, _trigInDistNum);
-
+  cell2csv("Results.csv", statsCells);
 endfunction

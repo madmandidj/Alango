@@ -1,0 +1,25 @@
+Num of triggers per SNR ("distance") group,8,,,,,
+Num of SNR groups per noise group,5,,,,,
+Num of noise groups,7,,,,,
+Total num of triggers,280,,,,,
+Total num of triggers per noise group,40,,,,,
+Total num of triggers per SNR group,48,,,,,
+,,,,,,
+Overall Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+All triggers,160,57.1%,120,42.9%,12,4.3%
+,,,,,,
+Noise group Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+Noise Group 1,35,87.5%,5,12.5%,0,0.0%
+Noise Group 2,19,47.5%,21,52.5%,0,0.0%
+Noise Group 3,30,75.0%,10,25.0%,0,0.0%
+Noise Group 4,26,65.0%,14,35.0%,0,0.0%
+Noise Group 5,25,62.5%,15,37.5%,3,7.5%
+Noise Group 6,14,35.0%,26,65.0%,0,0.0%
+Noise Group 7,11,27.5%,29,72.5%,9,22.5%
+,,,,,,
+SNR group Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+SNR Group 1,48,100.0%,0,0.0%,0,0.0%
+SNR Group 2,34,70.8%,14,29.2%,3,6.2%
+SNR Group 3,25,52.1%,23,47.9%,4,8.3%
+SNR Group 4,14,29.2%,34,70.8%,5,10.4%
+SNR Group 5,4,8.3%,44,91.7%,0,0.0%
