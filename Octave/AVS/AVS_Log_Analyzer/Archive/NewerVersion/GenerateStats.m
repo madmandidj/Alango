@@ -1,4 +1,6 @@
 function statsCells = GenerateStats(_triggersCountPerRound, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)
+  noiseGroupStrings = {"No noise", "Cafeteria noise", "Car noise", "Street noise", "Office noise", "Pink noise", "Speech noise"};
+  snrGroupStrings = {"SNR = 18", "SNR = 9", "SNR = 6", "SNR = 3", "SNR = 0"};
   numOfRows = rows(_triggersCountPerRound);
   statsCells = cell(0);
   curStatsRow = 1;
@@ -130,7 +132,7 @@ function statsCells = GenerateStats(_triggersCountPerRound, _noiseTotalNum, _dis
       numOfUnrecognized += str2num(char(_triggersCountPerRound(((curNoiseGroup - 1)*_distInNoiseNum) + curSNR, unrecCol)));
       numOfMissed += str2num(char(_triggersCountPerRound(((curNoiseGroup - 1)*_distInNoiseNum) + curSNR, missCol))); 
     endfor
-    statsCells(curStatsRow,1) = cellstr(sprintf("Noise Group %d", curNoiseGroup));
+    statsCells(curStatsRow,1) = cellstr(sprintf("Noise Group %d, %s", curNoiseGroup, char(noiseGroupStrings(1,curNoiseGroup))));
     statsCells(curStatsRow,2) = cellstr(num2str(numOfRecognized));
     statsCells(curStatsRow, 3) = cellstr(sprintf("%.1f%%", 100 * numOfRecognized/numOfTrigsPerNoiseGroup));
 %%    ++curStatsRow;
@@ -176,7 +178,7 @@ function statsCells = GenerateStats(_triggersCountPerRound, _noiseTotalNum, _dis
       numOfUnrecognized += str2num(char(_triggersCountPerRound(curRound, unrecCol)));
       numOfMissed += str2num(char(_triggersCountPerRound(curRound, missCol)));
     endfor
-    statsCells(curStatsRow,1) = cellstr(sprintf("SNR Group %d", curSNRGroup));
+    statsCells(curStatsRow,1) = cellstr(sprintf("SNR Group %d, %s", curSNRGroup, char(snrGroupStrings(1,curSNRGroup))));
     statsCells(curStatsRow,2) = cellstr(num2str(numOfRecognized));
     statsCells(curStatsRow, 3) = cellstr(sprintf("%.1f%%", 100 * numOfRecognized/numOfTrigsPerSNRGroup));
 %%    ++curStatsRow;
@@ -187,6 +189,47 @@ function statsCells = GenerateStats(_triggersCountPerRound, _noiseTotalNum, _dis
 %%    statsCells(curStatsRow,1) = cellstr(sprintf("SNR Group %d unrecognized", curSNRGroup));
     statsCells(curStatsRow,6) = cellstr(num2str(numOfUnrecognized));
     statsCells(curStatsRow,7) = cellstr(sprintf("%.1f%%", 100 * numOfUnrecognized/numOfTrigsPerSNRGroup));
+    ++curStatsRow;
+    numOfRecognized = 0;
+    numOfUnrecognized = 0;
+    numOfMissed = 0;
+  endfor
+  
+    %% BLANK ROW
+  statsCells(curStatsRow,1) = cellstr("");
+  statsCells(curStatsRow,2) = cellstr("");
+  statsCells(curStatsRow,3) = cellstr("");
+  statsCells(curStatsRow,4) = cellstr("");
+  statsCells(curStatsRow,5) = cellstr("");
+  statsCells(curStatsRow,6) = cellstr("");
+  statsCells(curStatsRow,7) = cellstr("");
+  ++curStatsRow;
+  
+  %% Individual Round stats
+  statsCells(curStatsRow,1) = cellstr("Individual Round Results");
+  statsCells(curStatsRow,2) = cellstr("recognized");
+  statsCells(curStatsRow,3) = cellstr("recognized %");
+  statsCells(curStatsRow,4) = cellstr("missed");
+  statsCells(curStatsRow,5) = cellstr("missed %");
+  statsCells(curStatsRow,6) = cellstr("unrecognized");
+  statsCells(curStatsRow,7) = cellstr("unrecognized %");
+  ++curStatsRow;
+  numOfRecognized = 0;
+  numOfUnrecognized = 0;
+  numOfMissed = 0;
+  for curRow = 1:numOfRows
+    numOfRecognized = str2num(char(_triggersCountPerRound(curRow, recCol)));
+    numOfUnecognized = str2num(char(_triggersCountPerRound(curRow, unrecCol)));
+    numOfMissed = str2num(char(_triggersCountPerRound(curRow, missCol)));
+    curNoiseGroup = ceil((curRow / _distInNoiseNum));
+%%    curSNRGroup = (curRow / _distInNoiseNum) + 1;
+    statsCells(curStatsRow,1) = cellstr(sprintf("Round %d, %s", curRow, char(noiseGroupStrings(1,curNoiseGroup))));
+    statsCells(curStatsRow,2) = cellstr(num2str(numOfRecognized));
+    statsCells(curStatsRow, 3) = cellstr(sprintf("%.1f%%", 100 * numOfRecognized/_trigInDistNum));
+    statsCells(curStatsRow,4) = cellstr(num2str(numOfMissed));
+    statsCells(curStatsRow,5) = cellstr(sprintf("%.1f%%", 100 * numOfMissed/_trigInDistNum));
+    statsCells(curStatsRow,6) = cellstr(num2str(numOfUnrecognized));
+    statsCells(curStatsRow,7) = cellstr(sprintf("%.1f%%", 100 * numOfUnrecognized/_trigInDistNum));
     ++curStatsRow;
     numOfRecognized = 0;
     numOfUnrecognized = 0;

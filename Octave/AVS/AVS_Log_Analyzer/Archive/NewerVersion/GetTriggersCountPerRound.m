@@ -1,8 +1,10 @@
 function triggersCountPerRound = GetTriggersCountPerRound(_flippedCells, _noiseTotalNum, _distInNoiseNum, _trigInDistNum, _triggerWord)
   numOfRounds = _noiseTotalNum * _distInNoiseNum;
   triggersCountPerRound = cell(numOfRounds, 4);
-  roundIdentifierStr = "alexa round";
-  recognizedTrigIdentifierStr = "alexa stop";
+%%  roundIdentifierStr = "alexa round";
+%%  recognizedTrigIdentifierStr = "alexa stop";
+  roundIdentifierStr = sprintf("%s round", _triggerWord);
+  recognizedTrigIdentifierStr = sprintf("%s stop", _triggerWord);
   numOfRows = rows(_flippedCells);
   curRoundRow = 0;
   numOfRecognized = 0;

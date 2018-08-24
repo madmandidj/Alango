@@ -1,0 +1,468 @@
+    Home 
+    Now Playing 
+    Music & Books 
+    Lists 
+    Reminders & Alarms 
+    Skills 
+    Smart Home 
+    Things to Try 
+    Settings 
+    Help & Feedback 
+    Not Eyal? Sign out 
+
+
+Settings
+
+History
+History shows your voice interactions with Alexa. Tap a line to see
+details, hear recordings, provide feedback, or delete recordings. Learn
+more <#help/node/201602230>.
+Filter by Date
+None
+
+    alexa hotel india juliette stop
+
+    Today at 5:12 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three five stop
+
+    Today at 5:10 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three four stop
+
+    Today at 5:09 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three three stop
+
+    Today at 5:07 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three to stop
+
+    Today at 5:05 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:05 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:05 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 5:04 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three one stop
+
+    Today at 5:03 PM on ALANGO_Echo_Gen1_1
+    alexa round zero three zero stop
+
+    Today at 5:01 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two nine stop
+
+    Today at 5:00 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two eight stop
+
+    Today at 4:58 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:57 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:57 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:57 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:57 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:56 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two seven stop
+
+    Today at 4:56 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:56 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:56 PM on ALANGO_Echo_Gen1_1
+
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:55 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two six stop
+
+    Today at 4:54 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two five stop
+
+    Today at 4:52 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:51 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two four stop
+
+    Today at 4:51 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:50 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:50 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two three stop
+
+    Today at 4:49 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:48 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:48 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:48 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:48 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two two stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:47 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:46 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two one stop
+
+    Today at 4:45 PM on ALANGO_Echo_Gen1_1
+    alexa round zero two zero stop
+
+    Today at 4:43 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one nine stop
+
+    Today at 4:42 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:40 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one eight stop
+
+    Today at 4:40 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:39 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:39 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:39 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:38 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one seven stop
+
+    Today at 4:38 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:38 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:38 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:37 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one six stop
+
+    Today at 4:36 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:36 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:35 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:35 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one five stop
+
+    Today at 4:34 PM on ALANGO_Echo_Gen1_1
+
+    alexa stop
+
+    Today at 4:34 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:34 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:33 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one four stop
+
+    Today at 4:33 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:31 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:31 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one three stop
+
+    Today at 4:31 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:30 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:29 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one to stop
+
+    Today at 4:29 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:29 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:29 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:28 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one one stop
+
+    Today at 4:27 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:26 PM on ALANGO_Echo_Gen1_1
+    alexa round zero one zero stop
+
+    Today at 4:25 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:25 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero nine stop
+
+    Today at 4:24 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:23 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:23 PM on ALANGO_Echo_Gen1_1
+
+    alexa stop
+
+    Today at 4:22 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:22 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero eight stop
+
+    Today at 4:22 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:21 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:21 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:21 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero seven stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:20 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:19 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero six stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:18 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:17 PM on ALANGO_Echo_Gen1_1
+
+    alexa round zero zero five stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:16 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:15 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:15 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:15 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:15 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero four stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:14 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:13 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:13 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero three stop
+
+    Today at 4:13 PM on ALANGO_Echo_Gen1_1
+    alexa stop
+
+    Today at 4:11 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero to stop
+
+    Today at 4:11 PM on ALANGO_Echo_Gen1_1
+    alexa round zero zero one stop
+
+    Today at 4:09 PM on ALANGO_Echo_Gen1_1
+
+0
+
