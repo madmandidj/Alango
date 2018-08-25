@@ -1,0 +1,46 @@
+Excluded Rounds,", 4, 5, 6, 7, 8, 9, 19, 20, 21",,,,,
+Num of triggers per voice-level,5,,,,,
+Total num of triggers,105,,,,,
+,,,,,,
+Overall Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+All triggers,103,98.1%,2,1.9%,0,0.0%
+,,,,,,
+Voice Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+"Voice 1, Synth Male 1",15,100.0%,0,0.0%,0,0.0%
+"Voice 2, Human Male 1",0,NaN%,0,NaN%,0,NaN%
+"Voice 3, Human Male 2",0,NaN%,0,NaN%,0,NaN%
+"Voice 4, Synth Female 1",13,86.7%,2,13.3%,0,0.0%
+"Voice 5, Synth Female 2",15,100.0%,0,0.0%,0,0.0%
+"Voice 6, Human Female 1",15,100.0%,0,0.0%,0,0.0%
+"Voice 7, Human Female 2",0,NaN%,0,NaN%,0,NaN%
+"Voice 8, Synth Male 2",15,100.0%,0,0.0%,0,0.0%
+"Voice 9, Human Male 3",15,100.0%,0,0.0%,0,0.0%
+"Voice 10, Human Female 3",15,100.0%,0,0.0%,0,0.0%
+,,,,,,
+Voice Level Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+"Voice-Level 1, 0 dB",35,100.0%,0,0.0%,0,0.0%
+"Voice-Level 2, -6 dB",35,100.0%,0,0.0%,0,0.0%
+"Voice-Level 3, -12 dB",33,94.3%,2,5.7%,0,0.0%
+,,,,,,
+Rounds Results,recognized,recognized %,missed,missed %,unrecognized,unrecognized %
+"Round 1, Synth Male 1, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 2, Synth Male 1, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 3, Synth Male 1, -12 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 10, Synth Female 1, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 11, Synth Female 1, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 12, Synth Female 1, -12 dB",3,60.0%,2,40.0%,0,0.0%
+"Round 13, Synth Female 2, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 14, Synth Female 2, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 15, Synth Female 2, -12 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 16, Human Female 1, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 17, Human Female 1, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 18, Human Female 1, -12 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 22, Synth Male 2, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 23, Synth Male 2, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 24, Synth Male 2, -12 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 25, Human Male 3, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 26, Human Male 3, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 27, Human Male 3, -12 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 28, Human Female 3, 0 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 29, Human Female 3, -6 dB",5,100.0%,0,0.0%,0,0.0%
+"Round 30, Human Female 3, -12 dB",5,100.0%,0,0.0%,0,0.0%

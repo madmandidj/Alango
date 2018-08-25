@@ -106,18 +106,7 @@ function excludedStatsCells = GenerateExcludedStats(_excludedTriggersCountPerRou
   statsCells = WriteBlankRowToStatsCells(statsCells, curStatsRow);
   ++curStatsRow;  
   
-%%    %% Overall test statsCells
-%%  numOfRecognized = 0;
-%%  numOfUnrecognized = 0;
-%%  numOfMissed = 0;
-%%  recognizedPercentage = 0;
-%%  unrecognizedPercentage = 0;
-%%  missedPercentage = 0;
-%%  for curRow = 1:numOfRows
-%%    numOfRecognized += str2num(char(_triggersCountPerRound(curRow, recCol)));
-%%    numOfUnrecognized += str2num(char(_triggersCountPerRound(curRow, unrecCol)));
-%%    numOfMissed += str2num(char(_triggersCountPerRound(curRow, missCol))); 
-%%  endfor
+%%    %% Overall
   statsCells = WriteResultsHeaderRowToStatsCells(statsCells, curStatsRow, "Overall Results");
   ++curStatsRow;
   statsCells = WriteAllTriggerResultsRowToStatsCells(statsCells, curStatsRow, newAllTriggerStats{1, recCol}, newAllTriggerStats{1, missCol}, newAllTriggerStats{1, unrecCol}, newNumOfTotalTriggers);
