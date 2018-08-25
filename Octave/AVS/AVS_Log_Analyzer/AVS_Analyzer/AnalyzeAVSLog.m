@@ -1,8 +1,22 @@
-function [triggersCountPerRound, statsCells] = AnalyzeAVSLog (_fileNameString, _triggerWord, _excludeRoundsArray, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)  
+function [triggersCountPerRound, statsCells] = AnalyzeAVSLog (_pathString, _resultsFileName, _triggerWord, _excludeRoundsArray, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)  
+
+  voiceStrings = {"Synth Male 1", 
+                  "Human Male 1", 
+                  "Human Male 2", 
+                  "Synth Female 1", 
+                  "Synth Female 2", 
+                  "Human Female 1",
+                  "Human Female 2",
+                  "Synth Male 2",
+                  "Human Male 3",
+                  "Human Female 3"}; %%Change this to be: Human male, female, synth male, female
+  levelStrings = {"0 dB", "-6 dB", "-12 dB"};
+  resultsFileNameAndExt = sprintf("%s.csv", _resultsFileName);
+  excludeFileNameAndExt = sprintf("%s_excluded.csv", _resultsFileName);
 
   totalNumOfTriggers = _trigInDistNum * _distInNoiseNum * _noiseTotalNum;
                         
-  strCells = CreateStringCellArray(_fileNameString);
+  strCells = CreateStringCellArray(_pathString);
   
   trigCells = CreateMultiRowTrigCellArray(strCells);
   
@@ -14,15 +28,14 @@ function [triggersCountPerRound, statsCells] = AnalyzeAVSLog (_fileNameString, _
 
   triggersCountPerRound = GetTriggersCountPerRound(flippedCells, _noiseTotalNum, _distInNoiseNum, _trigInDistNum, _triggerWord);
   
-%%  excludedFlippedCells = ExcludeRoundsIfNeeded(flippedCells, _excludeRoundsArray);
+  statsCells = GenerateStats(triggersCountPerRound, _noiseTotalNum, _distInNoiseNum, _trigInDistNum, voiceStrings, levelStrings);
   
-  statsCells = GenerateStats(triggersCountPerRound, _noiseTotalNum, _distInNoiseNum, _trigInDistNum);
-  
-  cell2csv("Results.csv", statsCells);
+  cell2csv(resultsFileNameAndExt, statsCells);
   
   if (0 != cell2mat(_excludeRoundsArray(1,1)))
     excludedTriggersCountPerRound = ExcludeRoundsIfNeeded(triggersCountPerRound, _excludeRoundsArray,_noiseTotalNum, _distInNoiseNum, _trigInDistNum);
-%%    excludedStatsCells = GenerateExcludedStats(excludedTriggersCountPerRound, _excludeRoundsArray);
+    excludedStatsCells = GenerateExcludedStats(excludedTriggersCountPerRound, _excludeRoundsArray, _noiseTotalNum, _distInNoiseNum, _trigInDistNum, voiceStrings, levelStrings);
+    cell2csv(excludeFileNameAndExt, excludedStatsCells);
   endif
   
 endfunction
