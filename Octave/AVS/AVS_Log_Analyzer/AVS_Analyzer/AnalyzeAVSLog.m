@@ -1,15 +1,25 @@
 function [triggersCountPerRound, statsCells] = AnalyzeAVSLog (_pathString, _resultsFileName, _triggerWord, _excludeRoundsArray, _noiseTotalNum, _distInNoiseNum, _trigInDistNum)  
 
-  voiceStrings = {"Synth Male 1", 
-                  "Human Male 1", 
-                  "Human Male 2", 
-                  "Synth Female 1", 
-                  "Synth Female 2", 
+%%  voiceStrings = {"Synth Male 1", 
+%%                  "Human Male 1", 
+%%                  "Human Male 2", 
+%%                  "Synth Female 1", 
+%%                  "Synth Female 2", 
+%%                  "Human Female 1",
+%%                  "Human Female 2",
+%%                  "Synth Male 2",
+%%                  "Human Male 3",
+%%                  "Human Female 3"}; %%Change this to be: Human male, female, synth male, female
+  voiceStrings = {"Human Male 1", 
+                  "Human Male 2",
+                  "Human Male 3",
                   "Human Female 1",
                   "Human Female 2",
+                  "Human Female 3",
+                  "Synth Male 1",
                   "Synth Male 2",
-                  "Human Male 3",
-                  "Human Female 3"}; %%Change this to be: Human male, female, synth male, female
+                  "Synth Female 1", 
+                  "Synth Female 2"};
   levelStrings = {"0 dB", "-6 dB", "-12 dB"};
   resultsFileNameAndExt = sprintf("%s.csv", _resultsFileName);
   excludeFileNameAndExt = sprintf("%s_excluded.csv", _resultsFileName);
