@@ -5,6 +5,7 @@ function [numOfTrigs, trigTimes] = AnalyzeSensoryResults(_pathToFile, _resultsFi
   curRow = 1;
   numOfTrigs = 0;
   trigTimes = cell(0);
+  trigTimesMS = cell(0);
   trigTimes(1,1) ="Recognized=";
   trigTimes(1,2) =0;
   while curRow <= numOfRows
@@ -16,8 +17,13 @@ function [numOfTrigs, trigTimes] = AnalyzeSensoryResults(_pathToFile, _resultsFi
       continue;
     endif
     ++numOfTrigs;
+    
     startTimeMS = str2num(char(strs(1,1)));
     endTimeMS = str2num(char(strs(1,2)));
+    if (1 == numOfTrigs)
+      firstTrigMS = startTimeMS;  
+    endif
+    trigTimesMS(numOfTrigs,1) = startTimeMS - firstTrigMS;
     trigTimes(numOfTrigs+1, 1) = floor((startTimeMS/1000)/60);
     if floor((startTimeMS/1000)/60) == 0
       trigTimes(numOfTrigs+1, 2) = floor(startTimeMS/1000);

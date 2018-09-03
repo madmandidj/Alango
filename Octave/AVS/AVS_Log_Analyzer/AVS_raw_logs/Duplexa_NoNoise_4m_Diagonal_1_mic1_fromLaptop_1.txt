@@ -1,0 +1,183 @@
+    Home 
+    Now Playing 
+    Music & Books 
+    Lists 
+    Reminders & Alarms 
+    Skills 
+    Smart Home 
+    Things to Try 
+    Settings 
+    Help & Feedback 
+    Not Eyal? Sign out 
+
+
+Settings
+
+History
+History shows your voice interactions with Alexa. Tap a line to see
+details, hear recordings, provide feedback, or delete recordings. Learn
+more <#help/node/201602230>.
+Filter by Date
+None
+
+    alexa hotel india juliette stop
+
+    Today at 11:46 AM on ALANGO_RPI_1
+    alexa round zero three zero stop
+
+    Today at 11:45 AM on ALANGO_RPI_1
+    alexa round zero two nine stop
+
+    Today at 11:44 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:43 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:43 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:43 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:43 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:43 AM on ALANGO_RPI_1
+    alexa round zero two eight stop
+
+    Today at 11:42 AM on ALANGO_RPI_1
+    alexa round zero two seven stop
+
+    Today at 11:41 AM on ALANGO_RPI_1
+    alexa round zero two six stop
+
+    Today at 11:40 AM on ALANGO_RPI_1
+    alexa round zero two five stop
+
+    Today at 11:38 AM on ALANGO_RPI_1
+    alexa round zero two four stop
+
+    Today at 11:37 AM on ALANGO_RPI_1
+    alexa round zero two three stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:35 AM on ALANGO_RPI_1
+    alexa round zero two two stop
+
+    Today at 11:34 AM on ALANGO_RPI_1
+    alexa round zero two one stop
+
+    Today at 11:33 AM on ALANGO_RPI_1
+    alexa round zero two zero stop
+
+    Today at 11:31 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:31 AM on ALANGO_RPI_1
+    alexa round zero one nine stop
+
+    Today at 11:30 AM on ALANGO_RPI_1
+    alexa round zero one eight stop
+
+    Today at 11:29 AM on ALANGO_RPI_1
+
+    alexa round zero one seven stop
+
+    Today at 11:27 AM on ALANGO_RPI_1
+    alexa round zero one six stop
+
+    Today at 11:26 AM on ALANGO_RPI_1
+    alexa round zero one five stop
+
+    Today at 11:25 AM on ALANGO_RPI_1
+    alexa round zero one four stop
+
+    Today at 11:23 AM on ALANGO_RPI_1
+    alexa round zero one three stop
+
+    Today at 11:22 AM on ALANGO_RPI_1
+    alexa round zero one to stop
+
+    Today at 11:21 AM on ALANGO_RPI_1
+    alexa round zero one one stop
+
+    Today at 11:19 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:19 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:19 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:19 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:18 AM on ALANGO_RPI_1
+    alexa round zero one zero stop
+
+    Today at 11:18 AM on ALANGO_RPI_1
+    alexa round zero zero nine stop
+
+    Today at 11:17 AM on ALANGO_RPI_1
+    alexa round zero zero eight stop
+
+    Today at 11:15 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:14 AM on ALANGO_RPI_1
+    alexa round zero zero seven stop
+
+    Today at 11:14 AM on ALANGO_RPI_1
+    alexa round zero zero six stop
+
+    Today at 11:13 AM on ALANGO_RPI_1
+    alexa round zero zero five stop
+
+    Today at 11:11 AM on ALANGO_RPI_1
+    alexa round zero zero four stop
+
+    Today at 11:10 AM on ALANGO_RPI_1
+    alexa round zero zero three stop
+
+    Today at 11:08 AM on ALANGO_RPI_1
+    alexa round zero zero to stop
+
+    Today at 11:07 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:07 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:07 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:07 AM on ALANGO_RPI_1
+    alexa stop
+
+    Today at 11:06 AM on ALANGO_RPI_1
+
+    alexa stop
+
+    Today at 11:06 AM on ALANGO_RPI_1
+    alexa round zero zero one stop
+
+    Today at 11:06 AM on ALANGO_RPI_1
+
+0
+
