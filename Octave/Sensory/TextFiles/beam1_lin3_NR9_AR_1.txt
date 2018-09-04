@@ -1,0 +1,841 @@
+.\.\Audio\beam1_lin3_NR9_AR_1.wav is 40484992 samples at 16000 Hz
+result: alexa
+score: 1603.000
+words:
+32175 32715 alexa 0.00
+
+result: alexa
+score: 1953.000
+words:
+61725 62370 alexa 0.00
+
+result: alexa
+score: 1726.000
+words:
+71565 72240 alexa 0.00
+
+result: alexa
+score: 1865.000
+words:
+81735 82395 alexa 0.00
+
+result: alexa
+score: 1917.000
+words:
+91680 92340 alexa 0.00
+
+result: alexa
+score: 1787.000
+words:
+101970 102630 alexa 0.00
+
+result: alexa
+score: 1562.000
+words:
+113175 113700 alexa 0.00
+
+result: alexa
+score: 1440.000
+words:
+142725 143385 alexa 0.00
+
+result: alexa
+score: 1575.000
+words:
+152580 153225 alexa 0.00
+
+result: alexa
+score: 1696.000
+words:
+162735 163395 alexa 0.00
+
+result: alexa
+score: 1563.000
+words:
+172695 173325 alexa 0.00
+
+result: alexa
+score: 1445.000
+words:
+182970 183615 alexa 0.00
+
+result: alexa
+score: 2073.000
+words:
+194175 194790 alexa 0.00
+
+result: alexa
+score: 1581.000
+words:
+223740 224385 alexa 0.00
+
+result: alexa
+score: 957.000
+words:
+233595 234270 alexa 0.00
+
+result: alexa
+score: 1398.000
+words:
+243750 244410 alexa 0.00
+
+result: alexa
+score: 1207.000
+words:
+253695 254355 alexa 0.00
+
+result: alexa
+score: 874.000
+words:
+263970 264645 alexa 0.00
+
+result: alexa
+score: 1962.000
+words:
+275160 275775 alexa 0.00
+
+result: alexa
+score: 884.000
+words:
+304695 305355 alexa 0.00
+
+result: alexa
+score: 765.000
+words:
+314535 315210 alexa 0.00
+
+result: alexa
+score: 820.000
+words:
+324690 325365 alexa 0.00
+
+result: alexa
+score: 1131.000
+words:
+334635 335310 alexa 0.00
+
+result: alexa
+score: 471.000
+words:
+344910 345585 alexa 0.00
+
+result: alexa
+score: 1612.000
+words:
+356160 356685 alexa 0.00
+
+result: alexa
+score: 304.000
+words:
+385680 386355 alexa 0.00
+
+result: alexa
+score: 486.000
+words:
+395535 396225 alexa 0.00
+
+result: alexa
+score: 50.000
+words:
+415635 416295 alexa 0.00
+
+result: alexa
+score: 135.000
+words:
+425910 426585 alexa 0.00
+
+result: alexa
+score: 1966.000
+words:
+437145 437775 alexa 0.00
+
+result: alexa
+score: 1507.000
+words:
+518145 518670 alexa 0.00
+
+result: alexa
+score: 1826.000
+words:
+547680 548340 alexa 0.00
+
+result: alexa
+score: 1463.000
+words:
+557520 558180 alexa 0.00
+
+result: alexa
+score: 1517.000
+words:
+567675 568275 alexa 0.00
+
+result: alexa
+score: 1304.000
+words:
+577620 578220 alexa 0.00
+
+result: alexa
+score: 1858.000
+words:
+587895 588555 alexa 0.00
+
+result: alexa
+score: 1626.000
+words:
+599130 599670 alexa 0.00
+
+result: alexa
+score: 1761.000
+words:
+628680 629340 alexa 0.00
+
+result: alexa
+score: 1364.000
+words:
+638520 639180 alexa 0.00
+
+result: alexa
+score: 1490.000
+words:
+648675 649320 alexa 0.00
+
+result: alexa
+score: 1581.000
+words:
+658620 659295 alexa 0.00
+
+result: alexa
+score: 1179.000
+words:
+668880 669555 alexa 0.00
+
+result: alexa
+score: 1602.000
+words:
+680130 680655 alexa 0.00
+
+result: alexa
+score: 312.000
+words:
+709680 710325 alexa 0.00
+
+result: alexa
+score: 956.000
+words:
+719550 720090 alexa 0.00
+
+result: alexa
+score: 851.000
+words:
+729675 730245 alexa 0.00
+
+result: alexa
+score: 1080.000
+words:
+739620 740280 alexa 0.00
+
+result: alexa
+score: 1265.000
+words:
+749910 750465 alexa 0.00
+
+result: alexa
+score: 1513.000
+words:
+761115 761655 alexa 0.00
+
+result: alexa
+score: 1592.000
+words:
+790710 791355 alexa 0.00
+
+result: alexa
+score: 1769.000
+words:
+800550 801165 alexa 0.00
+
+result: alexa
+score: 1843.000
+words:
+810705 811350 alexa 0.00
+
+result: alexa
+score: 2038.000
+words:
+820650 821295 alexa 0.00
+
+result: alexa
+score: 2066.000
+words:
+830910 831570 alexa 0.00
+
+result: alexa
+score: 1811.000
+words:
+842115 842730 alexa 0.00
+
+result: alexa
+score: 1752.000
+words:
+871695 872355 alexa 0.00
+
+result: alexa
+score: 1674.000
+words:
+881535 882210 alexa 0.00
+
+result: alexa
+score: 1723.000
+words:
+891705 892350 alexa 0.00
+
+result: alexa
+score: 1763.000
+words:
+901650 902295 alexa 0.00
+
+result: alexa
+score: 1910.000
+words:
+911910 912570 alexa 0.00
+
+result: alexa
+score: 1515.000
+words:
+923115 923640 alexa 0.00
+
+result: alexa
+score: 1211.000
+words:
+952695 953340 alexa 0.00
+
+result: alexa
+score: 1284.000
+words:
+962535 963180 alexa 0.00
+
+result: alexa
+score: 1604.000
+words:
+972705 973350 alexa 0.00
+
+result: alexa
+score: 986.000
+words:
+982650 983295 alexa 0.00
+
+result: alexa
+score: 763.000
+words:
+992925 993570 alexa 0.00
+
+result: alexa
+score: 1478.000
+words:
+1004100 1004640 alexa 0.00
+
+result: alexa
+score: 1294.000
+words:
+1033710 1034355 alexa 0.00
+
+result: alexa
+score: 1559.000
+words:
+1043565 1044210 alexa 0.00
+
+result: alexa
+score: 1784.000
+words:
+1053720 1054365 alexa 0.00
+
+result: alexa
+score: 1277.000
+words:
+1063665 1064310 alexa 0.00
+
+result: alexa
+score: 1446.000
+words:
+1073925 1074570 alexa 0.00
+
+result: alexa
+score: 1871.000
+words:
+1085100 1085715 alexa 0.00
+
+result: alexa
+score: 1380.000
+words:
+1114710 1115355 alexa 0.00
+
+result: alexa
+score: 549.000
+words:
+1124565 1125195 alexa 0.00
+
+result: alexa
+score: 974.000
+words:
+1134720 1135365 alexa 0.00
+
+result: alexa
+score: 464.000
+words:
+1144665 1145295 alexa 0.00
+
+result: alexa
+score: 949.000
+words:
+1154925 1155555 alexa 0.00
+
+result: alexa
+score: 1458.000
+words:
+1166085 1166625 alexa 0.00
+
+result: alexa
+score: 161.000
+words:
+1195950 1196580 alexa 0.00
+
+result: alexa
+score: 168.000
+words:
+1205805 1206420 alexa 0.00
+
+result: alexa
+score: 293.000
+words:
+1215960 1216575 alexa 0.00
+
+result: alexa
+score: 864.000
+words:
+1225905 1226535 alexa 0.00
+
+result: alexa
+score: 379.000
+words:
+1236180 1236795 alexa 0.00
+
+result: alexa
+score: 1779.000
+words:
+1247325 1247940 alexa 0.00
+
+result: alexa
+score: 1652.000
+words:
+1276935 1277535 alexa 0.00
+
+result: alexa
+score: 1646.000
+words:
+1286790 1287405 alexa 0.00
+
+result: alexa
+score: 1610.000
+words:
+1296945 1297560 alexa 0.00
+
+result: alexa
+score: 1826.000
+words:
+1306875 1307490 alexa 0.00
+
+result: alexa
+score: 1563.000
+words:
+1317150 1317750 alexa 0.00
+
+result: alexa
+score: 1578.000
+words:
+1328310 1328850 alexa 0.00
+
+result: alexa
+score: 1733.000
+words:
+1357950 1358550 alexa 0.00
+
+result: alexa
+score: 1103.000
+words:
+1367790 1368345 alexa 0.00
+
+result: alexa
+score: 1077.000
+words:
+1377945 1378530 alexa 0.00
+
+result: alexa
+score: 1289.000
+words:
+1387905 1388475 alexa 0.00
+
+result: alexa
+score: 1525.000
+words:
+1398150 1398735 alexa 0.00
+
+result: alexa
+score: 1807.000
+words:
+1409310 1409925 alexa 0.00
+
+result: alexa
+score: 981.000
+words:
+1448805 1449420 alexa 0.00
+
+result: alexa
+score: 1060.000
+words:
+1458945 1459560 alexa 0.00
+
+result: alexa
+score: 968.000
+words:
+1479165 1479690 alexa 0.00
+
+result: alexa
+score: 1522.000
+words:
+1490295 1490835 alexa 0.00
+
+result: alexa
+score: 1101.000
+words:
+1519905 1520505 alexa 0.00
+
+result: alexa
+score: 1754.000
+words:
+1529745 1530375 alexa 0.00
+
+result: alexa
+score: 1745.000
+words:
+1539885 1540545 alexa 0.00
+
+result: alexa
+score: 1598.000
+words:
+1549845 1550475 alexa 0.00
+
+result: alexa
+score: 1531.000
+words:
+1560120 1560750 alexa 0.00
+
+result: alexa
+score: 1958.000
+words:
+1571295 1571925 alexa 0.00
+
+result: alexa
+score: 1410.000
+words:
+1600905 1601520 alexa 0.00
+
+result: alexa
+score: 1141.000
+words:
+1610745 1611375 alexa 0.00
+
+result: alexa
+score: 1564.000
+words:
+1620900 1621500 alexa 0.00
+
+result: alexa
+score: 1098.000
+words:
+1630860 1631460 alexa 0.00
+
+result: alexa
+score: 1040.000
+words:
+1641120 1641720 alexa 0.00
+
+result: alexa
+score: 1283.000
+words:
+1652280 1652820 alexa 0.00
+
+result: alexa
+score: 1033.000
+words:
+1681905 1682460 alexa 0.00
+
+result: alexa
+score: 497.000
+words:
+1691745 1692330 alexa 0.00
+
+result: alexa
+score: 460.000
+words:
+1711875 1712445 alexa 0.00
+
+result: alexa
+score: 1734.000
+words:
+1733265 1733910 alexa 0.00
+
+result: alexa
+score: 1427.000
+words:
+1762905 1763535 alexa 0.00
+
+result: alexa
+score: 1395.000
+words:
+1772775 1773375 alexa 0.00
+
+result: alexa
+score: 1534.000
+words:
+1782930 1783470 alexa 0.00
+
+result: alexa
+score: 1022.000
+words:
+1792875 1793400 alexa 0.00
+
+result: alexa
+score: 1654.000
+words:
+1803135 1803735 alexa 0.00
+
+result: alexa
+score: 1839.000
+words:
+1814295 1814895 alexa 0.00
+
+result: alexa
+score: 704.000
+words:
+1843920 1844520 alexa 0.00
+
+result: alexa
+score: 227.000
+words:
+1853775 1854360 alexa 0.00
+
+result: alexa
+score: 738.000
+words:
+1863930 1864455 alexa 0.00
+
+result: alexa
+score: 449.000
+words:
+1873875 1874445 alexa 0.00
+
+result: alexa
+score: 950.000
+words:
+1884135 1884750 alexa 0.00
+
+result: alexa
+score: 1351.000
+words:
+1895265 1895805 alexa 0.00
+
+result: alexa
+score: 188.000
+words:
+1944930 1945500 alexa 0.00
+
+result: alexa
+score: 330.000
+words:
+1954875 1955430 alexa 0.00
+
+result: alexa
+score: 1864.000
+words:
+1976265 1976895 alexa 0.00
+
+result: alexa
+score: 1154.000
+words:
+2005800 2006400 alexa 0.00
+
+result: alexa
+score: 1332.000
+words:
+2015655 2016255 alexa 0.00
+
+result: alexa
+score: 280.000
+words:
+2025810 2026410 alexa 0.00
+
+result: alexa
+score: 1160.000
+words:
+2035755 2036355 alexa 0.00
+
+result: alexa
+score: 1239.000
+words:
+2046015 2046630 alexa 0.00
+
+result: alexa
+score: 1855.000
+words:
+2057250 2057880 alexa 0.00
+
+result: alexa
+score: 680.000
+words:
+2086800 2087400 alexa 0.00
+
+result: alexa
+score: 752.000
+words:
+2096655 2097255 alexa 0.00
+
+result: alexa
+score: 603.000
+words:
+2106810 2107410 alexa 0.00
+
+result: alexa
+score: 782.000
+words:
+2116755 2117355 alexa 0.00
+
+result: alexa
+score: 541.000
+words:
+2127015 2127630 alexa 0.00
+
+result: alexa
+score: 2002.000
+words:
+2138250 2138880 alexa 0.00
+
+result: alexa
+score: 131.000
+words:
+2167815 2168370 alexa 0.00
+
+result: alexa
+score: 560.000
+words:
+2177655 2178195 alexa 0.00
+
+result: alexa
+score: 409.000
+words:
+2187795 2188380 alexa 0.00
+
+result: alexa
+score: 949.000
+words:
+2197755 2198325 alexa 0.00
+
+result: alexa
+score: 458.000
+words:
+2208030 2208615 alexa 0.00
+
+result: alexa
+score: 1379.000
+words:
+2219250 2219775 alexa 0.00
+
+result: alexa
+score: 1437.000
+words:
+2248710 2249340 alexa 0.00
+
+result: alexa
+score: 1779.000
+words:
+2258550 2259210 alexa 0.00
+
+result: alexa
+score: 1463.000
+words:
+2268705 2269335 alexa 0.00
+
+result: alexa
+score: 1678.000
+words:
+2278650 2279340 alexa 0.00
+
+result: alexa
+score: 1865.000
+words:
+2288940 2289570 alexa 0.00
+
+result: alexa
+score: 1804.000
+words:
+2300235 2300865 alexa 0.00
+
+result: alexa
+score: 818.000
+words:
+2329710 2330370 alexa 0.00
+
+result: alexa
+score: 1257.000
+words:
+2339550 2340180 alexa 0.00
+
+result: alexa
+score: 1026.000
+words:
+2349720 2350335 alexa 0.00
+
+result: alexa
+score: 1170.000
+words:
+2359665 2360280 alexa 0.00
+
+result: alexa
+score: 779.000
+words:
+2369940 2370570 alexa 0.00
+
+result: alexa
+score: 1332.000
+words:
+2381235 2381760 alexa 0.00
+
+result: alexa
+score: 940.000
+words:
+2410710 2411325 alexa 0.00
+
+result: alexa
+score: 597.000
+words:
+2420565 2421195 alexa 0.00
+
+result: alexa
+score: 144.000
+words:
+2430720 2431335 alexa 0.00
+
+result: alexa
+score: 613.000
+words:
+2440665 2441280 alexa 0.00
+
+result: alexa
+score: 496.000
+words:
+2450955 2451555 alexa 0.00
+
+result: alexa
+score: 1856.000
+words:
+2462220 2462850 alexa 0.00
+

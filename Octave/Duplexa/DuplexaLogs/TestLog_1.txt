@@ -1,0 +1,4 @@
+>>> ALEXA on MUX Channel - (1). FRAME - [3703] time: 29932 ms
+>>> ALEXA on MUX Channel - (1). FRAME - [7410] time: 59586 ms
+
+>>> ALEXA on MUX Channel - (1). FRAME - [307429] time: 2459730 ms
