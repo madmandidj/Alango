@@ -1,4 +1,4 @@
-.\_20180828_134705_16k_vep_mic_1.wav is 40484992 samples at 16000 Hz
+.\Audio\_20180828_134705_16k_vep_mic_1.wav is 40484992 samples at 16000 Hz
 result: alexa
 score: 1898.000
 words:

@@ -1,4 +1,4 @@
-.\_20180828_134705_48k_system_voice_out.wav is 121454976 samples at 48000 Hz
+.\Audio\_20180828_134705_48k_system_voice_out.wav is 121454976 samples at 48000 Hz
 resampling to 16000
 result: alexa
 score: 1651.000
@@ -719,3 +719,4 @@ result: alexa
 score: 1649.000
 words:
 2462475 2463075 alexa 0.00
+

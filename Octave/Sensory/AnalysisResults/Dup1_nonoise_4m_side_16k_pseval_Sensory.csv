@@ -1,0 +1,58 @@
+Num of triggers per voice-level,5,
+Num of voice-levels per voice,3,
+Num of voices total,10,
+Num of triggers per voice,15,
+Num of triggers per voice-level,50,
+Total num of triggers,150,
+,,
+Overall Results,recognized,recognized %
+All triggers,134,89.3%
+,,
+Voice Results,recognized,recognized %
+"Voice 1, Human Male 1",15,100.0%
+"Voice 2, Human Male 2",10,66.7%
+"Voice 3, Human Male 3",15,100.0%
+"Voice 4, Human Female 1",15,100.0%
+"Voice 5, Human Female 2",13,86.7%
+"Voice 6, Human Female 3",15,100.0%
+"Voice 7, Synth Male 1",13,86.7%
+"Voice 8, Synth Male 2",11,73.3%
+"Voice 9, Synth Female 1",15,100.0%
+"Voice 10, Synth Female 2",12,80.0%
+,,
+Voice Level Results,recognized,recognized %
+"Voice-Level 1, 0 dB",49,98.0%
+"Voice-Level 2, -6 dB",50,100.0%
+"Voice-Level 3, -12 dB",35,70.0%
+,,
+Individual Round Results,recognized,recognized %
+"Round 1, Human Male 1, 0 dB",5,100.0%
+"Round 2, Human Male 1, -6 dB",5,100.0%
+"Round 3, Human Male 1, -12 dB",5,100.0%
+"Round 4, Human Male 2, 0 dB",4,80.0%
+"Round 5, Human Male 2, -6 dB",5,100.0%
+"Round 6, Human Male 2, -12 dB",1,20.0%
+"Round 7, Human Male 3, 0 dB",5,100.0%
+"Round 8, Human Male 3, -6 dB",5,100.0%
+"Round 9, Human Male 3, -12 dB",5,100.0%
+"Round 10, Human Female 1, 0 dB",5,100.0%
+"Round 11, Human Female 1, -6 dB",5,100.0%
+"Round 12, Human Female 1, -12 dB",5,100.0%
+"Round 13, Human Female 2, 0 dB",5,100.0%
+"Round 14, Human Female 2, -6 dB",5,100.0%
+"Round 15, Human Female 2, -12 dB",3,60.0%
+"Round 16, Human Female 3, 0 dB",5,100.0%
+"Round 17, Human Female 3, -6 dB",5,100.0%
+"Round 18, Human Female 3, -12 dB",5,100.0%
+"Round 19, Synth Male 1, 0 dB",5,100.0%
+"Round 20, Synth Male 1, -6 dB",5,100.0%
+"Round 21, Synth Male 1, -12 dB",3,60.0%
+"Round 22, Synth Male 2, 0 dB",5,100.0%
+"Round 23, Synth Male 2, -6 dB",5,100.0%
+"Round 24, Synth Male 2, -12 dB",1,20.0%
+"Round 25, Synth Female 1, 0 dB",5,100.0%
+"Round 26, Synth Female 1, -6 dB",5,100.0%
+"Round 27, Synth Female 1, -12 dB",5,100.0%
+"Round 28, Synth Female 2, 0 dB",5,100.0%
+"Round 29, Synth Female 2, -6 dB",5,100.0%
+"Round 30, Synth Female 2, -12 dB",2,40.0%
